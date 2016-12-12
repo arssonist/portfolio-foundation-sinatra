@@ -4,7 +4,7 @@ GENERAL
 
 /*wrap is used to keep the content stablized at any screen stablized*/
 .wrap{
-  max-width: 1000px; 
+  max-width: 1000px;
   width: 90%;
   margin: 0 auto;
 }
@@ -22,7 +22,7 @@ HERO
 .hero{
   background-color: #999;
   padding: 80px 0px;
-  height: 450 auto;px;
+  height: 400px;
 }
 .hero .button{
   margin-left: 10px;
@@ -34,14 +34,14 @@ HERO
 MAIN SECTION
 ************************************************************* */
 .main{
-
+  padding: 80px 0px;
 }
 /* *************************************************************
 FOOTER
 ************************************************************* */
-.footer{
+footer {
+  min-height: 300px;
+  max-height: 100%;
+  background-color: #222;
 
 }
-/* *************************************************************
-MAIN SECTION
-************************************************************* */

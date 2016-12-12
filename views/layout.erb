@@ -41,13 +41,15 @@
 <!-- Grid style here is set to to allow 1 per row on small, and 2 per row on medium. -->
 <section class="main">
   <div class="wrap row small-up-1 medium-up-2">
-    
+
     <div class="column">
       <h2>Main Section</h2>
+      <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
     </div>
     <div class="column">
       <h2>2nd Main Section</h2>
+      <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
       nostrud</p>
     </div>
@@ -56,7 +58,28 @@
 
 <!--FOOTER----------------------------------------------------->
 <footer>
-  <div class="wrap"></div>
+  <div class="wrap row small-up-1 medium-up-3">
+    <div class="column">
+
+      <h4>Contact Info</h4>
+      <hr>
+      <a href="#"><span>Phone</span><%= @my_phone %></a>
+      <a href="#"><span>Email</span><%= @my_email %></a>
+      <a href="#"><span>City</span><%= @my_city %></a>
+    </div>
+    <div class="column">
+      <h4>Site Map</h4>
+      <hr>
+    <a href="#"><span>About Me</span></a>
+    <a href="#"><span>Services</span></a>
+    <a href="#"><span>Contact</span></a>
+
+    <div class="column"></div>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    </div>
+  </div>
 
 </footer>
 
