@@ -15,6 +15,25 @@ GENERAL
 NAV
 ************************************************************* */
 
+.nav-desktop{
+  background-color: #222;
+  height: 80px;
+  padding: 0;
+}
+
+.site-logo{
+  color:white;
+  line-height:80px;
+}
+
+.nav-desktop .menu-desktop {
+  line-height: 80px;
+}
+/*definging two deep overrides fondation 2 deep styles  */
+
+.menu-desktop li a   {
+  display: inline-block;
+}
 /* *************************************************************
 HERO
 ************************************************************* */
