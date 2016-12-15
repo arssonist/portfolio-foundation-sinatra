@@ -76,30 +76,63 @@ MAIN SECTION
 ************************************************************* */
 .main{
   padding: 80px 0px;
-  height: 300px;
 }
 /* *************************************************************
 FOOTER
 ************************************************************* */
-footer {
+footer{
   background-color: #222;
-  padding: 80px 0px;
+  height: 200px;
+  padding:0;
 }
-footer h4{
+
+.top-footer-row {
+  background-color: #222;
+  padding: 0px;
+  height:100px;
+}
+
+/*.top-footer-row h4{
   color: rgba(255, 255, 255, 0.8);
 }
-footer a {
-  display: block;
+.bottom-footer-row a {
   color: rgba(255, 255, 255, 0.6);
+}*/
+.icon {
+  max-height: 100%;
+  margin-top: 30px;
+  line-height: 80px;
+}
+
+.icon img {
+  display: block;
+  margin: auto;
+  line-height: 80px;
+}
+.icon img:hover {
+  background-color: rgba(255,255,255,  0.1)}
+/*#icon-1{
+background-color: blue;
+}
+#icon-2{
+background-color: green;
+}*/
+
+
 
   /*- block/ This makes the names stack on top of each other.*/
 }
-footer a:hover {
+.bottom-footer-row a:hover {
   display: block;
   color: rgba(255, 255, 255, 0.8);
 }
 /*-hover will turn darker shade of white on hover*/
 
+.bottom-footer-row{
+  background-color: #222;
+  height: 50px;
+  display: block;
+}
 /* *************************************************************
 MEDIA QUERY
 ************************************************************* */

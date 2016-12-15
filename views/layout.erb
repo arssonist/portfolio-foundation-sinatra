@@ -58,42 +58,49 @@
 
 <!--FOOTER----------------------------------------------------->
 <footer>
-  <div class="row small-up-1 medium-up-5">
-    <div class="column">
+  <div class="wrap">
+    <div class="top-footer-row row small-up-1 medium-up-4">
 
-      <h4>Contact Info</h4>
-      <hr>
-      <a href="#"><span>Phone: </span><%= @my_phone %></a><
-      <a href="#"><span>Email: </span><%= @my_email %></a><
-      <a href="#"><span>City: </span><%= @my_city %></a>
+      <div class="column">
+        <div class=icon id=icon-1>
+        <img src="../img/icons/Picture2.png" height="25px" width="25px">
+        </div>
+      </div>
+
+      <div class="column">
+        <div class=icon id=icon-2>
+        <img src="../img/icons/Picture4.png" height="25px" width="25px">
+        </div>
+      </div>
+
+      <div class="column">
+        <div class=icon id=icon-3>
+        <img src="../img/icons/Picture1.png" height="25px" width="25px">
+        </div>
+      </div>
+
+      <div class="column">
+        <div class=icon id=icon-4>
+        <img src="../img/icons/Picture4.png" height="25px" width="25px">
+        </div>
+      </div>
     </div>
 
-    <div class="column">
-      <h4>Site Map</h4>
-      <hr>
-    <a href="#"><span>About Me</span></a>
-    <a href="#"><span>Services</span></a>
-    <a href="#"><span>Contact</span></a>
+    <div class="bottom-footer-row row small-up-1 medium-up-2">
 
-    <div class="column"></div>
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-    </div>
+      <div class="column">
+        <hr>
+        <a href= "tel:"><span>Phone: </span><%= @my_phone %></a>
+      </div>
 
-    <div class="column"></div>
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-    </div>
-      <div class="column"></div>
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-    </div>
-  </div>
+      <div class="column">
+        <hr>
+        <a href="mailto:"><span>Email: </span><%= @my_email %></a>
+      </div>
 
-</footer>
+    </div>
+</div>
+</footer >
 
 <!--JS-SCRIPT----------------------------------------------------->
 
