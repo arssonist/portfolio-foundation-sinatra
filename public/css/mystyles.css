@@ -28,12 +28,26 @@ NAV
 
 .nav-desktop .menu-desktop {
   line-height: 80px;
+  background-color: transparent;
 }
-/*definging two deep overrides fondation 2 deep styles  */
+/*- definging two deep overrides fondation 2 deep styles  */
+/*- transprent makes background clear, taking in the color behind it.*/
 
-.menu-desktop li a   {
+.menu > li > a {
   display: inline-block;
+  line-height: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
 }
+/*make the line height fot the <a> the same as container makes the container clickable like the link*/
+
+/*:hover is a state function used to change state when :hover*/
+.menu > li > a:hover {
+  background-color: rgba(255,255,255, 0.1)
+}
+/*Use rgba to work with flexible color(red, green, blue, alpha(opacity)- 255 is the max, so this setting is the max, in this case it's white.
+Opcaity 1 is solid color*/
 /* *************************************************************
 HERO
 ************************************************************* */
@@ -66,3 +80,18 @@ footer a{
   display: block;
 }
 /*This makes the names stack on top of each other.*/
+
+/* *************************************************************
+MEDIA QUERY
+************************************************************* */
+@media (max-width: 639px) {
+  .nav-desktop{
+    display: none;
+  }
+}
+
+
+/*
+ *************************************************************
+MEDIA QUERY
+************************************************************* */
