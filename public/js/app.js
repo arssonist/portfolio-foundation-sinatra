@@ -3,3 +3,4 @@
 //     alert('test')
 //   })
 // });
+$(document).foundation()
