@@ -101,26 +101,21 @@ footer{
 .icon {
   max-height: 100%;
   margin-top: 30px;
-  line-height: 80px;
+  line-height: 10px;
 }
 
 .icon img {
+  height: 35px;
   display: block;
   margin: auto;
-  line-height: 80px;
 }
-.icon img:hover {
-  background-color: rgba(255,255,255,  0.1)}
-/*#icon-1{
-background-color: blue;
+.icon > a {
+  height: 100%;
 }
-#icon-2{
-background-color: green;
-}*/
+.icon:hover {
+  background-color: rgba(255,255,255,  0.1)
+}
 
-
-
-  /*- block/ This makes the names stack on top of each other.*/
 }
 .bottom-footer-row a:hover {
   display: block;

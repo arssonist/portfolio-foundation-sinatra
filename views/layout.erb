@@ -19,7 +19,7 @@
          </div>
 <!--MOBILE NAVBAR ------------------------------------------------------>
     <div class="off-canvas-content" data-off-canvas-content>
-        <button type="button" class="button" data-toggle="offCanvasLeft">Open Menu</button>
+        <button type="button" class="button" id='test-button' data-toggle="offCanvasLeft">Open Menu</button>
 
 <!--NAVBAR ------------------------------------------------------>
   <div class="top-bar nav-desktop">
@@ -72,25 +72,25 @@
 
       <div class="column">
         <div class=icon id=icon-1>
-        <img src="../img/icons/Picture2.png" height="25px" width="25px">
+        <a href="https://github.com/arssonist"><img src="../img/icons/Picture2.png"></a>
         </div>
       </div>
 
       <div class="column">
         <div class=icon id=icon-2>
-        <img src="../img/icons/Picture4.png" height="25px" width="25px">
+        <a href="https://www.linkedin.com/in/chrisdel1"><img src="../img/icons/Picture4.png"></a>
         </div>
       </div>
 
       <div class="column">
         <div class=icon id=icon-3>
-        <img src="../img/icons/Picture1.png" height="25px" width="25px">
+        <a href="https://chrisdelwebdev.wordpress.com/"><img src="../img/icons/Picture1.png"></a>
         </div>
       </div>
 
       <div class="column">
         <div class=icon id=icon-4>
-        <img src="../img/icons/Picture4.png" height="25px" width="25px">
+        <a href="https://twitter.com/The_Seperator"><img src="../img/icons/Picture4.png"></a>
         </div>
       </div>
     </div>
@@ -99,12 +99,12 @@
 
       <div class="column">
         <hr>
-        <a href= "tel:"><span>Phone: </span><%= @my_phone %></a>
+        <a href= "tel:<%= @my_phone %>"><span>Call Me: </span></a>
       </div>
 
       <div class="column">
         <hr>
-        <a href="mailto:<%= @my_email %>"><span>Email:</a>
+        <a href="mailto:<%= @my_email %>"><span>Email Me:</span></a>
       </div>
 
     </div>
@@ -119,10 +119,12 @@
 <!--JS-SCRIPT----------------------------------------------------->
 
 
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/vendor/what-input.js"></script>
-  <script src="js/vendor/foundation.js"></script>
-  <script src="js/vendor/foundation.js"></script>
-  <script src="js/app.js"></script>
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
+      <script>
+        $(document).foundation();
+      </script>
 </body>
 </html>
