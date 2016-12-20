@@ -12,7 +12,7 @@ get '/' do
 end
 
 get '/index' do
-  erb :index
+  'hello world'
 end
 
 get '/contact' do
@@ -23,10 +23,10 @@ get '/about' do
   erb :about
 end
 
-get '/project1' do
-  erb :project1
+get '/work' do
+  erb :work
 end
 
-get '/project2' do
-  erb :project2
+get '/blog' do
+  erb :blog
 end
