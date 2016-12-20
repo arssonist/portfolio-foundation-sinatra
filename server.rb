@@ -1,5 +1,5 @@
-
 require 'sinatra'
+require 'sinatra/contrib'
 
 get '/' do
   @my_email = "drumgod101@gmail.com"
