@@ -61,6 +61,12 @@ NAV - MOBILE
   padding: 11px;
 }
 
+.mobile-site-logo{
+  float: right;
+  line-height: 44px;
+  padding-right: 14px;
+}
+
 
 
 /* *************************************************************
@@ -73,9 +79,13 @@ NAV
   padding: 0;
 }
 
-.site-logo{
+.site-logo > a{
   color:white;
   line-height:80px;
+}
+
+.site-logo:hover{
+  background-color: rgba(255,255,255, 0.1)
 }
 
 .nav-desktop .menu-desktop {
@@ -120,6 +130,7 @@ HERO
 }
 
 .hero h1,
+.hero h3,
 .hero p{
   color: rgba(255, 255, 255, 0.8);
   max-width: 70%;
@@ -177,7 +188,6 @@ footer{
   background-color: rgba(255,255,255,  0.1)
 }
 
-}
 .bottom-footer-row a:hover {
   display: block;
   color: rgba(255, 255, 255, 0.8);
@@ -197,15 +207,16 @@ MEDIA QUERY
     display: none;
   }
 }
+/*This makes the navbar dissapear if the window is smaller the set above
 
 @media (max-width: 875px) {
   .hero h1
+  .hero h3
   .hero p {
     width: 100%;
   }
 }
-
-
+/*makes these sections have a max width, at which they stop*/
 
 /*
  *************************************************************

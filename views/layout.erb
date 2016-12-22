@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Chris Del Web Developement Profile</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/mystyles.css">
@@ -20,10 +20,11 @@
            <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
              <div class="mobile-nav-menu">
                  <ul>
-                   <li><a href="">One</a></li>
-                   <li><a href="#">Two</a></li>
-                   <li><a href="#">Three</a></li>
-                   <li><a href="#">Four</a></li>
+                   <li><a href="/">Home</a></li>
+                   <li><a href="/about">About</a></li>
+                   <li><a href="/work">Work</a></li>
+                   <li><a href="/blog">Blog</a></li>
+                   <li><a href="/contact">Contact</a></li>
                </ul>
              </div>
             </div>
@@ -37,16 +38,18 @@
                 <button class="menu-icon" type="button" data-open="mobile-menu"></button>
                 <span class="title-bar-title">Menu</span>
               </div>
+              <h6 class="mobile-site-logo">Chris Del</h6>
             </div>
 
     <!--NAVBAR ------------------------------------------------------>
             <div class="top-bar nav-desktop">
               <div class="wrap">
                 <div class="top-bar-left">
-                  <h3 class="site-logo">Site Title<h3/>
+                <h3 class="site-logo"><a href="/">Chris Del</a><h3/>
                   </div>
                     <div class="top-bar-right">
                         <ul class="menu menu-desktop">
+                          <li><a href="/">Home</a></li>
                           <li><a href="/about">About</a></li>
                           <li><a href="/work">Work</a></li>
                           <li><a href="/blog">Blog</a></li>
@@ -115,12 +118,12 @@
 
                     <div class="column">
                       <hr>
-                      <a href= "tel:<%= @my_phone %>"><span>Call Me: </span></a>
+                      <a href= "tel:<%= @my_phone %>"><span>Call Me: <%= @my_phone %></span></a>
                     </div>
 
                     <div class="column">
                       <hr>
-                      <a href="mailto:<%= @my_email %>"><span>Email Me: </span></a>
+                      <a href="mailto:<%= @my_email %>"><span>Email Me: <%= @my_email %> </span></a>
                     </div>
 
                 </div>
