@@ -142,9 +142,16 @@ HERO
   width:17%;
 
 }
+/*Test only
+.hero-index{
+  background-color: yellow;
+}*/
 /* *************************************************************
 MAIN SECTION
 ************************************************************* */
+#work-details{
+  background-color: yellow;
+}
 .main{
   padding: 80px 0px;
   background-color: white;

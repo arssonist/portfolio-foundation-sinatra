@@ -1,6 +1,5 @@
-{
-  "work" : [
-    { "name":"Gilligan",
+{ "work":[
+   {   "name":"Gilligan",
  			 "type":"Ruby on Rails App",
  			 "description":"A place for boat lovers",
      	"features": "Bootstrap, Google Maps API, Ajax",
@@ -20,7 +19,7 @@
       "features":"rendering component props, react-specific methods,(more)",
       "github":"https://github.com/arssonist/lynda_react_app",
       "url":"https://arssonist.github.io/lynda_react_app/"
-    }
+    },
     {
       "name":"Business Card Maker",
       "type":"JavaScript App",
@@ -28,10 +27,6 @@
       "features":"Bootstrap, hexademical coloring, accessing the DOM, integrating JS functionality into basic markdown",
       "github":"https://github.com/arssonist/business-card-maker",
       "url":"arssonist.github.io/business-card-maker"
-    },
-    {
-      
     }
-   ]
-
+  ]
 }
