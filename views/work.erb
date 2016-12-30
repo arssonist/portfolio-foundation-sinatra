@@ -14,25 +14,27 @@
 
         <div class="column">
       <script id="work-template" type="text/x-handlebars-template">
+        {{#each works}}
             <dl>
               <dt>Name</dt>
-              <dd>{{this.name}}</dd>
+              <dd>{{name}}</dd>
 
               <dt>Type</dt>
-              <dd>{{this.type}}</dd>
+              <dd>{{type}}</dd>
 
               <dt>Description</dt>
-              <dd>{{this.description}}</dd>
+              <dd>{{description}}</dd>
 
               <dt>Features</dt>
-              <dd>{{this.features}}</dd>
+              <dd>{{features}}</dd>
 
               <dt>GitHub</dt>
-              <dd>{{this.github}}</dd>
+              <dd>{{github}}</dd>
 
               <dt>Url</dt>
-              <dd>{{this.url}}</dd>
+              <dd>{{url}}</dd>
             </dl>
+            {{/each}}
 
         </div>
         </script>
