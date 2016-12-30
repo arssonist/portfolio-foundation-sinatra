@@ -131,6 +131,7 @@ HERO
 
 .hero h1,
 .hero h3,
+.hero h4,
 .hero p{
   color: rgba(255, 255, 255, 0.8);
   max-width: 70%;
