@@ -143,13 +143,14 @@ HERO
 }
 
 /* *************INDEX PAGE*****************************************/
-.hero-index{
+
+#hero-index{
   background-color: #222
 }
-.hero-index h1{
+#hero-index h1{
   font-family: 'Orbitron', sans-serif;
 }
-.hero-index h3{
+#hero-index h3{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -173,9 +174,9 @@ MAIN SECTION
   padding: 80px 0px;
   background-color: white;
 }
-.index-main{
+/*.index-main{
   font-family:
-}
+}*/
 /* *************************************************************
 FOOTER
 ************************************************************* */

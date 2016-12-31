@@ -2,17 +2,7 @@
   <% content_for :hero_key do %>
     <chunk of="html">
 
-      <div class="hero-index">
-        <script src="js/index.js">
-        // window.onload=
-        //
-        // function loader(){
-        //
-        //   document.getElementsByClassName('.hero').style.background =
-        // }
-        </script>
-
-
+      <div id="hero-index" onload="indexChange();">
 
         <h1>Full-Stack Web Developer</h1>
         <h3>Ruby, JavaScript and CSS</h3>
@@ -23,20 +13,7 @@
   <% end %>
 
   <% content_for :main_key do %>
-    <chunk of="html">
-      <section class="index-main">
-        <div class="wrap row small-up-1 medium-up-2">
+    <div id="main-index">
 
-          <div class="column">
-
-
-          </div>
-
-          <div class="column">
-
-          </div>
-
-      </section>
-      </div>
-    </chunk>
+    </div>
   <% end %>
