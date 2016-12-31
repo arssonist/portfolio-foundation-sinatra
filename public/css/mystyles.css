@@ -143,6 +143,9 @@ HERO
 }
 
 /* *************INDEX PAGE*****************************************/
+.hero-index{
+  background-color: #222
+}
 .hero-index h1{
   font-family: 'Orbitron', sans-serif;
 }
