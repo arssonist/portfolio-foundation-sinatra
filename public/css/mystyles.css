@@ -12,7 +12,12 @@ GENERAL
   margin: 0 auto;
 }
 /*margin- auto in 2nd pposition used to center content.*/
-
+h1{
+  font-family: 'Orbitron',sans-serif;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* *************************************************************
 OFF-CANVAS
@@ -137,6 +142,14 @@ HERO
   max-width: 70%;
 }
 
+/* *************INDEX PAGE*****************************************/
+.hero-index h1{
+  font-family: 'Orbitron', sans-serif;
+}
+.hero-index h3{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .hero .button{
   margin-left: 10px;
   display:block;
@@ -156,6 +169,9 @@ MAIN SECTION
 .main{
   padding: 80px 0px;
   background-color: white;
+}
+.index-main{
+  font-family:
 }
 /* *************************************************************
 FOOTER
