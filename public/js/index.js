@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  if ($('#hero-index').length){
+  if ($('.hero-index').length){
     $('.hero').css({ "background-image":"none"})
        $('.hero').css({ "background-color":"#222"})
        $('.main').css({ "background-color":"#222"})
