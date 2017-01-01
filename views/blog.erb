@@ -1,10 +1,10 @@
 <% content_for :hero_key do %>
   <chunk of="html">
     <div class="hero-blog">
-<h1>BLOGS</h1>
+      <h1>BLOGS</h1>
       <h4>My recent blog outlines the experience of attending a coding bootcamp</h4>
 
-      </div>
+    </div>
   </chunk>
 <% end %>
 
@@ -14,23 +14,23 @@
     <section class="main-blog" id="blog-details">
       <div class="wrap row small-up-1 medium-up-2">
 
-        <div class="column">
-      <script id="blog-template" type="text/x-handlebars-template">
-        {{#each posts}}
-            <dl>
-              <dt>Title</dt>
-              <dd>{{title}}</dd>
+      <div class="column">
+        <script id="blog-template" type="text/x-handlebars-template">
+          {{#each posts}}
+              <dl>
+                <dt>Title</dt>
+                <dd>{{title}}</dd>
 
-              <dt>Description</dt>
-              <dd>{{description}}</dd>
+                <dt>Description</dt>
+                <dd>{{description}}</dd>
 
-              <dt>Url</dt>
-              <dd>{{url}}</dd>
-            </dl>
-            {{/each}}
+                <dt>Url</dt>
+                <dd>{{url}}</dd>
+              </dl>
+              {{/each}}
 
+          </script>
         </div>
-        </script>
 
 
         <div class="column">
@@ -40,7 +40,7 @@
           nostrud</p>
         </div>
 
+      </div>
     </section>
-    </div>
   </chunk>
 <% end %>
