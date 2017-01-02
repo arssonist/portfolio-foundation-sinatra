@@ -1,6 +1,6 @@
 <% content_for :hero_key do %>
   <chunk of="html">
-    <div class="work-index">
+    <div class="hero-work">
 
       <h1>MY WORK</h1>
       <h3>My projects range from web apps to terminal scripts</h3>
@@ -11,32 +11,34 @@
 
 <% content_for :main_key do %>
   <chunk of="html">
-    <section class="work-main" id="work-details">
-      <div class="wrap row small-up-1 medium-up-2">
+    <section class="main-work ">
 
-        <div class="column">
+      <div class="wrap row small-up-1 medium-up-2">
+<!-- "images/{{item.shortname}}_tn.jpg" ? -->
+        <div class="column" id="work-details">
           <script id="work-template" type="text/x-handlebars-template">
-            {{#each works}}
+            {{!#each works}}
+            <img src="img/icons/{{image}}.png" />
                 <dl>
-                  <dt>Name</dt>
+                  <dt>Name:</dt>
                   <dd>{{name}}</dd>
 
-                  <dt>Type</dt>
+                  <dt>Type:</dt>
                   <dd>{{type}}</dd>
 
-                  <dt>Description</dt>
+                  <dt>Description:</dt>
                   <dd>{{description}}</dd>
 
-                  <dt>Features</dt>
+                  <dt>Features:</dt>
                   <dd>{{features}}</dd>
 
-                  <dt>GitHub</dt>
+                  <dt>GitHub:</dt>
                   <dd>{{github}}</dd>
 
                   <dt>Url</dt>
                   <dd>{{url}}</dd>
                 </dl>
-                {{/each}}
+                {{!/each}}
 
             </script>
           </div>
@@ -51,6 +53,7 @@
           </div>
 
       </div>
+
     </section>
   </chunk>
 <% end %>

@@ -168,8 +168,17 @@ HERO
 MAIN SECTION
 ************************************************************* */
 #work-details{
-  background-color: yellow;
+
 }
+.main dl{
+  border-style: solid;
+  border-color: black;
+  max-width: 100%;
+}
+.main dd{
+  max-width: 100%;  
+}
+
 .main{
   padding: 80px 0px;
   background-color: white;

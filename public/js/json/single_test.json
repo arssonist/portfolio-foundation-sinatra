@@ -1,4 +1,5 @@
-{   "name":"Gilligan",
+{   "image":"Picture1",
+    "name":"Gilligan",
     "type":"Ruby on Rails App",
     "description":"A place for boat lovers",
    "features": "Bootstrap, Google Maps API, Ajax",

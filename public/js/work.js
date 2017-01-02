@@ -2,7 +2,7 @@ $(document).ready(function(){
   // $('#work-details').on("load",function(){
     // alert("test");
     $.ajax({
-      url:"js/json/my_work.json",
+      url:"js/json/single_test.json",
       method:'GET',
       data:{},
       dataType:'json'
