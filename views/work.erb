@@ -17,9 +17,13 @@
 <!-- "images/{{item.shortname}}_tn.jpg" ? -->
         <div class="column" id="work-details">
           <script id="work-template" type="text/x-handlebars-template">
-            {{!#each works}}
-            <img src="img/icons/{{image}}.png" />
+            {{#each works}}
                 <dl>
+                  <dd>
+                  <a href="{{url}}"><img src="img/projects/{{image}}.png" alt={{name}} />
+                </a>
+                  </dd>
+
                   <dt>Name:</dt>
                   <dd>{{name}}</dd>
 
@@ -33,24 +37,25 @@
                   <dd>{{features}}</dd>
 
                   <dt>GitHub:</dt>
-                  <dd>{{github}}</dd>
+                  <a href="{{github}}"><dd>{{github}}</dd></a>
 
                   <dt>Url</dt>
-                  <dd>{{url}}</dd>
+                <a href="{{url}}"><dd>{{url}}</dd></a>
                 </dl>
-                {{!/each}}
+                {{/each}}
 
             </script>
           </div>
 
-          <div class="column">
-            <h2>2nd Main Section</h2>
-            <hr>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud
-            </p>
-          </div>
+            <div class="column">
+              <h2>Check Me Out</h2>
+              <!-- funny font -->
+              <hr>
+              <p>
+                Scroll up. Scroll down. If there's an image click on it. Want to see the code? Click on the Github link.</br>
+                My portfolio isn't huge, but I'm working on that.
+              </p>
+            </div>
 
       </div>
 
