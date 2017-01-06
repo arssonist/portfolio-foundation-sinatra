@@ -56,33 +56,33 @@
         </div>
 
 
-        <div class="column" id="film_blog_template">
+        <div class="column" id="film_blog_details">
             <script id="film_blog-template" type="text/x-handlebars-template">
           <h4>The Separator</h4>
           <h5>A Blog About Film </h5>
           <p>
             A few pics from my writings about film.
           </p>
-          {{#each film_posts}}
+          {{!#each film_posts}}
               <dl>
-                <dt>Title</dt>
-                <dd>{{title}}</dd>
+                <dt>Event</dt>
+                <dd>{{event}}</dd>
 
                 <dt>Description</dt>
                 <dd>{{description}}</dd>
 
-                <dt>Url</dt>
-                <dd>{{url}}</dd>
+                <dt>Films</dt>
+                <dd>{{films}}</dd>
               </dl>
             </script>
         </div>
 
         <div class="column" id="nothing_blog_details">
             <script id="nothing_blog-template" type="text/x-handlebars-template">
-          <h4>Supposedly I'm a Writer</h4>
-          <h5>TAG </h5>
+          <h4>Hi, I'm supposedly a writer</h4>
+          <h5>Stories, Reviews and Rants </h5>
           <p>
-            Years worth of posts on whatever I felt like writing about.
+            I lived in New York and wrote about whatever I felt like.
           </p>
           {{#each nothing_posts}}
               <dl>

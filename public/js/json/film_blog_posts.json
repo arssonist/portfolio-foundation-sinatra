@@ -1,11 +1,18 @@
 { "film_posts":[
-   {  "title":"Life After Graduation",
- 			"description":"Six weeks after finishing a web development bootcamp and I still can't find a job.",
-      "url":"https://chrisdelwebzdev.wordpress.com/2016/11/24/life-after-graduation/"
+   {  "event":"NYC German Film Fest 2015",
+     "description":"Shown at the fabulous Cinema Village, my coverage of the 2015 event.",
+      "films":["Who Am I", "Tour de Force","The Lies of the Victors", "Schmitke", "The Kings Surrender"]
      },
-   {  "title":"Symposium",
- 			"description":"As new grads, Bimaker sets up an event for us to showcase our final projects. This is our chance to wow employers and compete for jobs.",
-      "url":"https://chrisdelwebdev.wordpress.com/2016/11/08/symposium/"
-     }
+   {  "event":"TriBEca Film Fest 2015",
+ 			"description":"Films I covered.",
+      "films":["Necktie Youth","Toto and his Sisters","Palio","Gored", "Democrats","Dream/Killer"]
+    },
+    { "event":"NYC Turskish Film Fest 2015",
+      "description":"A week of film from the cinematic production ground.",
+      "films":["Impeccables","Noboby's Home","Song of my Mother","Cosequences","I'm not Him"]
+    },
+    { "event":"David Fincher Retrospective",
+      "description": "I watch and review all Fincher films"
+    }
   ]
 }

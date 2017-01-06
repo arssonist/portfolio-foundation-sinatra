@@ -5,35 +5,43 @@ $(document).ready(function(){
     method:'GET',
     data:{},
     dataType:'json'
-  }).done(function(response){
-
+  }).done(function(codeResponse){
+// code blog
   var codeBlogTemplateString = $('#code_blog-template').html();
-  // console.log(workTemplateString)
-// // // 2.Compile the string into a function
+  //
   var codeBlogTemplateRenderer = Handlebars.compile(codeBlogTemplateString);
-//       // console.log(workTemplate)
-// // // 3.Input response into the function
-  var output = codeBlogTemplateRenderer(response)
-  //   // console.log(output)
-// //
-// 4.append to page
-  $('#code_blog-details').html(output);
+  var codeOutput = codeBlogTemplateRenderer(codeResponse)
 
-
-  var filmBlogTemplateString = $('#film_blog-template').html();
-
-  var filmBlogTemplateRenderer = Handlebars.compile(filmBlogTemplateString);
-
-  var output = filmBlogTemplateRenderer(response)
-
-  $('#nothing_blog-details').html(output);
-  var nothingBlogTemplateString = $('#nothing_blog-template').html();
-
-  var nothingBlogTemplateRenderer = Handlebars.compile(nothingBlogTemplateString);
-
-  var output = nothingBlogTemplateRenderer(response)
-
-  $('#nothing_blog-details').html(output);
-
+  $('#code_blog-details').html(codeOutput);
   });
+
+  $.ajax({
+    url:"js/json/single_test.json",
+    method:'GET',
+    data:{},
+    dataType:'json'
+  }).done(function(filmResponse){
+    // console.log(filmResponse);
+
+var filmBlogTemplateString = $('#film_blog-template').html();
+  // console.log(filmBlogTemplateString)
+
+var filmBlogTemplateRenderer = Handlebars.compile(filmBlogTemplateString);
+
+// console.log(filmBlogTemplateRenderer)
+
+//
+var output = filmBlogTemplateRenderer(filmResponse)
+;
+console.log(output)
+//
+  $('#film_blog_details').html(output);
 });
+  });
+  // var nothingBlogTemplateString = $('#nothing_blog-template').html();
+  //
+  // var nothingBlogTemplateRenderer = Handlebars.compile(nothingBlogTemplateString);
+  //
+  // var nothingOutput = nothingBlogTemplateRenderer(response)
+  //
+  // $('#nothing _blog-details').html(nothingO utput);
