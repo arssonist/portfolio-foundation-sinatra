@@ -2,7 +2,10 @@
   <chunk of="html">
     <div class="wrap hero-blog">
       <h1>BLOGS</h1>
-      <h4>My recent blog outlines the experience of attending a coding bootcamp</h4>
+      <h4>Writings about Code, Film and Nothing. </h4>
+      <p>
+        Three differnt blogs from over the years. Click on the posts to check them out.
+      </p>
 
     </div>
   </chunk>
@@ -12,11 +15,19 @@
 <% content_for :main_key do %>
   <chunk of="html">
     <section class="main-blog">
-      <div class="wrap row small-up-1 medium-up-2">
+      <div class="wrap row small-up-1 medium-up-2 large-up-3  ">
 
-      <div class="column" id="blog-details">
-        <script id="blog-template" type="text/x-handlebars-template">
-          {{#each posts}}
+
+      <div class="column" id="code_blog-details">
+        <script id="code_blog-template" type="text/x-handlebars-template">
+          <h4>Should I go to Code School</h4>
+          <h5>
+          The coding bootcamp experience.
+          </h5>
+          <p>
+            Thinking of going to a coding bootcamp? I went and wrote about it so people might better understand what it's all about.
+          </p>
+          {{#each code_posts}}
               <dl>
                 <dt>Title</dt>
                 <dd>{{title}}</dd>
@@ -27,17 +38,64 @@
                 <dt>Url</dt>
                 <dd>{{url}}</dd>
               </dl>
-              {{/each}}
+
+                <!-- <div>
+                  <h6>Title</h6>
+                  <p>{{title}}</p>
+                  <h6>Desc</h6>
+                  <p>{{description}}</p>
+                  <h6>URL</h6>
+                  <p>{{url}}</p>
+                </div> -->
+
+
+                {{/each}}
+
 
           </script>
         </div>
 
 
-        <div class="column">
-          <h2>2nd Main Section</h2>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud</p>
+        <div class="column" id="film_blog_template">
+            <script id="film_blog-template" type="text/x-handlebars-template">
+          <h4>The Separator</h4>
+          <h5>A Blog About Film </h5>
+          <p>
+            A few pics from my writings about film.
+          </p>
+          {{#each film_posts}}
+              <dl>
+                <dt>Title</dt>
+                <dd>{{title}}</dd>
+
+                <dt>Description</dt>
+                <dd>{{description}}</dd>
+
+                <dt>Url</dt>
+                <dd>{{url}}</dd>
+              </dl>
+            </script>
+        </div>
+
+        <div class="column" id="nothing_blog_details">
+            <script id="nothing_blog-template" type="text/x-handlebars-template">
+          <h4>Supposedly I'm a Writer</h4>
+          <h5>TAG </h5>
+          <p>
+            Years worth of posts on whatever I felt like writing about.
+          </p>
+          {{#each nothing_posts}}
+              <dl>
+                <dt>Title</dt>
+                <dd>{{title}}</dd>
+
+                <dt>Description</dt>
+                <dd>{{description}}</dd>
+
+                <dt>Url</dt>
+                <dd>{{url}}</dd>
+              </dl>
+            </script>
         </div>
 
       </div>
