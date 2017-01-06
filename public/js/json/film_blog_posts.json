@@ -1,7 +1,8 @@
 { "film_posts":[
    {  "event":"NYC German Film Fest 2015",
      "description":"Shown at the fabulous Cinema Village, my coverage of the 2015 event.",
-      "films":["Who Am I", "Tour de Force","The Lies of the Victors", "Schmitke", "The Kings Surrender"]
+      "films":
+        ["Who Am I", "Tour de Force","The Lies of the Victors", "Schmitke", "The Kings Surrender"]
      },
    {  "event":"TriBEca Film Fest 2015",
  			"description":"Films I covered.",

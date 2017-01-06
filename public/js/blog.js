@@ -16,26 +16,19 @@ $(document).ready(function(){
   });
 
   $.ajax({
-    url:"js/json/single_test.json",
+    url:"js/json/film_blog_posts.json",
     method:'GET',
     data:{},
     dataType:'json'
   }).done(function(filmResponse){
-    // console.log(filmResponse);
 
-var filmBlogTemplateString = $('#film_blog-template').html();
-  // console.log(filmBlogTemplateString)
+  var filmBlogTemplateString = $('#film_blog-template').html();
 
-var filmBlogTemplateRenderer = Handlebars.compile(filmBlogTemplateString);
+  var filmBlogTemplateRenderer = Handlebars.compile(filmBlogTemplateString);
 
-// console.log(filmBlogTemplateRenderer)
-
-//
-var output = filmBlogTemplateRenderer(filmResponse)
-;
-console.log(output)
-//
-  $('#film_blog_details').html(output);
+  var filmOutput = filmBlogTemplateRenderer(filmResponse)
+  ;
+  $('#film_blog_details').html(filmOutput);
 });
   });
   // var nothingBlogTemplateString = $('#nothing_blog-template').html();

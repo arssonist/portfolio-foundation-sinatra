@@ -63,7 +63,7 @@
           <p>
             A few pics from my writings about film.
           </p>
-          {{!#each film_posts}}
+            {{#each film_posts}}
               <dl>
                 <dt>Event</dt>
                 <dd>{{event}}</dd>
@@ -72,8 +72,12 @@
                 <dd>{{description}}</dd>
 
                 <dt>Films</dt>
-                <dd>{{films}}</dd>
+                {{#each films}}
+                <dd>{{this}}</dd>
+                {{/each}}
+
               </dl>
+              {{/each}}
             </script>
         </div>
 
