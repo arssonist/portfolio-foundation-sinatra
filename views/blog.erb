@@ -1,11 +1,12 @@
 <% content_for :hero_key do %>
   <chunk of="html">
+
     <div class="wrap hero-blog">
+
       <h1>BLOGS</h1>
-      <h4>Writings about Code, Film and Nothing. </h4>
-      <p>
-        Three differnt blogs from over the years. Click on the posts to check them out.
-      </p>
+      <h4>I went to a coding bootcamp. Read my blog all about it below.</h4>
+
+
 
     </div>
   </chunk>
@@ -15,28 +16,44 @@
 <% content_for :main_key do %>
   <chunk of="html">
     <section class="main-blog">
-      <div class="wrap row small-up-1 medium-up-2 large-up-3  ">
+      <!-- <div class="wrap row small-up-1 medium-up-2 large-up-3"> -->
+
+      <div class="wrap">
+
+      <div class="row small-9 medium-9 large-9 columns" id="code_blog-details">
 
 
-      <div class="column" id="code_blog-details">
-        <script id="code_blog-template" type="text/x-handlebars-template">
-          <h4>Should I go to Code School</h4>
-          <h5>
+
+        <script id="code-blog-template" type="text/x-handlebars-template">
+
+          <div>
+            Want so see some of my other writing? Check out my older blogs.
+          </br>
+          <a href="/blog2" class="button">Other Blogs</a>
+        </div>
+
+          <h2>Should I go to Code School</h2>
+          <h4>
           The coding bootcamp experience.
-          </h5>
+        </h4>
           <p>
             Thinking of going to a coding bootcamp? I went and wrote about it so people might better understand what it's all about.
           </p>
           {{#each code_posts}}
               <dl>
+                <dd>
+                <a href="{{url}}"><img src="img/blog_pics/{{image}}.jpg" alt={{title}} />
+                </dd>
+
                 <dt>Title</dt>
                 <dd>{{title}}</dd>
 
                 <dt>Description</dt>
                 <dd>{{description}}</dd>
 
-                <dt>Url</dt>
-                <dd>{{url}}</dd>
+                <!-- <dt>Url</dt>
+                <dd>{{url}}</dd> -->
+              </a>
               </dl>
 
                 <!-- <div>
@@ -48,59 +65,13 @@
                   <p>{{url}}</p>
                 </div> -->
 
-
                 {{/each}}
-
-
           </script>
-        </div>
+      </div>
+    </div>
 
 
-        <div class="column" id="film_blog_details">
-            <script id="film_blog-template" type="text/x-handlebars-template">
-          <h4>The Separator</h4>
-          <h5>A Blog About Film </h5>
-          <p>
-            A few pics from my writings about film.
-          </p>
-            {{#each film_posts}}
-              <dl>
-                <dt>Event</dt>
-                <dd>{{event}}</dd>
 
-                <dt>Description</dt>
-                <dd>{{description}}</dd>
-
-                <dt>Films</dt>
-                {{#each films}}
-                <dd>{{this}}</dd>
-                {{/each}}
-
-              </dl>
-              {{/each}}
-            </script>
-        </div>
-
-        <div class="column" id="nothing_blog_details">
-            <script id="nothing_blog-template" type="text/x-handlebars-template">
-          <h4>Hi, I'm supposedly a writer</h4>
-          <h5>Stories, Reviews and Rants </h5>
-          <p>
-            I lived in New York and wrote about whatever I felt like.
-          </p>
-          {{#each nothing_posts}}
-              <dl>
-                <dt>Title</dt>
-                <dd>{{title}}</dd>
-
-                <dt>Description</dt>
-                <dd>{{description}}</dd>
-
-                <dt>Url</dt>
-                <dd>{{url}}</dd>
-              </dl>
-            </script>
-        </div>
 
       </div>
     </section>

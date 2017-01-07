@@ -33,3 +33,7 @@ end
 get '/blog' do
   erb :blog
 end
+
+get '/blog2' do
+  erb :blog2
+end

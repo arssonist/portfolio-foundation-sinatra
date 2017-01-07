@@ -1,4 +1,5 @@
-{  "event":"NYC German Film Fest 2015",
-    "description":"Shown at the fabulous Cinema Village, my coverage of the 2015 event.",
-    "films":"Who Am I"
+{ "image":"life_after_graduation",
+  "title":"Life After Graduation",
+   "description":"Six weeks after finishing a web development bootcamp and I still can't find a job.",
+   "url":"https://chrisdelwebdev.wordpress.com/2016/11/24/life-after-graduation/"
 }

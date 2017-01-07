@@ -1,0 +1,70 @@
+
+<% content_for :hero_key do %>
+  <chunk of="html">
+    <div class="wrap hero-blog2">
+      <h1>OTHER BLOGS</h1>
+      <h4>Writings about Code, Film and Nothing. </h4>
+      <p>
+      My other blogs
+      </p>
+
+    </div>
+  </chunk>
+<% end %>
+
+
+<% content_for :main_key do %>
+  <chunk of="html">
+    <section class="main-blog2">
+      <div class="wrap row small-up-1 medium-up-2">
+
+        <div class="column" id="film_blog_details">
+            <script id="film_blog-template" type="text/x-handlebars-template">
+          <h4>The Separator</h4>
+          <h5>A Blog About Film </h5>
+          <p>
+            A few pics from my writings about film.
+          </p>
+            {{#each film_posts}}
+              <dl>
+                <dt>Event</dt>
+                <dd>{{event}}</dd>
+
+                <dt>Description</dt>
+                <dd>{{description}}</dd>
+
+                <dt>Films</dt>
+                {{#each films}}
+                <dd>{{this}}</dd>
+                {{/each}}
+
+              </dl>
+              {{/each}}
+            </script>
+        </div>
+
+        <div class="column" id="nothing_blog_details">
+            <script id="nothing_blog-template" type="text/x-handlebars-template">
+          <h4>Hi, I'm supposedly a writer</h4>
+          <h5>Stories, Reviews and Rants </h5>
+          <p>
+            I lived in New York and wrote about whatever I felt like.
+          </p>
+          {{#each nothing_posts}}
+              <dl>
+                <dt>Title</dt>
+                <dd>{{event}}</dd>
+
+                <dt>Description</dt>
+                <dd>{{description}}</dd>
+
+                <dt>Url</dt>
+                <dd>{{url}}</dd>
+              </dl>
+              {{/each}}
+            </script>
+        </div>
+      </div>
+</section>
+</chunk>
+<% end %>
