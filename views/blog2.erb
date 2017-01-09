@@ -3,10 +3,8 @@
   <chunk of="html">
     <div class="wrap hero-blog2">
       <h1>OTHER BLOGS</h1>
-      <h4>Writings about Code, Film and Nothing. </h4>
-      <p>
-      My other blogs
-      </p>
+      <h4>Wirings about Films and Randomness </h4>
+
 
     </div>
   </chunk>
@@ -18,13 +16,15 @@
     <section class="main-blog2">
       <div class="wrap row small-up-1 medium-up-2">
 
-        <div class="column" id="film_blog_details">
-            <script id="film_blog-template" type="text/x-handlebars-template">
-          <h4>The Separator</h4>
+        <div class="column" id="film-blog-details">
+            <script id="film-blog-template" type="text/x-handlebars-template">
+              <div class="film-blog-header">
+          <h3 style="font-family:normal;color:#666666">The Separator</h3>
           <h5>A Blog About Film </h5>
           <p>
             A few pics from my writings about film.
           </p>
+        </div>
             {{#each film_posts}}
               <dl>
                 <dt>Event</dt>
@@ -43,13 +43,16 @@
             </script>
         </div>
 
-        <div class="column" id="nothing_blog_details">
-            <script id="nothing_blog-template" type="text/x-handlebars-template">
+        <div class="column" id="nothing-blog-details">
+            <script id="nothing-blog-template" type="text/x-handlebars-template">
+              <div class="nothing-blog-header">
+
           <h4>Hi, I'm supposedly a writer</h4>
           <h5>Stories, Reviews and Rants </h5>
           <p>
             I lived in New York and wrote about whatever I felt like.
           </p>
+        </div>
           {{#each nothing_posts}}
               <dl>
                 <dt>Title</dt>

@@ -12,7 +12,7 @@ $(document).ready(function(){
     var codeBlogTemplateRenderer = Handlebars.compile(codeBlogTemplateString);
     var codeOutput = codeBlogTemplateRenderer(codeResponse)
 
-    $('#code_blog-details').html(codeOutput);
+    $('#code-blog-details').html(codeOutput);
   });
 
   $.ajax({
@@ -22,13 +22,13 @@ $(document).ready(function(){
     dataType:'json'
   }).done(function(filmResponse){
 
-    var filmBlogTemplateString = $('#film_blog-template').html();
+    var filmBlogTemplateString = $('#film-blog-template').html();
 
     var filmBlogTemplateRenderer = Handlebars.compile(filmBlogTemplateString);
 
     var filmOutput = filmBlogTemplateRenderer(filmResponse)
     ;
-    $('#film_blog_details').html(filmOutput);
+    $('#film-blog-details').html(filmOutput);
 });
   $.ajax({
     url:"js/json/nothing_blog_posts.json",
@@ -37,12 +37,12 @@ $(document).ready(function(){
     dataType:'json'
   }).done(function(codeResponse){
 
-    var nothingBlogTemplateString = $('#nothing_blog-template').html();
+    var nothingBlogTemplateString = $('#nothing-blog-template').html();
 
     var nothingBlogTemplateRenderer = Handlebars.compile(nothingBlogTemplateString);
 
     var nothingOutput = nothingBlogTemplateRenderer(codeResponse)
 
-    $('#nothing_blog_details').html(nothingOutput);
+    $('#nothing-blog-details').html(nothingOutput);
   });
 });
