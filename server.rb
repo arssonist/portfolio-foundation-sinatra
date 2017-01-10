@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/contrib'
+configure { set :server, :puma }
 
 
 # SITE GLOBAL CONSTANTS/////////////
