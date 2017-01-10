@@ -169,13 +169,6 @@ HERO
   display:block;
   width:17%;
 }
-.hero-blog .button{
-  position: relative;
-  left: 30%;
-  /*margin-top: 5%;*/
-  /*display:block;*/
-  /*width:17%;*/
-}
 /*Test only
 .hero-index{
   background-color: yellow;
@@ -211,7 +204,7 @@ MAIN SECTION
 .hero-blog-row{
   height: 100px;
 }
-.main-blog h2{
+.main-blog h2,h4,p{
   color: #438d8d;
   font-family: "Libre Baskerville";
 }
@@ -230,13 +223,27 @@ MAIN SECTION
   color: black;
 }
 .other-blog-text{
+  border-style: dotted;
   border: solid;
   border-color:#438d8d;
    /*rgba(180, 180, 180, 0.6);*/
+   width: 200px;
 }
-.other-blog-text div{
-  /*display: inline-block;*/
+.other-blog-text img{
+  margin:0 30%;
+  width: 50%;
 }
+
+.other-blog-text h6{
+    text-align: center;
+}
+
+.other-blog-text .button{
+  margin-right: 30%;
+  margin-left: 40%;
+
+}
+
 /*.main-blog .button{
   background-color: black;
   position: relative;
@@ -256,7 +263,7 @@ MAIN SECTION
   font-family: Helvetica;
 }
 .other-blog-text{
-  width:30%;
+
 }
 
 
@@ -347,6 +354,12 @@ MEDIA QUERY
     left: 0%;
   }
 }
+
+/*@media (max-width: 400px){
+  .other-blog-text{
+    margin:0 auto;
+  }
+}*/
 
 /*position: relative;
 left: 0%;
