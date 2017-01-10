@@ -1,16 +1,27 @@
 
 <% content_for :hero_key do %>
   <chunk of="html">
-    <div class="wrap hero-blog2">
-      <h1>OTHER BLOGS</h1>
-      <h4>Wirings about Films and Randomness </h4>
-      <hr />
-      <div class="hero-mote-zart">
-        <img src="img/me/Wolfgang_Amadeus_Mozart_Wallpaper_JxHy.jpg" />
+
+
+    <section class="hero-blog2">
+    <div class="wrap row small-up-1 medium-up-2">
+      <div class="column">
+
+        <h1>OTHER BLOGS</h1>
+        <h4>Wirings about Films and Randomness </h4>
+
       </div>
 
 
+      <div class="column other-blog-pic" id="burning-computer-box">
+
+          <img src="img/blog_pics/laptop-on-fire.jpg" />
     </div>
+  </div>
+
+
+  </section>
+
   </chunk>
 <% end %>
 
@@ -24,7 +35,7 @@
         <div class="column" id="film-blog-details">
             <script id="film-blog-template" type="text/x-handlebars-template">
               <div class="film-blog-header">
-          <h3 style="font-family:normal;color:#666666">The Separator</h3>
+          <h3 style="font-family:normal;">The Separator</h3>
           <h5>A Blog About Film </h5>
           <p>
             A few pics from my writings about film.
@@ -32,6 +43,16 @@
         </div>
             {{#each film_posts}}
               <dl>
+
+                <dd>
+                  <a href="{{#each films}}
+                    {{lookup ../url @index}}
+                  {{/each}}"><img src="img/blog2_pics/films{{#each films}}
+                    {{lookup ../image @index}}
+                  {{/each}}" alt={{name}} />
+                </a>
+                </dd>
+
                 <dt>Event</dt>
                 <dd>{{event}}</dd>
 
@@ -42,6 +63,14 @@
                 {{#each films}}
                 <dd>{{this}}</dd>
                 {{/each}}
+
+                <dt>url</dt>
+                {{#each films}}
+                  {{lookup ../url @index}}
+
+                {{/each}}
+                </dd>
+
 
               </dl>
               {{/each}}

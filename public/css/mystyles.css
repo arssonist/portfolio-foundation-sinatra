@@ -204,7 +204,10 @@ MAIN SECTION
 .hero-blog-row{
   height: 100px;
 }
-.main-blog h2,h4,p{
+.main-blog h2,
+h3,
+h4,
+p{
   color: #438d8d;
   font-family: "Libre Baskerville";
 }
@@ -222,15 +225,20 @@ MAIN SECTION
 .main-blog dt{
   color: black;
 }
+#mozart-box{
+  width: 30%;
+}
 .other-blog-text{
   border-style: dotted;
   border: solid;
   border-color:#438d8d;
    /*rgba(180, 180, 180, 0.6);*/
-   width: 200px;
+
 }
 .other-blog-text img{
-  margin:0 30%;
+  border: solid;
+  border-width: thin;
+  margin:0 25%;
   width: 50%;
 }
 
@@ -240,7 +248,7 @@ MAIN SECTION
 
 .other-blog-text .button{
   margin-right: 30%;
-  margin-left: 40%;
+  margin-left: 30%;
 
 }
 
@@ -258,13 +266,12 @@ MAIN SECTION
 }*/
 
 /* *************BLOG 2 PAGE*****************************************/
-.nothing-blog-header{
+.nothing-blog-header, .film-blog-header{
   color: #CC6626;
   font-family: Helvetica;
 }
-.other-blog-text{
 
-}
+
 
 
 /* *************CONTACT*****************************************/
@@ -338,9 +345,6 @@ MEDIA QUERY
 /*This makes the navbar dissapear if the window is smaller the set above*/
 
 
-
-
-
 /***********BUTTONS WIDTHS MOBILE*******/
 @media (max-width: 400px){
   .hero-index .button{
@@ -354,21 +358,14 @@ MEDIA QUERY
     left: 0%;
   }
 }
-
-/*@media (max-width: 400px){
-  .other-blog-text{
-    margin:0 auto;
+/***********MOZART PIC*******/
+@media (max-width: 575px){
+  #mozart-box{
+    width: 50%;
+    margin: 0 10%;
   }
-}*/
+}
 
-/*position: relative;
-left: 0%;
-/*margin-top: 5%;*/
-/*display:block;*/
-/*width:17%;*/*/
-/*@media (min-width:399px){
-
-}*/
 
 /*@media (max-width: 875px) {
   .hero h1
