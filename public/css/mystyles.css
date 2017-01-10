@@ -234,6 +234,9 @@ MAIN SECTION
   border-color:#438d8d;
    /*rgba(180, 180, 180, 0.6);*/
 }
+.other-blog-text div{
+  /*display: inline-block;*/
+}
 /*.main-blog .button{
   background-color: black;
   position: relative;
@@ -257,10 +260,14 @@ MAIN SECTION
 }
 
 
+/* *************CONTACT*****************************************/
 
-
-
-
+.main-contact p{
+  margin:10px;
+}
+.main-contact h2{
+  font-family: 'Open Sans';
+}
 /* *************************************************************
 FOOTER
 **********************************************
@@ -323,6 +330,11 @@ MEDIA QUERY
 }
 /*This makes the navbar dissapear if the window is smaller the set above*/
 
+
+
+
+
+/***********BUTTONS WIDTHS MOBILE*******/
 @media (max-width: 400px){
   .hero-index .button{
     width:25%;

@@ -10,7 +10,7 @@
 
         And if you see a problem with my site please let me know!
       </h5>
-      
+
     </div>
     </chunk>
   <% end %>
@@ -18,19 +18,49 @@
   <% content_for :main_key do %>
 
     <chunk of="html">
-      <div class="wrap">
-
       <section class="main-contact">
+        <div class="wrap row small-up-1 medium-up-2">
 
-      <p>
-        Amet dolore enim ad cupidatat non ea reprehenderit amet nostrud nulla et cillum laborum aute. Magna est nisi pariatur eiusmod irure laborum Lorem quis officia pariatur labore reprehenderit commodo elit. Ut Lorem non ut tempor ipsum laborum ipsum aliquip id aliqua.
-      </p>
+          <div class="column">
+            <h3><strong>Chris Del</strong> <i> Web Developer</i></h3>
 
-      <p>
-          Amet dolore enim ad cupidatat non ea reprehenderit amet nostrud nulla et cillum laborum aute. Magna est nisi pariatur eiusmod irure laborum Lorem quis officia pariatur labore reprehenderit commodo elit. Ut Lorem non ut tempor ipsum laborum ipsum aliquip id aliqua.
-        </p>
+            <dl>
 
+            <p><strong>Email:</strong>
+
+            <a href="mailto:<%= $my_email %>"><%= $my_email %></p></a>
+
+            <p><strong>Phone:</strong>
+
+            <a href="tel:<%= $my_phone %>"><%= $my_phone %></p></a>
+
+            <p><strong>Write me on Twitter: </strong><a href="<%= $my_twitter %>"><%= $my_twitter %></p></a>
+
+            <p>In case you missed the top and bottomr links:
+              <ul>
+                <li>
+                  <a href="<%= $my_linkedin %>"><%= $my_linkedin %></a>
+                </li>
+                <li>
+                  <a href="<%= $my_blog %>"><%= $my_blog  %></a>
+                </li>
+              </ul>
+
+            </p>
+
+            </p>
+
+
+            </dl>
+
+        </div>
+
+        <div class="column">
+          <img src="img/places/toronto.png" /> 
+
+        </div>
+
+        </div>
       </section>
-    </div>
     </chunk>
   <% end %>
