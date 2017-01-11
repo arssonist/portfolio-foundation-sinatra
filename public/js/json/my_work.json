@@ -2,10 +2,18 @@
    {  "image":"gilligan",
       "name":"Gilligan",
  			 "type":"Ruby on Rails App",
- 			 "description":"A place for boat lovers",
-     	"features": "Bootstrap, Google Maps API, Ajax",
+ 			 "description":"A place for boat lovers to book and offer boat rides. This was the final prject at Bitmaker.",
+     	"features": "MVC, authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
       "github":"https://github.com/arssonist/lynda_react_app",
       "url":"https://hidden-beach-16599.herokuapp.com/"
+     },
+     {"image":"angular_artists",
+       "name":"Directory of Fake Artists",
+       "type":"Angular 1 App",
+       "features":"templating JSON, partials, MVC, JS modules, controllers, data binding, routing, using services",
+       "description":"Project created to display JSON data in a single-page app that had a nice UI",
+       "github":"https://github.com/arssonist/lynda_angular_artist_app",
+       "url":"https://arssonist.github.io/angular_artist_demo_app/#/list"
      },
     { "image":"crowdfunder",
       "name":"Crowdfunder",
@@ -29,7 +37,7 @@
       "description":"User creates a business card through a form",
       "features":"Bootstrap, hexademical coloring, accessing the DOM, integrating JS functionality into basic markdown",
       "github":"https://github.com/arssonist/business-card-maker",
-      "url":"arssonist.github.io/business-card-maker"
+      "url":"https://arssonist.github.io/business-card-maker/"
     }
   ]
 }
