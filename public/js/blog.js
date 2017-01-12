@@ -15,6 +15,7 @@ $(document).ready(function(){
     $('#code-blog-details').html(codeOutput);
   });
 
+// ALL FILMS
   $.ajax({
     url:"js/json/film_blog_posts.json",
     method:'GET',
@@ -30,9 +31,24 @@ $(document).ready(function(){
     ;
     $('#film-blog-details').html(filmOutput);
 
-    console.log(filmResponse)
-});
+    $('#film-blog-details a').on('click',function(event){
+    event.preventDefault();
 
+      $.ajax({
+        url:$(this).attr('href'),
+        method:'GET',
+        dataType:'JSON'
+      }).done(function(response){
+        alert('test')
+
+        var second_container = container.append(response)
+        ('#film-blog-details')
+
+      });
+      // var priceParagraph = $('<p>').html('Price: ').append(priceStrong);
+
+  });
+});
 
 
   $.ajax({

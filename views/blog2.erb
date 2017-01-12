@@ -63,19 +63,19 @@
                 <dt>Films</dt>
                 {{#each films}}
                 <dd>
-                  <a href="{{#each url}}
-                  {{lookup ../film @index}}">
-                {{this}}
-                </dd>
-              </a>
-                {{/each}}
 
-                <dt>url</dt>
-                {{#each films}}
-                  {{lookup ../url @index}}
+                <a href="{{lookup ../url @index}}">{{this}}</a>
+                </dd>
 
                 {{/each}}
-                </dd>
+
+                <!-- <dt>url</dt>
+
+              <dd>
+                    {{!#each films}}
+                      <a href ="{{!lookup ../url @index}}">{{!lookup ../url @index}}</a>
+                    {{!/each}}
+                  </dd> -->
 
 
               </dl>
