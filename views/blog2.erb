@@ -45,12 +45,13 @@
               <dl>
 
                 <dd>
-                  <a href="{{#each films}}
+                  <!-- <a href="{{#each films}}
                     {{lookup ../url @index}}
-                  {{/each}}"><img src="img/blog2_pics/films{{#each films}}
+                  {{/each}}">
+                  <img src="img/blog2_pics/films{{#each films}}
                     {{lookup ../image @index}}
                   {{/each}}" alt={{name}} />
-                </a>
+                </a> -->
                 </dd>
 
                 <dt>Event</dt>
@@ -61,7 +62,12 @@
 
                 <dt>Films</dt>
                 {{#each films}}
-                <dd>{{this}}</dd>
+                <dd>
+                  <a href="{{#each url}}
+                  {{lookup ../film @index}}">
+                {{this}}
+                </dd>
+              </a>
                 {{/each}}
 
                 <dt>url</dt>

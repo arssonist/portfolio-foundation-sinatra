@@ -4,7 +4,7 @@
      "description":"Shown at the fabulous Cinema Village, my coverage of the 2015 event.",
       "films":
         ["Who Am I", "Tour de Force","The Lies of the Victors", "Schmitke", "The Kings Surrender"],
-        "url":["http://getthebonesaw.blogspot.ca/2015/04/who-am-i-kein-system-ist-sicher-kino.html","http://getthebonesaw.blogspot.ca/2015/04/tour-de-force-hin-und-weg-kino-german.html","http://getthebonesaw.blogspot.ca/2015/04/the-lies-of-victors-die-lugen-der.html","http://getthebonesaw.blogspot.ca/2015/04/schmitke-kino-german-film-fest-ny-2015.html", "http://getthebonesaw.blogspot.ca/2015/04/the-kings-surrender-kino-german-film.html"]
+        "url":["/json/film_blog_urls.json","http://getthebonesaw.blogspot.ca/2015/04/who-am-i-kein-system-ist-sicher-kino.html","http://getthebonesaw.blogspot.ca/2015/04/tour-de-force-hin-und-weg-kino-german.html","http://getthebonesaw.blogspot.ca/2015/04/the-lies-of-victors-die-lugen-der.html","http://getthebonesaw.blogspot.ca/2015/04/schmitke-kino-german-film-fest-ny-2015.html", "http://getthebonesaw.blogspot.ca/2015/04/the-kings-surrender-kino-german-film.html"]
      },
    { "image":["necktie","toto_and_his_sisters","palio","gored","democrats","DREAMKILLER"],
      "event":"TriBEca Film Fest 2015",

@@ -29,7 +29,12 @@ $(document).ready(function(){
     var filmOutput = filmBlogTemplateRenderer(filmResponse)
     ;
     $('#film-blog-details').html(filmOutput);
+
+    console.log(filmResponse)
 });
+
+
+
   $.ajax({
     url:"js/json/nothing_blog_posts.json",
     method:'GET',
