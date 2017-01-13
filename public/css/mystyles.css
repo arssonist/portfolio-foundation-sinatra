@@ -410,15 +410,19 @@ MEDIA QUERY
   }
 }
 
+  /*@media (max-width: 1200px) {
+    .hero-resume h1{
+      width: 100%;
+    }
+  }*/
 
-
-/*@media (max-width: 875px) {
-  .hero h1
-  .hero h3
-  .hero p {
-    width: 100%;
-  }
-}*/
+  /*@media (max-width: 875px) {
+    .hero h1
+    .hero h3
+    .hero p {
+      width: 100%;
+    }
+  }*/
 /*makes these sections have a max width, at which they stop*/
 
 /*
