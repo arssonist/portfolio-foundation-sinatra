@@ -18,7 +18,7 @@
     { "image":"crowdfunder",
       "name":"Crowdfunder",
      "type"	:"Ruby on Rails App",
-     "description": "Very basic clone of Kickstarter. This project was created and build in only three days. It lacks features as it is  build mostly to display what I did in a short time.",
+     "description": "Very basic clone of Kickstarter. This project was created and built in only three days. It lacks features since its purpose is mostly to showoff what can be accomplished in a short time. .",
      "features": "User authentication, Bootstrap, MVC,",
      "github":"https://github.com/arssonist/crowdfunder",
      "url":"https://crowdfunder-chris-del.herokuapp.com/"
@@ -26,7 +26,7 @@
     { "image":"bulletin_board",
       "name":"Bulletin Board",
       "type":"Static React App",
-      "description":"Clone of application 'Stickies'. This is what I build as I continue to learn React.",
+      "description":"Clone of application 'Stickies'. This is the project I built as I began to learn React.",
       "features":"Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
       "github":"https://github.com/arssonist/lynda_react_app",
       "url":"https://arssonist.github.io/lynda_react_app/"
