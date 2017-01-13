@@ -39,3 +39,7 @@ end
 get '/blog2' do
   erb :blog2
 end
+
+get '/resume' do
+  erb :resume
+end

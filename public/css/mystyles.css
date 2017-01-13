@@ -179,6 +179,14 @@ HERO
   height: 100px;
 }
 
+/* *************RESUME PAGE*****************************************/
+#mobile-resume-hero{
+  border:solid;
+  border-color: rgba(255, 255, 255, 0.8);
+
+}
+
+
 /* *************************************************************
 MAIN SECTION
 ************************************************************* */
@@ -389,6 +397,20 @@ MEDIA QUERY
     margin:auto;
   }
 }
+
+/**************RESUME**********/
+@media (min-width: 400px){
+  #mobile-resume-hero{
+    display: none;
+  }
+}
+@media (max-width: 401px){
+  #link-resume-hero{
+    display: none;
+  }
+}
+
+
 
 /*@media (max-width: 875px) {
   .hero h1
