@@ -30,21 +30,33 @@ $(document).ready(function(){
     var filmOutput = filmBlogTemplateRenderer(filmResponse)
     ;
     $('#film-blog-details').html(filmOutput);
+    // console.log(filmResponse.film_posts)
 
-    $('#film-blog-details a').on('click',function(event){
-    event.preventDefault();
 
-      $.ajax({
-        url:$(this).attr('href'),
-        method:'GET',
-        dataType:'JSON'
-      }).done(function(response){
-        alert('test')
+      $('#film-blog-details a').on('click',function(event){
+      event.preventDefault();
+    var filmUrl = $(this).attr('href')
 
-        var second_container = container.append(response)
-        ('#film-blog-details')
+    var p = $(filmUrl).text()
+    console.log(p)
+    // var filmString = $(p).append(filmUrl)
+    // console.log(filmString)
+    // $(filmString).appendTo('#film-blog-details')
 
-      });
+
+    // console.log(filmResponse.film_posts.this)
+      //
+      // $.ajax({
+      //   url:$(this).attr('href'),
+      //   method:'GET',
+      //   dataType:'JSON'
+      // }).done(function(response){
+      //   alert('test')
+      //
+      // //   var second_container = container.append(response)
+      // //   ('#film-blog-details')
+      // //
+      // });
       // var priceParagraph = $('<p>').html('Price: ').append(priceStrong);
 
   });
