@@ -63,19 +63,29 @@
                 <dt>Films</dt>
                 {{#each films}}
                 <dd>
-
-                <a href="{{lookup ../url @index}}">{{this}}</a>
+                <a href="{{lookup ../url @index}}">
+                <img src= "img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
+                  {{this}}</a>
                 </dd>
-
                 {{/each}}
 
-                <!-- <dt>url</dt>
+                {{#each films}}
+                <dd>
+                  <!-- <img src= "img/blog2_pics/films/{{lookup ../image @index}}"/> -->
+              
+                </dd>
+                  {{/each}}
 
-              <dd>
-                    {{!#each films}}
-                      <a href ="{{!lookup ../url @index}}">{{!lookup ../url @index}}</a>
-                    {{!/each}}
-                  </dd> -->
+                <!-- displaying url to image only -->
+              <!-- {{#each films}}
+                <dt>
+                  {{lookup ../image @index}}
+                </dt>
+                {{/each}} -->
+
+                <!-- CONTAINER FOR PICS AND URL -->
+                <div class="film-image-url">
+                </div>
 
 
               </dl>

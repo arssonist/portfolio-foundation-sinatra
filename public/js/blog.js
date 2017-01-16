@@ -35,10 +35,19 @@ $(document).ready(function(){
 
       $('#film-blog-details a').on('click',function(event){
       event.preventDefault();
-    var filmUrl = $(this).attr('href')
 
-    var p = $(filmUrl).text()
-    console.log(p)
+      var filmUrl = $(this).attr('href')
+      console.log(filmUrl)
+
+      // var image = $(this).attr('img');
+      // console.log(image)
+
+    $('.film-image-url').empty().append(image)
+
+
+    // var p = $(filmUrl).text()
+    // console.log(p)
+
     // var filmString = $(p).append(filmUrl)
     // console.log(filmString)
     // $(filmString).appendTo('#film-blog-details')
