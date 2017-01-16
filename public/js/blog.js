@@ -36,11 +36,11 @@ $(document).ready(function(){
       $('#film-blog-details a').on('click',function(event){
       event.preventDefault();
 
-      var filmUrl = $(this).attr('href')
+      var filmUrl = $(this).attr('href');
       console.log(filmUrl)
 
-      // var image = $(this).attr('img');
-      // console.log(image)
+      var image = $('img', this).attr("src")
+      console.log(image)
 
     $('.film-image-url').empty().append(image)
 
