@@ -63,16 +63,24 @@
                 <dt>Films</dt>
                 {{#each films}}
                 <dd>
-                <a href="{{lookup ../url @index}}">
-                <img src= "img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
-                  {{this}}</a>
+                <div class="film-image-wrap">
+                  <p>
+                    {{this}}
+                  </p>
+                  <img src= "img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
+                  <a href="{{lookup ../url @index}}">{{lookup ../url @index}}</a>
+
+                </div>
+
+
+
                 </dd>
                 {{/each}}
 
                 {{#each films}}
                 <dd>
                   <!-- <img src= "img/blog2_pics/films/{{lookup ../image @index}}"/> -->
-              
+
                 </dd>
                   {{/each}}
 

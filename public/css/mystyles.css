@@ -285,6 +285,18 @@ p{
   font-family: Helvetica;
 }
 
+.film-image-wrap img,
+.film-image-wrap a{
+  display: none;
+}
+
+
+.film-image-wrap.film-show-image img,
+.film-image-wrap.film-show-image a{
+  display: block;
+}
+
+
 /* *************ABOUT PAGE*****************************************/
 #about-photo img{
   width: 100%;

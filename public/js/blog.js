@@ -33,8 +33,15 @@ $(document).ready(function(){
     // console.log(filmResponse.film_posts)
 
 
-      $('#film-blog-details a').on('click',function(event){
+      $('.film-image-wrap').on('click',function(event){
       event.preventDefault();
+
+      $('.film-show-image').removeClass('film-show-image')
+
+      $(this).toggleClass('film-show-image')
+
+
+
 
       var filmUrl = $(this).attr('href');
       console.log(filmUrl)
@@ -42,7 +49,7 @@ $(document).ready(function(){
       var image = $('img', this).attr("src")
       console.log(image)
 
-    $('.film-image-url').empty().append(image)
+    // $('.film-image-url').empty().append(image)
 
 
     // var p = $(filmUrl).text()
