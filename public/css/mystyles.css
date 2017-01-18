@@ -185,8 +185,16 @@ HERO
   border-color: rgba(255, 255, 255, 0.8);
 
 }
-
-
+/* *************ABOUT PAGE*****************************************/
+.hero-about .button{
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 17%;
+}
+#are-you-hiring{
+  text-align: center
+}
 /* *************************************************************
 MAIN SECTION
 ************************************************************* */
