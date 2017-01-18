@@ -314,6 +314,16 @@ p{
 .main-contact img{
   margin:3em;
 }
+/* *************RESUME*****************************************/
+
+#resume-head{
+  text-align: center;
+}
+.inpage-resume h3, h2, p{
+  color:black;
+}
+
+
 /* *************************************************************
 FOOTER
 **********************************************
@@ -411,16 +421,13 @@ MEDIA QUERY
 }
 
 /**************RESUME**********/
-@media (min-width: 400px){
-  #mobile-resume-hero{
-    display: none;
+@media (max-width: 400px){
+  #resume-pdf{
+    font-size: 2em;
   }
 }
-@media (max-width: 401px){
-  #link-resume-hero{
-    display: none;
-  }
-}
+
+
 
   /*@media (max-width: 1200px) {
     .hero-resume h1{
