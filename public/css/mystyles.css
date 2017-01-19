@@ -330,7 +330,10 @@ p{
 .inpage-resume h3, h2, p{
   color:black;
 }
-
+/*#skills{
+  width: 400px;
+  height: auto;
+}*/
 
 /* *************************************************************
 FOOTER
