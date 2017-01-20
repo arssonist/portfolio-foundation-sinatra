@@ -179,6 +179,35 @@ HERO
   height: 100px;
 }
 
+#mozart-box{
+  padding:0.1em;
+  width: 20em;
+  margin:0 2.5em;
+  border-style: dotted;
+  border: solid;
+  border-color:#438d8d;
+  /*rgba(180, 180, 180, 0.6);*/
+}
+
+#mozart-box img{
+  border: solid;
+  border-width: thin;
+  margin:0 25%;
+  width: 50%;
+}
+
+#mozart-box h6{
+  text-align: center;
+}
+#mozart-box h3{
+  text-align: center;
+}
+
+.other-blog-text .button{
+  margin-right: 30%;
+  margin-left: 30%;
+
+}
 /* *************RESUME PAGE*****************************************/
 #mobile-resume-hero{
   border:solid;
@@ -246,32 +275,6 @@ p{
 }
 .main-blog dt{
   color: black;
-}
-#mozart-box{
-  width: 30%;
-}
-.other-blog-text{
-  border-style: dotted;
-  border: solid;
-  border-color:#438d8d;
-   /*rgba(180, 180, 180, 0.6);*/
-
-}
-.other-blog-text img{
-  border: solid;
-  border-width: thin;
-  margin:0 25%;
-  width: 50%;
-}
-
-.other-blog-text h6{
-    text-align: center;
-}
-
-.other-blog-text .button{
-  margin-right: 30%;
-  margin-left: 30%;
-
 }
 
 /*.main-blog .button{
@@ -413,12 +416,12 @@ MEDIA QUERY
   }
 }
 /***********MOZART PIC*******/
-@media (max-width: 575px){
-  #mozart-box{
-    width: 50%;
-    margin: 0 10%;
+  @media (max-width: 400px){
+    #mozart-box{
+      width: 50%;
+      margin: 0 auto;
+    }
   }
-}
 /**************MAP PIC**********/
 @media (max-width: 870px) and (min-width:551px){
   .main-contact img{
