@@ -4,40 +4,40 @@
  			 "type":"Ruby on Rails App",
  			 "description":"A place for boat lovers to book and offer boat rides. This was the final prjoect at Bitmaker.",
      	"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
-      "github":"https://github.com/arssonist/lynda_react_app",
-      "url":"https://hidden-beach-16599.herokuapp.com/"
+      "github":"https://goo.gl/Bz4oTP",
+      "url":"https://goo.gl/eOOouF"
      },
      {"image":"angular_artists",
        "name":"Directory of Fake Artists",
        "type":"Angular 1 App",
        "features":"Templating JSON, Partials, MVC, JS Modules, Controllers, Data Binding, Routing, Using Services",
        "description":"Project created to display JSON data in a single-page app with a nice UI.",
-       "github":"https://github.com/arssonist/lynda_angular_artist_app",
-       "url":"https://arssonist.github.io/angular_artist_demo_app/#/list"
+       "github":"https://goo.gl/NViTbI",
+       "url":"https://goo.gl/OBgr2p"
      },
     { "image":"crowdfunder",
       "name":"Crowdfunder",
      "type"	:"Ruby on Rails App",
      "description": "Very basic clone of Kickstarter. This project was created and built in only three days. It lacks features since its purpose is mostly to showoff what can be accomplished in a short time. .",
      "features": "User authentication, Bootstrap, MVC,",
-     "github":"https://github.com/arssonist/crowdfunder",
-     "url":"https://crowdfunder-chris-del.herokuapp.com/"
+     "github":"https://goo.gl/JaubPf",
+     "url":"https://goo.gl/CpVhhR"
     },
     { "image":"bulletin_board",
       "name":"Bulletin Board",
       "type":"Static React App",
       "description":"Clone of application 'Stickies'. This is the project I built as I began to learn React.",
       "features":"Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
-      "github":"https://github.com/arssonist/lynda_react_app",
-      "url":"https://arssonist.github.io/lynda_react_app/"
+      "github":"https://goo.gl/dCvsw4",
+      "url":"https://goo.gl/Hcm9r4"
     },
     { "image":"business-v2",
       "name":"Business Card Maker",
       "type":"JavaScript App",
       "description":"User creates a business card through a form",
       "features":"Bootstrap, Hexademical Coloring, Accessing the DOM, Integrating JS functionality into Basic Markdown.",
-      "github":"https://github.com/arssonist/business-card-maker",
-      "url":"https://arssonist.github.io/business-card-maker/"
+      "github":"https://goo.gl/AqDxUb",
+      "url":"https://goo.gl/L0Khxs"
     }
   ]
 }
