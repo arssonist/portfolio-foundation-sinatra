@@ -44,16 +44,6 @@
             {{#each film_posts}}
               <dl>
 
-                <dd>
-                  <!-- <a href="{{#each films}}
-                    {{lookup ../url @index}}
-                  {{/each}}">
-                  <img src="img/blog2_pics/films{{#each films}}
-                    {{lookup ../image @index}}
-                  {{/each}}" alt={{name}} />
-                </a> -->
-                </dd>
-
                 <dt>Event</dt>
                 <dd>{{event}}</dd>
 
@@ -63,13 +53,16 @@
                 <dt>Films</dt>
                 {{#each films}}
                 <dd>
-                <div class="film-image-wrap">
-                  <p>
-                    {{this}}
-                  </p>
-                  <img src= "img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
-                  <a href="{{lookup ../url @index}}">{{lookup ../url @index}}</a>
+                <div id="image-container">
 
+                  <div class="film-image-wrap">
+                    <p>
+                      {{this}}
+                    </p>
+                    <img src= "img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
+                    <a href="{{lookup ../url @index}}">Check out the Review!</a>
+
+                  </div>
                 </div>
 
 

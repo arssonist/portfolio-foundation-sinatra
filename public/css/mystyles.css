@@ -21,6 +21,9 @@ h3{
 .button{
   font-family: 'Ubuntu'
 }
+dl{
+  padding:0.1em;
+}
 
 /* *************************************************************
 OFF-CANVAS
@@ -175,7 +178,8 @@ HERO
 }*/
 
 /* *************BLOG PAGE*****************************************/
-.column:first-child{
+
+.hero-blog .column:first-child{
   padding: 5em;
 }
 
@@ -304,11 +308,15 @@ p{
   display: none;
 }
 
-
 .film-image-wrap.film-show-image img,
 .film-image-wrap.film-show-image a{
   display: block;
 }
+
+.film-image-wrap p{
+  color: blue;
+}
+
 
 
 /* *************ABOUT PAGE*****************************************/
@@ -405,7 +413,7 @@ MEDIA QUERY
 /*This makes the navbar dissapear if the window is smaller the set above*/
 
 
-/***********BUTTONS WIDTHS MOBILE*******/
+/***********BUTTON WIDTHS MOBILE*******/
 @media (max-width: 400px){
   .hero-index .button{
     width:25%;
@@ -418,14 +426,20 @@ MEDIA QUERY
     left: 0%;
   }
 }
+@media (max-width: 400px){
+  .hero-about .button{
+    width: initial;
+  }
+}
+
 /***********BLOG HERO *******/
-@media (max-width: 500px){
-  .column:first-child{
-    background-color: yellow;
+@media (max-width: 640px){
+  .hero-blog .column:first-child{
+  padding: 0;
   }
 }
 /***********MOZART PIC*******/
-  @media (max-width: 450  px){
+  @media (max-width: 450px){
     #mozart-box{
       width: 50%;
       margin: 0 auto;
@@ -466,8 +480,3 @@ MEDIA QUERY
     }
   }*/
 /*makes these sections have a max width, at which they stop*/
-
-/*
- *************************************************************
-MEDIA QUERY
-************************************************************* */
