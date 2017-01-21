@@ -175,9 +175,11 @@ HERO
 }*/
 
 /* *************BLOG PAGE*****************************************/
-.hero-blog-row{
-  height: 100px;
+.column:first-child{
+  padding: 5em;
 }
+
+
 
 #mozart-box{
   padding:0.1em;
@@ -188,6 +190,7 @@ HERO
   border-color:#438d8d;
   /*rgba(180, 180, 180, 0.6);*/
 }
+
 
 #mozart-box img{
   border: solid;
@@ -415,8 +418,14 @@ MEDIA QUERY
     left: 0%;
   }
 }
+/***********BLOG HERO *******/
+@media (max-width: 500px){
+  .column:first-child{
+    background-color: yellow;
+  }
+}
 /***********MOZART PIC*******/
-  @media (max-width: 400px){
+  @media (max-width: 450  px){
     #mozart-box{
       width: 50%;
       margin: 0 auto;
