@@ -22,7 +22,7 @@ h3{
   font-family: 'Ubuntu'
 }
 dl{
-  padding:0.1em;
+  padding:0.3em;
 }
 
 /* *************************************************************
@@ -298,11 +298,22 @@ p{
 }*/
 
 /* *************BLOG 2 PAGE*****************************************/
-.nothing-blog-header, .film-blog-header{
+.nothing-blog-header{
+  color: #CC6626;
+  font-family: Helvetica;
+}
+#film-blog-header{
   color: #CC6626;
   font-family: Helvetica;
 }
 
+
+/*separator textarea*/
+#film-blog-header h2{
+  font-family: "Henny Penny";
+  color: #438d8d;
+  /*text-align: center;*/
+}
 .film-image-wrap img,
 .film-image-wrap a{
   display: none;
@@ -313,10 +324,10 @@ p{
   display: block;
 }
 
+/*link text color*/
 .film-image-wrap p{
   color: blue;
 }
-
 
 
 /* *************ABOUT PAGE*****************************************/

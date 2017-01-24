@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 
       $('.film-image-wrap').on('click',function(event){
-      event.preventDefault();
+      // event.preventDefault();
 
       $('.film-show-image').removeClass('film-show-image')
 

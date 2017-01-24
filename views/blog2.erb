@@ -33,14 +33,19 @@
 
 
         <div class="column" id="film-blog-details">
-            <script id="film-blog-template" type="text/x-handlebars-template">
-              <div class="film-blog-header">
-          <h3 style="font-family:normal;">The Separator</h3>
-          <h5>A Blog About Film - By MoteZart</h5>
-          <p>
-            A few pics from my writings about film.
-          </p>
-        </div>
+          <script id="film-blog-template" type="text/x-handlebars-template">
+            <div id="film-blog-header">
+
+              <h2>The Separator</h2>
+              <div id="film-header-image">
+                <img src="/img/blog2_pics/films/amadeus2_pic.jpg" />
+              </div>
+              <h5>A Blog About Film</h5>
+              <p>
+                Perhaps MoteZart's greatest works.
+              </p>
+            </div> <!--film-blog-header -->
+
             {{#each film_posts}}
               <dl>
 
@@ -59,7 +64,7 @@
                     <p>
                       {{this}}
                     </p>
-                    <img src= "img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
+                    <img src="img/blog2_pics/films/{{lookup ../image @index}}.jpg"/>
                     <a href="{{lookup ../url @index}}">Check out the Review!</a>
 
                   </div>
@@ -91,19 +96,22 @@
 
               </dl>
               {{/each}}
-            </script>
-        </div>
+          </script> <!--film-blog-template-->
+        </div> <!--film-blog-detials -->
 
         <div class="column" id="nothing-blog-details">
             <script id="nothing-blog-template" type="text/x-handlebars-template">
               <div class="nothing-blog-header">
 
-          <h4>Hi, I'm supposedly a writer</h4>
-          <h5>Stories, Reviews and Rants </h5>
-          <p>
-            I lived in New York and wrote about whatever I felt like.
-          </p>
-        </div>
+                <h4>Hi, I'm supposedly a writer</h4>
+                <div id="nothing-header-image">
+                <img src="img/nothing_pics/new-york-city.jpg" />
+                </div>
+                <h5>Stories, Reviews and Rants </h5>
+                <p>
+                  I lived in New York and wrote about whatever I felt like.
+                </p>
+              </div>
           {{#each nothing_posts}}
               <dl>
                 <dt>Title</dt>
@@ -112,13 +120,13 @@
                 <dt>Description</dt>
                 <dd>{{description}}</dd>
 
-                <dt>Url</dt>
-                <dd>{{url}}</dd>
+                <a href={{url}}><dd>Url</dd></a>
+
               </dl>
               {{/each}}
             </script>
-        </div>
-      </div>
-</section>
-</chunk>
+        </div> <!--nothing column -->
+      </div> <!-- row -->
+    </section>
+  </chunk>
 <% end %>
