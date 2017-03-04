@@ -33,6 +33,8 @@ $(document).ready(function(){
     // console.log(filmResponse.film_posts)
 
 
+      // $('.film-image-wrap').on('mouseover',function(event){
+
       $('.film-image-wrap').on('click',function(event){
       // event.preventDefault();
 

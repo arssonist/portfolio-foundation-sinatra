@@ -16,64 +16,99 @@
 
 <% content_for :main_key do %>
   <chunk of="html">
-    <section class="main-work ">
+    <section class="main-work">
 
-      <div class="wrap row small-up-1 medium-up-2">
+       <!-- <div class="wrap row small-up-1 medium-up-2">
 
         <div class="column" id="work-details">
           <script id="work-template" type="text/x-handlebars-template">
             {{#each works}}
-                <dl>
-                  <dd>
-                  <a href="{{url}}"><img src="img/projects/{{image}}.png" alt={{name}} />
-                </a>
-                  </dd>
+                  <div class=project-image-container>
 
-                  <dt>Name:</dt>
-                  <dd>{{name}}</dd>
 
-                  <dt>Type:</dt>
-                  <dd>{{type}}</dd>
 
-                  <dt>Description:</dt>
-                  <dd>{{description}}</dd>
+                      <a href="{{url}}"><img src="img/projects/{{image}}.png" alt={{name}} />
+                    </a>
 
-                  <dt>Features:</dt>
-                  <dd>{{features}}</dd>
+                  </div>
 
-                  <a href="{{github}}">
-                    <dt>GitHub</dt>
-                  </a>
+                  <div class=project-info-container>
 
-                  <a href="{{url}}">
-                    <dt>Url</dt>
-                  </a>
-                  </dl>
+
+                    <dd class="project-title">{{name}}</dd>
+
+
+                    <dd class="project-type">{{type}}</dd>
+
+
+                    <dd class="project-description">{{description}}</dd>
+
+
+                    <dd class="project-features">{{features}}</dd>
+
+                    <a href="{{github}}">
+                      <dt class="button project-github-button">GitHub</dt>
+                    </a>
+
+                    <a href="{{url}}">
+                      <dt class="button project-url-button">Url</dt>
+                    </a>
+                  </div>
                 {{/each}}
 
             </script>
           </div>
 
-            <div class="column">
-              <h2>Check Me Out</h2>
-              <!-- funny font -->
-              <hr>
-              <p>
-                Scroll up. Scroll down.
-              </p>
-              <p>
+      </div> <!-wrap -->
 
-                If there's an image, click it.
-              </p>
-              <p>
+    <div class="wrap">
 
-                Want to see the code? Click on the Github link.</br>
-              </p>
 
-            </div>
+        <div id="work-details">
+        <script id="work-template" type="text/x-handlebars-template">
+          <div class="row small-up-1 medium-up-3">
+          {{#each works}}
+          <div class="column work-card">
 
-      </div> <!-- wrap -->
+            <div class=project-image-container>
 
+              <a href="{{url}}"><img src="img/projects/{{image}}.png" alt={{name}} />
+              </a>
+
+            </div> <!-- image-container -->
+
+                <div class=project-info-container>
+
+
+                  <dd class="project-title">{{name}}</dd>
+
+
+                  <dd class="project-type">{{type}}</dd>
+
+
+                  <dd class="project-description">{{description}}</dd>
+
+
+                  <dd class="project-features">{{features}}</dd>
+
+                  <a href="{{github}}">
+                    <dt class="button project-github-button">GitHub</dt>
+                  </a>
+
+                  <a href="{{url}}">
+                    <dt class="button project-url-button">Url</dt>
+                  </a>
+                </div> <!-- wrap-->
+
+
+              </div> <!--column-->
+                {{/each}}
+              </div> <!--row + grid -->
+                </script>
+            </div>  <!--work-details-->
+
+
+  </div> <!--wrap-->
     </section>
   </chunk>
 <% end %>
