@@ -17,7 +17,7 @@ get '/' do
 end
 
 get '/index' do
-  'hello world'
+  erb :index
 end
 
 get '/contact' do
