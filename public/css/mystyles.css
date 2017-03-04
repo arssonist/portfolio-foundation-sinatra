@@ -167,9 +167,11 @@ HERO
 }
 .hero-index h1{
   font-family: 'Orbitron', sans-serif;
+  color:white;
 }
 .hero-index h3{
   font-family: 'Open Sans', sans-serif;
+  color:white;
 }
 
 .hero-index .button{
@@ -189,7 +191,11 @@ HERO
 .hero-blog .column:first-child{
   padding: 5em;
 }
-
+#blog-hero-title{
+  color: #438d8d;
+  font-family: "Libre Baskerville";
+}
+}
 
 
 #mozart-box{
@@ -203,7 +209,7 @@ HERO
 }
 
 
-#mozart-box img{
+/*#mozart-box img{
   border: solid;
   border-width: thin;
   margin:0 25%;
@@ -221,7 +227,7 @@ HERO
   margin-right: 30%;
   margin-left: 30%;
 
-}
+}*/
 /* *************RESUME PAGE*****************************************/
 #mobile-resume-hero{
   border:solid;
@@ -281,11 +287,7 @@ MAIN SECTION
 .main-blog h2,
 h3,
 h4,
-p{
-  color: #438d8d;
-  font-family: "Libre Baskerville";
-}
-.main-blog h4{
+p {
   font-family: "Libre Baskerville";
 }
 

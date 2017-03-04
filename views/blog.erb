@@ -2,28 +2,20 @@
   <chunk of="html">
 
     <section class="hero-blog">
-      <div class="wrap row small-up-1 medium-up-2">
+      <div class="wrap row">
         <div class="column">
 
-          <h1>BLOGS</h1>
-          <h4>I went to a coding bootcamp and wrote about it. </br>
-              Read it all below.
-            </h4>
+          <a href="<%= $my_blog %>"><h2 id="blog-hero-title">Should I go to Code School</h2>
+          </a>
+          <h4>
+          The coding bootcamp experience at Bitmaker.
+          </h4>
+          <p>
+            Thinking of going to a coding bootcamp? I went, and wrote about it. It's not all it claims to be...
+          </p>
               <hr/>
         </div>
 
-        <div class="column other-blog-text">
-          <div id="mozart-box">
-            <h3>Who Am I?</h3>
-            <h6>They made a movie about me and my pal Salieri.</br>
-              I wrote <i>The Magic Flute</i>,<i> Cosi Fan Tutte</i> and a some other music I forget the name of.</h6>
-
-            <img src="img/me/Wolfgang_Amadeus_Mozart_Wallpaper_JxHy.jpg" />
-              <h6>I also wrote this SUPER obsure film blog. Check out my totally unknown, and greatest, work.  </h6>
-              <a href="/blog2" class="button">Other Blogs</a>
-          </div>
-
-        </div> <!-- other-blog-text -->
       </div> <!-- wrap -->
     </section>
 
@@ -42,26 +34,17 @@
 
           <script id="code-blog-template" type="text/x-handlebars-template">
 
-
-
-            <a href="<%= $my_blog %>"><h2>Should I go to Code School</h2>
-            <h4>
-            The coding bootcamp experience at Bitmaker.
-          </h4>
-            <p>
-              Thinking of going to a coding bootcamp? I went, and wrote about it. It's not all it claims to be...
-            </p>
-            </a>
             {{#each code_posts}}
                 <div class="code-blog-posts">
+
+                  <h3 class="blog-post-title">{{title}}
+                  </h3>
 
                   <div class="blog-pic">
                   <a href="{{url}}"><img src="img/blog_pics/{{image}}.jpg" alt={{title}} />
                   </div>
 
 
-                  <div class="blog-post-title">{{title}}
-                  </div>
 
 
                   <div class="blog-post-description">{{description}}</div>
