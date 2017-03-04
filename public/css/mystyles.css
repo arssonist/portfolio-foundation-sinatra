@@ -21,9 +21,9 @@ h3{
 .button{
   font-family: 'Ubuntu'
 }
-dl{
+/*dl{
   padding:0.3em;
-}
+}*/
 
 .main{
   padding: 80px 0px;
@@ -244,9 +244,6 @@ MAIN SECTION
 
 
 /* *************WORK TEMPLATE*****************************************/
-.main-work p{
-
-}
 /*propety transitioning/time*/
 #work-details  img{
   transition: opacity 0.5s, transform 0.3s
@@ -296,25 +293,19 @@ p{
   width: 100%;
   max-height: 400px;
 }
-.main-blog dd{
-  color: black;
+.blog-pic{
+  transition: opacity 0.5s, transform 0.3s
 }
-.main-blog dt{
-  color: black;
+.blog-pic:hover{
+  opacity: 0.5;
+  transform: scale(1.3);
 }
-
-/*.main-blog .button{
-  background-color: black;
-  position: relative;
-  left: 40%;
-}*/
-/*.other-blog-text{
-  position: absolute;
-  /*display: inline-block;
-}*/
-/*.index-main{
-  font-family:
-}*/
+.blog-post-title{
+  color: #999
+}
+.blog-post-description{
+  color:black;
+}
 
 /* *************BLOG 2 PAGE*****************************************/
 .nothing-blog-header{

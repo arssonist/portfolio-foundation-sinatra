@@ -53,21 +53,21 @@
             </p>
             </a>
             {{#each code_posts}}
-                <dl>
-                  <dd>
+                <div class="code-blog-posts">
+
+                  <div class="blog-pic">
                   <a href="{{url}}"><img src="img/blog_pics/{{image}}.jpg" alt={{title}} />
-                  </dd>
+                  </div>
 
-                  <dt>Title</dt>
-                  <dd>{{title}}</dd>
 
-                  <dt>Description</dt>
-                  <dd>{{description}}</dd>
+                  <div class="blog-post-title">{{title}}
+                  </div>
 
-                  <!-- <dt>Url</dt>
-                  <dd>{{url}}</dd> -->
+
+                  <div class="blog-post-description">{{description}}</div>
+
                 </a>
-                </dl>
+              </div>
 
                   <!-- <div>
                     <h6>Title</h6>
