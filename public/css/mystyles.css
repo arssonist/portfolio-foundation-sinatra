@@ -276,6 +276,9 @@ MAIN SECTION
 .work-card:nth-child(odd){
   background-color: #efefef;
 }
+.work-button{
+  width: 6em;
+}
 
 /*dl {
   background-color: #FFF;
