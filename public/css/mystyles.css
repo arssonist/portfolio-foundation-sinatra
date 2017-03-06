@@ -179,10 +179,6 @@ HERO
   display:block;
   width:17%;
 }
-/*Test only
-.hero-index{
-  background-color: yellow;
-}*/
 
 /* *************BLOG PAGE*****************************************/
 
@@ -193,8 +189,6 @@ HERO
   color: #438d8d;
   font-family: "Libre Baskerville";
 }
-}
-
 
 #mozart-box{
   padding:0.1em;
@@ -275,10 +269,20 @@ MAIN SECTION
   margin-bottom:10px;
 }
 .work-card{
-  border-style: double;
-  border-color: black;
   height: 39.5em;
+  border-radius: 5px;
+  padding: 10px 15px;
 }
+.work-card:nth-child(odd){
+  background-color: #efefef;
+}
+
+/*dl {
+  background-color: #FFF;
+}
+dl:nth-child(odd){
+  background-color: #B3BAC7;
+}*/
 
 /* *************BLOG PAGE*****************************************/
 
@@ -365,10 +369,10 @@ p {
 .inpage-resume h3, h2, p{
   color:black;
 }
-/*#skills{
-  width: 400px;
-  height: auto;
-}*/
+#skills{
+  margin-left: 10px;
+}
+
 
 /* *************************************************************
 FOOTER

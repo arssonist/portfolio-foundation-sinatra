@@ -25,7 +25,7 @@
     },
     { "image":"bulletin_board",
       "name":"Bulletin Board",
-      "type":"Static React App",
+      "type":"React App",
       "description":"Clone of application 'Stickies'. This is the project I built as I began to learn React.",
       "features":"Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
       "github":"https://goo.gl/dCvsw4",
