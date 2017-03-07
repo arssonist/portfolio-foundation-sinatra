@@ -190,14 +190,14 @@ HERO
   font-family: "Libre Baskerville";
 }
 
-#mozart-box{
+/*#mozart-box{
   padding:0.1em;
   width: 20em;
   margin:0 2.5em;
-  border-style: dotted;
+    border-style: dotted;
   border: solid;
   border-color:#438d8d;
-  /*rgba(180, 180, 180, 0.6);*/
+  /*rgba(180, 180, 180, 0.6);*/*/
 }
 
 
@@ -345,11 +345,19 @@ p {
 .film-image-wrap p{
   color: blue;
 }
+#mozart-box{
+  width:100%
+}
+#mozart-photo {
+  width:25%;
+}
+
 
 
 /* *************ABOUT PAGE*****************************************/
 #about-photo img{
   width: 100%;
+  border-radius: 10px;
 }
 
 
@@ -467,12 +475,12 @@ MEDIA QUERY
   }
 }
 /***********MOZART PIC*******/
-  @media (max-width: 450px){
+  /*@media (max-width: 450px){
     #mozart-box{
       width: 50%;
       margin: 0 auto;
     }
-  }
+  }*/
 /**************MAP PIC**********/
 @media (max-width: 870px) and (min-width:551px){
   .main-contact img{
