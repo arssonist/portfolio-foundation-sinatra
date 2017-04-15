@@ -1,4 +1,12 @@
 { "works":[
+   {"image":"quote_generator",
+     "name":"Random Quote Generator",
+     "type":"JSON API",
+     "description":"A simple JavaScript page connected to a json api. The app delivers two types of quotes, and allows the user to tweet the quote.",
+     "features":"JSON API, Twitter functionality, Front-End, Ajax, Jquery",
+     "github":"https://github.com/arssonist/random_quote_generator",
+     "url":"https://arssonist.github.io/random_quote_generator/"
+   },
    {  "image":"gilligan",
       "name":"Gilligan",
  			 "type":"Ruby on Rails App",
