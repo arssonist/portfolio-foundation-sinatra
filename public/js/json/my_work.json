@@ -4,7 +4,7 @@
     "name":"WORK IN PROGRESS- React Photo Uploader 1.0",
     "type":"React application",
     "description":"This app allows the user to upload a photo, alter the photo using the editor, revert to previous alertations, and reset the photo",
-    "functionality":"react, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
+    "features":"react, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
     "github":"https://github.com/arssonist/react-photo-uploader",
     "url":"https://arssonist.github.io/react-photo-uploader/"
     },
