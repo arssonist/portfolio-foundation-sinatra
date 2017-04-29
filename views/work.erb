@@ -18,51 +18,7 @@
   <chunk of="html">
     <section class="main-work">
 
-       <!-- <div class="wrap row small-up-1 medium-up-2">
-
-        <div class="column" id="work-details">
-          <script id="work-template" type="text/x-handlebars-template">
-            {{#each works}}
-                  <div class=project-image-container>
-
-
-
-                      <a href="{{url}}"><img src="img/projects/{{image}}.png" alt={{name}} />
-                    </a>
-
-                  </div>
-
-                  <div class=project-info-container>
-
-
-                    <dd class="project-title">{{name}}</dd>
-
-
-                    <dd class="project-type">{{type}}</dd>
-
-
-                    <dd class="project-description">{{description}}</dd>
-
-
-                    <dd class="project-features">{{features}}</dd>
-
-                    <a href="{{github}}">
-                      <dt class="button project-github-button">GitHub</dt>
-                    </a>
-
-                    <a href="{{url}}">
-                      <dt class="button project-url-button">Url</dt>
-                    </a>
-                  </div>
-                {{/each}}
-
-            </script>
-          </div>
-
-      </div> <!-wrap -->
-
     <div class="wrap">
-
 
         <div id="work-details">
         <script id="work-template" type="text/x-handlebars-template">
@@ -77,20 +33,20 @@
 
             </div> <!-- image-container -->
 
-                <div class=project-info-container>
+                <div class="project-info-container">
+
+                    <div class="project-info">
+                      <dd class="project-title">{{name}}</dd>
 
 
-                  <dd class="project-title">{{name}}</dd>
+                      <dd class="project-type">{{type}}</dd>
 
 
-                  <dd class="project-type">{{type}}</dd>
+                      <dd class="project-description">{{description}}</dd>
 
 
-                  <dd class="project-description">{{description}}</dd>
-
-
-                  <dd class="project-features">{{features}}</dd>
-
+                      <dd class="project-features">{{features}}</dd>
+                    </div> <!-- project info -->
                   <a href="{{github}}">
                     <dt class="button work-button">GitHub</dt>
                   </a>

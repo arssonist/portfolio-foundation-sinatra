@@ -19,7 +19,7 @@ h3{
   font-family: 'Open Sans', sans-serif;
 }
 .button{
-  font-family: 'Ubuntu'
+  font-family: 'Ubuntu';
 }
 /*dl{
   padding:0.3em;
@@ -180,6 +180,11 @@ HERO
   width:17%;
 }
 
+/* *************WORK PAGE*****************************************/
+.hero-work{
+    text-align: center;
+}
+
 /* *************BLOG PAGE*****************************************/
 
 .hero-blog .column:first-child{
@@ -190,6 +195,7 @@ HERO
   font-family: "Libre Baskerville";
 }
 
+/*}
 /*#mozart-box{
   padding:0.1em;
   width: 20em;
@@ -197,8 +203,8 @@ HERO
     border-style: dotted;
   border: solid;
   border-color:#438d8d;
-  /*rgba(180, 180, 180, 0.6);*/*/
-}
+  /*rgba(180, 180, 180, 0.6);*/
+/*}*/
 
 
 /*#mozart-box img{
@@ -221,11 +227,11 @@ HERO
 
 }*/
 /* *************RESUME PAGE*****************************************/
-#mobile-resume-hero{
-  border:solid;
-  border-color: rgba(255, 255, 255, 0.8);
 
-}
+.hero-resume{
+  text-align: center;
+ }
+
 /* *************ABOUT PAGE*****************************************/
 .hero-about .button{
   margin-top: 5%;
@@ -234,8 +240,12 @@ HERO
   width: 17%;
 }
 #are-you-hiring{
-  text-align: center
+  text-align: center;
 }
+/*.hero-resume{
+    background-color: yellow;
+}*/
+
 /* *************************************************************
 MAIN SECTION
 ************************************************************* */
@@ -243,6 +253,10 @@ MAIN SECTION
 
 /* *************WORK TEMPLATE*****************************************/
 /*propety transitioning/time*/
+.project-image-container img{
+    /*makes all images align*/
+    min-height: 240px;
+}
 #work-details  img{
   transition: opacity 0.5s, transform 0.3s
 }
@@ -253,6 +267,9 @@ MAIN SECTION
 .project-title{
   font-size: 28px;
   font-weight: 700;
+  height: 100px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .project-type{
@@ -269,7 +286,7 @@ MAIN SECTION
   margin-bottom:10px;
 }
 .work-card{
-  height: 39.5em;
+  /*height: 39.5em;*/
   border-radius: 5px;
   padding: 10px 15px;
 }
@@ -279,14 +296,9 @@ MAIN SECTION
 .work-button{
   width: 6em;
 }
-
-/*dl {
-  background-color: #FFF;
+.project-info{
+    height: 20em;
 }
-dl:nth-child(odd){
-  background-color: #B3BAC7;
-}*/
-
 /* *************BLOG PAGE*****************************************/
 
 .main-blog h2,

@@ -480,3 +480,933 @@
 [2017-04-27 11:41:26 -0400 MacBook-Pro-10 (5020)] INFO : Installing Rack::Builder middleware instrumentation
 [2017-04-27 11:41:26 -0400 MacBook-Pro-10 (5020)] INFO : Finished instrumentation
 [2017-04-27 11:41:31 -0400 MacBook-Pro-10 (5020)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Environment: development
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : No known dispatcher detected.
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Application: My Application (Development)
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Installing Net instrumentation
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:36:13 -0400 MacBook-Pro-10 (1211)] INFO : Finished instrumentation
+[2017-04-29 15:36:16 -0400 MacBook-Pro-10 (1211)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:36:20 -0400 MacBook-Pro-10 (1211)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:36:20 -0400 MacBook-Pro-10 (1211)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:36:20 -0400 MacBook-Pro-10 (1211)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Environment: development
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : No known dispatcher detected.
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Application: My Application (Development)
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Installing Net instrumentation
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:42:37 -0400 MacBook-Pro-10 (2035)] INFO : Finished instrumentation
+[2017-04-29 15:42:39 -0400 MacBook-Pro-10 (2035)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:42:40 -0400 MacBook-Pro-10 (2035)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:42:40 -0400 MacBook-Pro-10 (2035)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:42:40 -0400 MacBook-Pro-10 (2035)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Environment: development
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : No known dispatcher detected.
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Application: My Application (Development)
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Installing Net instrumentation
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:43:29 -0400 MacBook-Pro-10 (2166)] INFO : Finished instrumentation
+[2017-04-29 15:43:32 -0400 MacBook-Pro-10 (2166)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:45:55 -0400 MacBook-Pro-10 (2166)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:45:55 -0400 MacBook-Pro-10 (2166)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:45:55 -0400 MacBook-Pro-10 (2166)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Environment: development
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : No known dispatcher detected.
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Application: My Application (Development)
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Installing Net instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Finished instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:46:29 -0400 MacBook-Pro-10 (2560)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:46:31 -0400 MacBook-Pro-10 (2560)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Environment: development
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : No known dispatcher detected.
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Application: My Application (Development)
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Installing Net instrumentation
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:48:44 -0400 MacBook-Pro-10 (2885)] INFO : Finished instrumentation
+[2017-04-29 15:48:45 -0400 MacBook-Pro-10 (2885)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:48:45 -0400 MacBook-Pro-10 (2885)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:48:45 -0400 MacBook-Pro-10 (2885)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:48:48 -0400 MacBook-Pro-10 (2885)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Environment: development
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : No known dispatcher detected.
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Application: My Application (Development)
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Installing Net instrumentation
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:49:05 -0400 MacBook-Pro-10 (2950)] INFO : Finished instrumentation
+[2017-04-29 15:49:08 -0400 MacBook-Pro-10 (2950)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Environment: development
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : No known dispatcher detected.
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Application: My Application (Development)
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Installing Net instrumentation
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:49:45 -0400 MacBook-Pro-10 (3066)] INFO : Finished instrumentation
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Environment: development
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : No known dispatcher detected.
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Application: My Application (Development)
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Installing Net instrumentation
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:49:46 -0400 MacBook-Pro-10 (3095)] INFO : Finished instrumentation
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Environment: development
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : No known dispatcher detected.
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Application: My Application (Development)
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Installing Net instrumentation
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:49:49 -0400 MacBook-Pro-10 (3126)] INFO : Finished instrumentation
+[2017-04-29 15:49:50 -0400 MacBook-Pro-10 (3126)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Environment: development
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : No known dispatcher detected.
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Application: My Application (Development)
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Installing Net instrumentation
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:49:51 -0400 MacBook-Pro-10 (3152)] INFO : Finished instrumentation
+[2017-04-29 15:49:52 -0400 MacBook-Pro-10 (3152)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:49:52 -0400 MacBook-Pro-10 (3152)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:49:52 -0400 MacBook-Pro-10 (3152)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:49:54 -0400 MacBook-Pro-10 (3152)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Environment: development
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : No known dispatcher detected.
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Application: My Application (Development)
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Installing Net instrumentation
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:51:01 -0400 MacBook-Pro-10 (3314)] INFO : Finished instrumentation
+[2017-04-29 15:51:03 -0400 MacBook-Pro-10 (3314)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:51:03 -0400 MacBook-Pro-10 (3314)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:51:03 -0400 MacBook-Pro-10 (3314)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:51:03 -0400 MacBook-Pro-10 (3314)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Environment: development
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : No known dispatcher detected.
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Application: My Application (Development)
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Installing Net instrumentation
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:51:16 -0400 MacBook-Pro-10 (3370)] INFO : Finished instrumentation
+[2017-04-29 15:51:17 -0400 MacBook-Pro-10 (3370)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:51:17 -0400 MacBook-Pro-10 (3370)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:51:17 -0400 MacBook-Pro-10 (3370)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:51:20 -0400 MacBook-Pro-10 (3370)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Environment: development
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : No known dispatcher detected.
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Application: My Application (Development)
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Installing Net instrumentation
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:53:57 -0400 MacBook-Pro-10 (3715)] INFO : Finished instrumentation
+[2017-04-29 15:53:58 -0400 MacBook-Pro-10 (3715)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:54:32 -0400 MacBook-Pro-10 (3715)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:54:32 -0400 MacBook-Pro-10 (3715)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:54:32 -0400 MacBook-Pro-10 (3715)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:54:33 -0400 MacBook-Pro-10 (3809)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:54:33 -0400 MacBook-Pro-10 (3809)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:54:33 -0400 MacBook-Pro-10 (3809)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:54:33 -0400 MacBook-Pro-10 (3809)] INFO : Environment: development
+[2017-04-29 15:54:33 -0400 MacBook-Pro-10 (3809)] INFO : No known dispatcher detected.
+[2017-04-29 15:54:33 -0400 MacBook-Pro-10 (3809)] INFO : Application: My Application (Development)
+[2017-04-29 15:54:34 -0400 MacBook-Pro-10 (3809)] INFO : Installing Net instrumentation
+[2017-04-29 15:54:34 -0400 MacBook-Pro-10 (3809)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:54:34 -0400 MacBook-Pro-10 (3809)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:54:34 -0400 MacBook-Pro-10 (3809)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:54:34 -0400 MacBook-Pro-10 (3809)] INFO : Finished instrumentation
+[2017-04-29 15:54:35 -0400 MacBook-Pro-10 (3809)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:54:35 -0400 MacBook-Pro-10 (3809)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:54:35 -0400 MacBook-Pro-10 (3809)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:54:36 -0400 MacBook-Pro-10 (3809)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Environment: development
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : No known dispatcher detected.
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Application: My Application (Development)
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Installing Net instrumentation
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:58:41 -0400 MacBook-Pro-10 (4372)] INFO : Finished instrumentation
+[2017-04-29 15:58:45 -0400 MacBook-Pro-10 (4372)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:58:46 -0400 MacBook-Pro-10 (4372)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:58:46 -0400 MacBook-Pro-10 (4372)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:58:46 -0400 MacBook-Pro-10 (4372)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Environment: development
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : No known dispatcher detected.
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Application: My Application (Development)
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Installing Net instrumentation
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:59:02 -0400 MacBook-Pro-10 (4439)] INFO : Finished instrumentation
+[2017-04-29 15:59:04 -0400 MacBook-Pro-10 (4439)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Environment: development
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : No known dispatcher detected.
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Application: My Application (Development)
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Installing Net instrumentation
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Installing Sinatra instrumentation
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 15:59:06 -0400 MacBook-Pro-10 (4469)] INFO : Finished instrumentation
+[2017-04-29 15:59:08 -0400 MacBook-Pro-10 (4469)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 15:59:11 -0400 MacBook-Pro-10 (4469)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 15:59:11 -0400 MacBook-Pro-10 (4469)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 15:59:11 -0400 MacBook-Pro-10 (4469)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Environment: development
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : No known dispatcher detected.
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Application: My Application (Development)
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Installing Net instrumentation
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:03:36 -0400 MacBook-Pro-10 (5063)] INFO : Finished instrumentation
+[2017-04-29 16:03:38 -0400 MacBook-Pro-10 (5063)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:03:38 -0400 MacBook-Pro-10 (5063)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:03:38 -0400 MacBook-Pro-10 (5063)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:03:38 -0400 MacBook-Pro-10 (5063)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Environment: development
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : No known dispatcher detected.
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Application: My Application (Development)
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Installing Net instrumentation
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:04:05 -0400 MacBook-Pro-10 (5144)] INFO : Finished instrumentation
+[2017-04-29 16:04:07 -0400 MacBook-Pro-10 (5144)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:04:07 -0400 MacBook-Pro-10 (5144)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:04:07 -0400 MacBook-Pro-10 (5144)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:04:09 -0400 MacBook-Pro-10 (5144)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Environment: development
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : No known dispatcher detected.
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Application: My Application (Development)
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Installing Net instrumentation
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:06:05 -0400 MacBook-Pro-10 (5426)] INFO : Finished instrumentation
+[2017-04-29 16:06:10 -0400 MacBook-Pro-10 (5426)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:08:34 -0400 MacBook-Pro-10 (5426)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:08:34 -0400 MacBook-Pro-10 (5426)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:08:34 -0400 MacBook-Pro-10 (5426)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:08:35 -0400 MacBook-Pro-10 (5755)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:08:35 -0400 MacBook-Pro-10 (5755)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:08:35 -0400 MacBook-Pro-10 (5755)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:08:35 -0400 MacBook-Pro-10 (5755)] INFO : Environment: development
+[2017-04-29 16:08:35 -0400 MacBook-Pro-10 (5755)] INFO : No known dispatcher detected.
+[2017-04-29 16:08:35 -0400 MacBook-Pro-10 (5755)] INFO : Application: My Application (Development)
+[2017-04-29 16:08:36 -0400 MacBook-Pro-10 (5755)] INFO : Installing Net instrumentation
+[2017-04-29 16:08:36 -0400 MacBook-Pro-10 (5755)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:08:36 -0400 MacBook-Pro-10 (5755)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:08:36 -0400 MacBook-Pro-10 (5755)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:08:36 -0400 MacBook-Pro-10 (5755)] INFO : Finished instrumentation
+[2017-04-29 16:08:37 -0400 MacBook-Pro-10 (5755)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:08:38 -0400 MacBook-Pro-10 (5755)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:08:38 -0400 MacBook-Pro-10 (5755)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:08:38 -0400 MacBook-Pro-10 (5755)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Environment: development
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : No known dispatcher detected.
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Application: My Application (Development)
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Installing Net instrumentation
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:11:17 -0400 MacBook-Pro-10 (6125)] INFO : Finished instrumentation
+[2017-04-29 16:11:18 -0400 MacBook-Pro-10 (6125)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:11:18 -0400 MacBook-Pro-10 (6125)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:11:18 -0400 MacBook-Pro-10 (6125)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:11:21 -0400 MacBook-Pro-10 (6125)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Environment: development
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : No known dispatcher detected.
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Application: My Application (Development)
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Installing Net instrumentation
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:14:35 -0400 MacBook-Pro-10 (6558)] INFO : Finished instrumentation
+[2017-04-29 16:14:38 -0400 MacBook-Pro-10 (6558)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:14:40 -0400 MacBook-Pro-10 (6558)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:14:40 -0400 MacBook-Pro-10 (6558)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:14:40 -0400 MacBook-Pro-10 (6558)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:14:41 -0400 MacBook-Pro-10 (6595)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:14:41 -0400 MacBook-Pro-10 (6595)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:14:41 -0400 MacBook-Pro-10 (6595)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:14:41 -0400 MacBook-Pro-10 (6595)] INFO : Environment: development
+[2017-04-29 16:14:41 -0400 MacBook-Pro-10 (6595)] INFO : No known dispatcher detected.
+[2017-04-29 16:14:41 -0400 MacBook-Pro-10 (6595)] INFO : Application: My Application (Development)
+[2017-04-29 16:14:42 -0400 MacBook-Pro-10 (6595)] INFO : Installing Net instrumentation
+[2017-04-29 16:14:42 -0400 MacBook-Pro-10 (6595)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:14:42 -0400 MacBook-Pro-10 (6595)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:14:42 -0400 MacBook-Pro-10 (6595)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:14:42 -0400 MacBook-Pro-10 (6595)] INFO : Finished instrumentation
+[2017-04-29 16:14:43 -0400 MacBook-Pro-10 (6595)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:14:58 -0400 MacBook-Pro-10 (6595)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:14:58 -0400 MacBook-Pro-10 (6595)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:14:58 -0400 MacBook-Pro-10 (6595)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Environment: development
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : No known dispatcher detected.
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Application: My Application (Development)
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Installing Net instrumentation
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:14:59 -0400 MacBook-Pro-10 (6656)] INFO : Finished instrumentation
+[2017-04-29 16:15:01 -0400 MacBook-Pro-10 (6656)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:15:26 -0400 MacBook-Pro-10 (6656)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:15:26 -0400 MacBook-Pro-10 (6656)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:15:26 -0400 MacBook-Pro-10 (6656)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Environment: development
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : No known dispatcher detected.
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Application: My Application (Development)
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Installing Net instrumentation
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:15:27 -0400 MacBook-Pro-10 (6752)] INFO : Finished instrumentation
+[2017-04-29 16:15:28 -0400 MacBook-Pro-10 (6752)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:15:28 -0400 MacBook-Pro-10 (6752)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:15:28 -0400 MacBook-Pro-10 (6752)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:15:30 -0400 MacBook-Pro-10 (6752)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Environment: development
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : No known dispatcher detected.
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Application: My Application (Development)
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Installing Net instrumentation
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:15:38 -0400 MacBook-Pro-10 (6795)] INFO : Finished instrumentation
+[2017-04-29 16:15:42 -0400 MacBook-Pro-10 (6795)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:15:43 -0400 MacBook-Pro-10 (6795)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:15:43 -0400 MacBook-Pro-10 (6795)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:15:43 -0400 MacBook-Pro-10 (6795)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Environment: development
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : No known dispatcher detected.
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Application: My Application (Development)
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Installing Net instrumentation
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:18:12 -0400 MacBook-Pro-10 (7134)] INFO : Finished instrumentation
+[2017-04-29 16:18:14 -0400 MacBook-Pro-10 (7134)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:18:16 -0400 MacBook-Pro-10 (7134)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:18:16 -0400 MacBook-Pro-10 (7134)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:18:16 -0400 MacBook-Pro-10 (7134)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Environment: development
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : No known dispatcher detected.
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Application: My Application (Development)
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Installing Net instrumentation
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:18:40 -0400 MacBook-Pro-10 (7215)] INFO : Finished instrumentation
+[2017-04-29 16:18:42 -0400 MacBook-Pro-10 (7215)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:18:52 -0400 MacBook-Pro-10 (7215)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:18:52 -0400 MacBook-Pro-10 (7215)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:18:52 -0400 MacBook-Pro-10 (7215)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Environment: development
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : No known dispatcher detected.
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Application: My Application (Development)
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Installing Net instrumentation
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:18:53 -0400 MacBook-Pro-10 (7262)] INFO : Finished instrumentation
+[2017-04-29 16:18:54 -0400 MacBook-Pro-10 (7262)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:18:54 -0400 MacBook-Pro-10 (7262)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:18:54 -0400 MacBook-Pro-10 (7262)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:19:03 -0400 MacBook-Pro-10 (7262)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Environment: development
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : No known dispatcher detected.
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Application: My Application (Development)
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Installing Net instrumentation
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:20:19 -0400 MacBook-Pro-10 (7465)] INFO : Finished instrumentation
+[2017-04-29 16:20:20 -0400 MacBook-Pro-10 (7465)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:20:23 -0400 MacBook-Pro-10 (7465)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:20:23 -0400 MacBook-Pro-10 (7465)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:20:23 -0400 MacBook-Pro-10 (7465)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Environment: development
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : No known dispatcher detected.
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Application: My Application (Development)
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Installing Net instrumentation
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:20:32 -0400 MacBook-Pro-10 (7518)] INFO : Finished instrumentation
+[2017-04-29 16:20:35 -0400 MacBook-Pro-10 (7518)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:20:58 -0400 MacBook-Pro-10 (7518)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:20:58 -0400 MacBook-Pro-10 (7518)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:20:58 -0400 MacBook-Pro-10 (7518)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Environment: development
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : No known dispatcher detected.
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Application: My Application (Development)
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Installing Net instrumentation
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:20:59 -0400 MacBook-Pro-10 (7592)] INFO : Finished instrumentation
+[2017-04-29 16:21:03 -0400 MacBook-Pro-10 (7592)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:21:29 -0400 MacBook-Pro-10 (7592)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:21:29 -0400 MacBook-Pro-10 (7592)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:21:29 -0400 MacBook-Pro-10 (7592)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Environment: development
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : No known dispatcher detected.
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Application: My Application (Development)
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Installing Net instrumentation
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:21:31 -0400 MacBook-Pro-10 (7679)] INFO : Finished instrumentation
+[2017-04-29 16:21:32 -0400 MacBook-Pro-10 (7679)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:24:21 -0400 MacBook-Pro-10 (8054)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:24:21 -0400 MacBook-Pro-10 (8054)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:24:21 -0400 MacBook-Pro-10 (8054)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:24:21 -0400 MacBook-Pro-10 (8054)] INFO : Environment: development
+[2017-04-29 16:24:21 -0400 MacBook-Pro-10 (8054)] INFO : No known dispatcher detected.
+[2017-04-29 16:24:21 -0400 MacBook-Pro-10 (8054)] INFO : Application: My Application (Development)
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Installing Net instrumentation
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Finished instrumentation
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:24:22 -0400 MacBook-Pro-10 (8054)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:24:24 -0400 MacBook-Pro-10 (8054)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Environment: development
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : No known dispatcher detected.
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Application: My Application (Development)
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Installing Net instrumentation
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:24:51 -0400 MacBook-Pro-10 (8137)] INFO : Finished instrumentation
+[2017-04-29 16:24:54 -0400 MacBook-Pro-10 (8137)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:25:24 -0400 MacBook-Pro-10 (8137)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:25:24 -0400 MacBook-Pro-10 (8137)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:25:24 -0400 MacBook-Pro-10 (8137)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:25:25 -0400 MacBook-Pro-10 (8240)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:25:25 -0400 MacBook-Pro-10 (8240)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:25:25 -0400 MacBook-Pro-10 (8240)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:25:25 -0400 MacBook-Pro-10 (8240)] INFO : Environment: development
+[2017-04-29 16:25:25 -0400 MacBook-Pro-10 (8240)] INFO : No known dispatcher detected.
+[2017-04-29 16:25:25 -0400 MacBook-Pro-10 (8240)] INFO : Application: My Application (Development)
+[2017-04-29 16:25:26 -0400 MacBook-Pro-10 (8240)] INFO : Installing Net instrumentation
+[2017-04-29 16:25:26 -0400 MacBook-Pro-10 (8240)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:25:26 -0400 MacBook-Pro-10 (8240)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:25:26 -0400 MacBook-Pro-10 (8240)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:25:26 -0400 MacBook-Pro-10 (8240)] INFO : Finished instrumentation
+[2017-04-29 16:25:27 -0400 MacBook-Pro-10 (8240)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:25:33 -0400 MacBook-Pro-10 (8240)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:25:33 -0400 MacBook-Pro-10 (8240)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:25:33 -0400 MacBook-Pro-10 (8240)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Environment: development
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : No known dispatcher detected.
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Application: My Application (Development)
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Installing Net instrumentation
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:25:46 -0400 MacBook-Pro-10 (8311)] INFO : Finished instrumentation
+[2017-04-29 16:25:50 -0400 MacBook-Pro-10 (8311)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:25:52 -0400 MacBook-Pro-10 (8311)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:25:52 -0400 MacBook-Pro-10 (8311)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:25:52 -0400 MacBook-Pro-10 (8311)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Environment: development
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : No known dispatcher detected.
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Application: My Application (Development)
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Installing Net instrumentation
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:25:53 -0400 MacBook-Pro-10 (8345)] INFO : Finished instrumentation
+[2017-04-29 16:25:54 -0400 MacBook-Pro-10 (8345)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:26:16 -0400 MacBook-Pro-10 (8345)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:26:16 -0400 MacBook-Pro-10 (8345)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:26:16 -0400 MacBook-Pro-10 (8345)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Environment: development
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : No known dispatcher detected.
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Application: My Application (Development)
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Installing Net instrumentation
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:28:05 -0400 MacBook-Pro-10 (8647)] INFO : Finished instrumentation
+[2017-04-29 16:28:07 -0400 MacBook-Pro-10 (8647)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Environment: development
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : No known dispatcher detected.
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Application: My Application (Development)
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Installing Net instrumentation
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:28:11 -0400 MacBook-Pro-10 (8678)] INFO : Finished instrumentation
+[2017-04-29 16:28:12 -0400 MacBook-Pro-10 (8678)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:28:12 -0400 MacBook-Pro-10 (8678)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:28:12 -0400 MacBook-Pro-10 (8678)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:28:14 -0400 MacBook-Pro-10 (8678)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Environment: development
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : No known dispatcher detected.
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Application: My Application (Development)
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Installing Net instrumentation
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:33:51 -0400 MacBook-Pro-10 (9398)] INFO : Finished instrumentation
+[2017-04-29 16:33:52 -0400 MacBook-Pro-10 (9398)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:37:06 -0400 MacBook-Pro-10 (9398)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:37:06 -0400 MacBook-Pro-10 (9398)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:37:06 -0400 MacBook-Pro-10 (9398)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Environment: development
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : No known dispatcher detected.
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Application: My Application (Development)
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Installing Net instrumentation
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:37:07 -0400 MacBook-Pro-10 (9825)] INFO : Finished instrumentation
+[2017-04-29 16:37:10 -0400 MacBook-Pro-10 (9825)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:38:34 -0400 MacBook-Pro-10 (9825)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:38:34 -0400 MacBook-Pro-10 (9825)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:38:34 -0400 MacBook-Pro-10 (9825)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Environment: development
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : No known dispatcher detected.
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Application: My Application (Development)
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Installing Net instrumentation
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:38:36 -0400 MacBook-Pro-10 (10041)] INFO : Finished instrumentation
+[2017-04-29 16:38:38 -0400 MacBook-Pro-10 (10041)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Environment: development
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : No known dispatcher detected.
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Application: My Application (Development)
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Installing Net instrumentation
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:38:50 -0400 MacBook-Pro-10 (10104)] INFO : Finished instrumentation
+[2017-04-29 16:38:51 -0400 MacBook-Pro-10 (10104)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:38:51 -0400 MacBook-Pro-10 (10104)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:38:51 -0400 MacBook-Pro-10 (10104)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Environment: development
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : No known dispatcher detected.
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Application: My Application (Development)
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Installing Net instrumentation
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Finished instrumentation
+[2017-04-29 16:38:53 -0400 MacBook-Pro-10 (10127)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:38:55 -0400 MacBook-Pro-10 (10127)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:38:55 -0400 MacBook-Pro-10 (10127)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:38:55 -0400 MacBook-Pro-10 (10127)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Environment: development
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : No known dispatcher detected.
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Application: My Application (Development)
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Installing Net instrumentation
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:38:57 -0400 MacBook-Pro-10 (10154)] INFO : Finished instrumentation
+[2017-04-29 16:38:58 -0400 MacBook-Pro-10 (10154)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Environment: development
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : No known dispatcher detected.
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Application: My Application (Development)
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Installing Net instrumentation
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:39:04 -0400 MacBook-Pro-10 (10194)] INFO : Finished instrumentation
+[2017-04-29 16:39:05 -0400 MacBook-Pro-10 (10194)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:39:05 -0400 MacBook-Pro-10 (10194)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:39:05 -0400 MacBook-Pro-10 (10194)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:39:06 -0400 MacBook-Pro-10 (10194)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Environment: development
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : No known dispatcher detected.
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Application: My Application (Development)
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Installing Net instrumentation
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:39:46 -0400 MacBook-Pro-10 (10323)] INFO : Finished instrumentation
+[2017-04-29 16:39:48 -0400 MacBook-Pro-10 (10323)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:39:51 -0400 MacBook-Pro-10 (10323)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:39:51 -0400 MacBook-Pro-10 (10323)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:39:51 -0400 MacBook-Pro-10 (10323)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Environment: development
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : No known dispatcher detected.
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Application: My Application (Development)
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Installing Net instrumentation
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:39:55 -0400 MacBook-Pro-10 (10362)] INFO : Finished instrumentation
+[2017-04-29 16:39:58 -0400 MacBook-Pro-10 (10362)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Environment: development
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : No known dispatcher detected.
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Application: My Application (Development)
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Installing Net instrumentation
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:40:08 -0400 MacBook-Pro-10 (10418)] INFO : Finished instrumentation
+[2017-04-29 16:40:10 -0400 MacBook-Pro-10 (10418)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Environment: development
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : No known dispatcher detected.
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Application: My Application (Development)
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Installing Net instrumentation
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:40:11 -0400 MacBook-Pro-10 (10444)] INFO : Finished instrumentation
+[2017-04-29 16:40:13 -0400 MacBook-Pro-10 (10444)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:40:13 -0400 MacBook-Pro-10 (10444)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:40:13 -0400 MacBook-Pro-10 (10444)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:40:15 -0400 MacBook-Pro-10 (10444)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Environment: development
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : No known dispatcher detected.
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Application: My Application (Development)
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Installing Net instrumentation
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:40:26 -0400 MacBook-Pro-10 (10505)] INFO : Finished instrumentation
+[2017-04-29 16:40:30 -0400 MacBook-Pro-10 (10505)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:40:52 -0400 MacBook-Pro-10 (10505)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:40:52 -0400 MacBook-Pro-10 (10505)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:40:52 -0400 MacBook-Pro-10 (10505)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Environment: development
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : No known dispatcher detected.
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Application: My Application (Development)
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Installing Net instrumentation
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:40:54 -0400 MacBook-Pro-10 (10586)] INFO : Finished instrumentation
+[2017-04-29 16:40:55 -0400 MacBook-Pro-10 (10586)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:41:06 -0400 MacBook-Pro-10 (10586)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:41:06 -0400 MacBook-Pro-10 (10586)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:41:06 -0400 MacBook-Pro-10 (10586)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Environment: development
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : No known dispatcher detected.
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Application: My Application (Development)
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Installing Net instrumentation
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:41:07 -0400 MacBook-Pro-10 (10636)] INFO : Finished instrumentation
+[2017-04-29 16:41:09 -0400 MacBook-Pro-10 (10636)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:41:24 -0400 MacBook-Pro-10 (10636)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:41:24 -0400 MacBook-Pro-10 (10636)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:41:24 -0400 MacBook-Pro-10 (10636)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Environment: development
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : No known dispatcher detected.
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Application: My Application (Development)
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Installing Net instrumentation
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:41:26 -0400 MacBook-Pro-10 (10699)] INFO : Finished instrumentation
+[2017-04-29 16:41:29 -0400 MacBook-Pro-10 (10699)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:41:31 -0400 MacBook-Pro-10 (10699)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:41:31 -0400 MacBook-Pro-10 (10699)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:41:31 -0400 MacBook-Pro-10 (10699)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Environment: development
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : No known dispatcher detected.
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Application: My Application (Development)
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Installing Net instrumentation
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:41:32 -0400 MacBook-Pro-10 (10733)] INFO : Finished instrumentation
+[2017-04-29 16:41:34 -0400 MacBook-Pro-10 (10733)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:41:39 -0400 MacBook-Pro-10 (10733)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:41:39 -0400 MacBook-Pro-10 (10733)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:41:39 -0400 MacBook-Pro-10 (10733)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:41:40 -0400 MacBook-Pro-10 (10774)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:41:40 -0400 MacBook-Pro-10 (10774)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:41:40 -0400 MacBook-Pro-10 (10774)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:41:40 -0400 MacBook-Pro-10 (10774)] INFO : Environment: development
+[2017-04-29 16:41:40 -0400 MacBook-Pro-10 (10774)] INFO : No known dispatcher detected.
+[2017-04-29 16:41:40 -0400 MacBook-Pro-10 (10774)] INFO : Application: My Application (Development)
+[2017-04-29 16:41:41 -0400 MacBook-Pro-10 (10774)] INFO : Installing Net instrumentation
+[2017-04-29 16:41:41 -0400 MacBook-Pro-10 (10774)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:41:41 -0400 MacBook-Pro-10 (10774)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:41:41 -0400 MacBook-Pro-10 (10774)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:41:41 -0400 MacBook-Pro-10 (10774)] INFO : Finished instrumentation
+[2017-04-29 16:41:42 -0400 MacBook-Pro-10 (10774)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Environment: development
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : No known dispatcher detected.
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Application: My Application (Development)
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Installing Net instrumentation
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:41:54 -0400 MacBook-Pro-10 (10825)] INFO : Finished instrumentation
+[2017-04-29 16:41:56 -0400 MacBook-Pro-10 (10825)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:42:10 -0400 MacBook-Pro-10 (10825)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:42:10 -0400 MacBook-Pro-10 (10825)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:42:10 -0400 MacBook-Pro-10 (10825)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Environment: development
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : No known dispatcher detected.
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Application: My Application (Development)
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Installing Net instrumentation
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:42:11 -0400 MacBook-Pro-10 (10880)] INFO : Finished instrumentation
+[2017-04-29 16:42:13 -0400 MacBook-Pro-10 (10880)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Environment: development
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : No known dispatcher detected.
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Application: My Application (Development)
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Installing Net instrumentation
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:42:48 -0400 MacBook-Pro-10 (11006)] INFO : Finished instrumentation
+[2017-04-29 16:42:51 -0400 MacBook-Pro-10 (11006)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Environment: development
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : No known dispatcher detected.
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Application: My Application (Development)
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Installing Net instrumentation
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:43:03 -0400 MacBook-Pro-10 (11066)] INFO : Finished instrumentation
+[2017-04-29 16:43:06 -0400 MacBook-Pro-10 (11066)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:43:30 -0400 MacBook-Pro-10 (11066)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:43:30 -0400 MacBook-Pro-10 (11066)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:43:30 -0400 MacBook-Pro-10 (11066)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Environment: development
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : No known dispatcher detected.
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Application: My Application (Development)
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Installing Net instrumentation
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Finished instrumentation
+[2017-04-29 16:43:32 -0400 MacBook-Pro-10 (11142)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:43:33 -0400 MacBook-Pro-10 (11142)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:43:33 -0400 MacBook-Pro-10 (11142)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:43:33 -0400 MacBook-Pro-10 (11142)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Environment: development
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : No known dispatcher detected.
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Application: My Application (Development)
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Installing Net instrumentation
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:44:18 -0400 MacBook-Pro-10 (11246)] INFO : Finished instrumentation
+[2017-04-29 16:44:19 -0400 MacBook-Pro-10 (11246)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:44:19 -0400 MacBook-Pro-10 (11246)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:44:19 -0400 MacBook-Pro-10 (11246)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:44:20 -0400 MacBook-Pro-10 (11246)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2017-04-29 16:45:09 -0400 MacBook-Pro-10 (11370)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-29 16:45:09 -0400 MacBook-Pro-10 (11370)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-29 16:45:09 -0400 MacBook-Pro-10 (11370)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2017-04-29 16:45:09 -0400 MacBook-Pro-10 (11370)] INFO : Environment: development
+[2017-04-29 16:45:09 -0400 MacBook-Pro-10 (11370)] INFO : No known dispatcher detected.
+[2017-04-29 16:45:09 -0400 MacBook-Pro-10 (11370)] INFO : Application: My Application (Development)
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Installing Net instrumentation
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Installing Sinatra instrumentation
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Finished instrumentation
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-04-29 16:45:10 -0400 MacBook-Pro-10 (11370)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-04-29 16:45:12 -0400 MacBook-Pro-10 (11370)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
