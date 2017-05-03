@@ -3,8 +3,8 @@
     "image":"react-photo-app",
     "name":"React Photo Uploader 1.0",
     "type":"React application",
-    "description":"WORK IN PROGRESS- This app allows the user to upload a photo, alter the photo using the editor, revert to previous alertations, and reset the photo",
-    "features":"react, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
+    "description":"WORK IN PROGRESS- This app allows the user to upload a photo, alter the photo using the editor, revert to previous alertations, and reset the photo.",
+    "features":"React, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
     "github":"https://github.com/arssonist/react-photo-uploader",
     "url":"https://arssonist.github.io/react-photo-uploader/"
     },
@@ -36,7 +36,7 @@
     { "image":"crowdfunder",
       "name":"Crowdfunder",
      "type"	:"Ruby on Rails App",
-     "description": "Very basic clone of Kickstarter. This project was created and built in only three days. It lacks features since its purpose is mostly to showoff what can be accomplished in a short time. .",
+     "description": "Very basic clone of Kickstarter. This project was created and built in only three days. It lacks features since its purpose is mostly to showoff what can be accomplished in a short time.",
      "features": "User authentication, Bootstrap, MVC,",
      "github":"https://goo.gl/JaubPf",
      "url":"https://goo.gl/CpVhhR"
@@ -52,7 +52,7 @@
     { "image":"business-v2",
       "name":"Business Card Maker",
       "type":"JavaScript App",
-      "description":"User creates a business card through a form",
+      "description":"User creates a business card through a form. App imitates a one-way data bind.",
       "features":"Bootstrap, Hexademical Coloring, Accessing the DOM, Integrating JS functionality into Basic Markdown.",
       "github":"https://goo.gl/AqDxUb",
       "url":"https://goo.gl/L0Khxs"
