@@ -1482,3 +1482,18 @@
 [2017-05-03 12:42:51 -0400 MacBook-Pro-10 (4918)] INFO : Doing deferred dependency-detection before Rack startup
 [2017-05-03 12:42:51 -0400 MacBook-Pro-10 (4918)] INFO : Installing deferred Puma::Rack::Builder instrumentation
 [2017-05-03 12:42:51 -0400 MacBook-Pro-10 (4918)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Environment: development
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : No known dispatcher detected.
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Application: My Application (Development)
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Installing Sinatra instrumentation
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Installing Net instrumentation
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-21 13:47:57 -0500 MacBook-Pro-10.local (15433)] INFO : Finished instrumentation
+[2018-01-21 13:47:59 -0500 MacBook-Pro-10.local (15433)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-21 13:47:59 -0500 MacBook-Pro-10.local (15433)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2018-01-21 13:47:59 -0500 MacBook-Pro-10.local (15433)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2018-01-21 13:47:59 -0500 MacBook-Pro-10.local (15433)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
