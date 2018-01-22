@@ -1,12 +1,12 @@
 { "works":[
     {
-    "image":"react-photo-app",
-    "name":"React Photo Uploader 1.0",
-    "type":"React application",
-    "description":"WORK IN PROGRESS- This app allows the user to upload a photo, alter the photo using the editor, revert to previous alertations, and reset the photo.",
-    "features":"React, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
-    "github":"https://github.com/arssonist/react-photo-uploader",
-    "url":"https://arssonist.github.io/react-photo-uploader/"
+    "image":"wiki",
+    "name":"Wikipedia Search",
+    "type":"Vanilla JS Challenge",
+    "description":"Using the Wikipedia API to retrieve and display results.",
+    "features":"Fetch API, Wikipedia API, Codepen",
+    "github":"https://github.com/arssonist/coding_challenges/tree/master/freeCodeCamp/twitch",
+    "url":"https://codepen.io/chri_del/pen/EoQzXo"
     },
    {
      "image":"quote_generator",
@@ -19,11 +19,20 @@
    },
    {  "image":"gilligan",
       "name":"Gilligan",
- 			 "type":"Ruby on Rails App",
- 			 "description":"A place for boat lovers to book and offer boat rides. This was the final prjoect at Bitmaker.",
-     	"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
+ 	   "type":"Ruby on Rails App",
+ 	   "description":"A place for boat lovers to book and offer boat rides. This was the final prjoect at Bitmaker.",
+        "features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
       "github":"https://goo.gl/Bz4oTP",
       "url":"https://goo.gl/eOOouF"
+     },
+     {
+         "image":"react-photo-app",
+         "name":"React Photo Uploader 1.0",
+         "type":"React application",
+         "description":"WORK IN PROGRESS- This app allows the user to upload a photo, alter the photo using the editor, revert to previous alertations, and reset the photo.",
+         "features":"React, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
+         "github":"https://github.com/arssonist/react-photo-uploader",
+         "url":"https://arssonist.github.io/react-photo-uploader/"
      },
      {"image":"angular_artists",
        "name":"Directory of Fake Artists",
