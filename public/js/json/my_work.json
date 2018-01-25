@@ -5,7 +5,7 @@
     "type":"Vanilla JS Challenge",
     "description":"Using the Wikipedia API to retrieve and display results.",
     "features":"Fetch API, Wikipedia API, Codepen",
-    "github":"https://github.com/arssonist/coding_challenges/tree/master/freeCodeCamp/twitch",
+    "github":"",
     "url":"https://codepen.io/chri_del/pen/EoQzXo"
     },
    {
@@ -14,14 +14,14 @@
      "type":"JSON API",
      "description":"A simple JavaScript page connected to a json api. The app delivers two types of quotes, and allows the user to tweet the quote.",
      "features":"JSON API, Twitter functionality, Front-End, Ajax, Jquery",
-     "github":"https://github.com/arssonist/random_quote_generator",
-     "url":"https://arssonist.github.io/random_quote_generator/"
+     "github":"https://github.com/chrisdel101/random_quote_generator",
+     "url":"https://chrisdel101.github.io/random_quote_generator/"
    },
    {  "image":"gilligan",
       "name":"Gilligan",
- 	   "type":"Ruby on Rails App",
- 	   "description":"A place for boat lovers to book and offer boat rides. This was the final prjoect at Bitmaker.",
-        "features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
+ 			 "type":"Ruby on Rails App",
+ 			 "description":"A place for boat lovers to book and offer boat rides. This was the final prjoect at Bitmaker.",
+     	"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
       "github":"https://goo.gl/Bz4oTP",
       "url":"https://goo.gl/eOOouF"
      },
@@ -31,15 +31,15 @@
          "type":"React application",
          "description":"WORK IN PROGRESS- This app allows the user to upload a photo, alter the photo using the editor, revert to previous alertations, and reset the photo.",
          "features":"React, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
-         "github":"https://github.com/arssonist/react-photo-uploader",
-         "url":"https://arssonist.github.io/react-photo-uploader/"
+         "github":"https://github.com/chrisdel101/react-photo-uploader",
+         "url":"https://chrisdel101.github.io/react-photo-uploader/"
      },
      {"image":"angular_artists",
        "name":"Directory of Fake Artists",
        "type":"Angular 1 App",
        "features":"Templating JSON, Partials, MVC, JS Modules, Controllers, Data Binding, Routing, Using Services",
        "description":"Project created to display JSON data in a single-page app with a nice UI.",
-       "github":"https://goo.gl/NViTbI",
+       "github":"https://chrisdel101.github.io/angular_artist_demo_app/#/list",
        "url":"https://goo.gl/OBgr2p"
      },
     { "image":"crowdfunder",
@@ -56,7 +56,7 @@
       "description":"Clone of application 'Stickies'. This is the project I built as I began to learn React.",
       "features":"Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
       "github":"https://goo.gl/dCvsw4",
-      "url":"https://goo.gl/Hcm9r4"
+      "url":"https://chrisdel101.github.io/lynda_react_app/"
     },
     { "image":"business-v2",
       "name":"Business Card Maker",
@@ -64,7 +64,7 @@
       "description":"User creates a business card through a form. App imitates a one-way data bind.",
       "features":"Bootstrap, Hexademical Coloring, Accessing the DOM, Integrating JS functionality into Basic Markdown.",
       "github":"https://goo.gl/AqDxUb",
-      "url":"https://goo.gl/L0Khxs"
+      "url":"https://chrisdel101.github.io/business-card-maker/"
     }
   ]
 }
