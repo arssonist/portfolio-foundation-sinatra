@@ -471,6 +471,14 @@ MEDIA QUERY
 
 
 /***********BUTTON WIDTHS MOBILE*******/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .off-canvas-wrapper {
+          height: 100%;
+      }
+}
 @media (max-width: 400px){
   .hero-index .button{
     width:25%;
