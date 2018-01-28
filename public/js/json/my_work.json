@@ -1,5 +1,14 @@
 { "works":[
     {
+    "image":"twitch",
+    "name":"Twitch Users",
+    "type":"Vanilla JS Challenge",
+    "description":"Using the Twitch API to retrieve and display results.",
+    "features":"Fetch API, Twitch API, Codepen, multiple ajax calls",
+    "github":"",
+    "url":"https://codepen.io/chri_del/full/JMVqJJ/"
+    },
+    {
     "image":"wiki",
     "name":"Wikipedia Search",
     "type":"Vanilla JS Challenge",
