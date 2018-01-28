@@ -1,9 +1,14 @@
 $(document).ready(function(){
-  if ($('.hero-index').length){
-    $('.hero').css({ "background-image":"none"})
-       $('.hero').css({ "background-color":"#222"})
-       $('.main').css({ "background-color":"#222"})
-  }
+    if(location.pathname == "/"){
+        console.log('text')
+        $('.hero').addClass('black');
+        $('.main').addClass('black');
+    }
+  // if ($('.hero-index').length){
+  //   $('.hero').css({ "background-image":"none"})
+  //      $('.hero').css({ "background-color":"#222"})
+  //      $('.main').css({ "background-color":"#222"})
+  // }
 
 
 
