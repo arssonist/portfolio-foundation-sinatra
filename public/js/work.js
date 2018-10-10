@@ -8,15 +8,6 @@ $(document).ready(function(){
       dataType:'json'
     }).done(function(response){
 
-      // Set of loops that were tried first
-//         for(i in responseData){
-//     console.log(responseData[i])
-//      for(var j= 0;j <= responseData[i].length;j++){
-//     	console.log(responseData[i][j])
-//     	for(k in responseData[i][j]){
-//     	console.log(responseData[i][j][k])
-//   }}}
-
 // // // 1.Get the html from template in a string
       var workTemplateString = $('#work-template').html();
       // console.log(workTemplateString)

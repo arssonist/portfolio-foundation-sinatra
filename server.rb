@@ -16,33 +16,13 @@ $my_city = "Toronto, ON"
 $my_linkedin = "https://ca.linkedin.com/in/chrisdel1"
 
 get '/' do
-  erb :index
-end
-
-get '/index' do
-  erb :index
-end
-
-get '/contact' do
-  erb :contact
-end
-
-get '/about' do
-  erb :about
+  erb :work
 end
 
 get '/work' do
   erb :work
 end
 
-get '/blog' do
-  erb :blog
-end
-
-get '/blog2' do
-  erb :blog2
-end
-
-get '/resume' do
-  erb :resume
+get '/contact' do
+  erb :contact
 end

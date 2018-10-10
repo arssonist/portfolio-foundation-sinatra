@@ -2,152 +2,136 @@
 GENERAL
 ************************************************************* */
 * {
-  outline:none;
+	outline: none;
 }
 
 /*wrap is used to keep the content stablized at any screen stablized*/
-.wrap{
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto;
+.wrap {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
 }
+
 /*margin- auto in 2nd pposition used to center content.*/
-h1{
-  font-family: 'Orbitron',sans-serif;
+.button {
+	font-family: 'Ubuntu';
 }
-h3{
-  font-family: 'Open Sans', sans-serif;
-}
-.button{
-  font-family: 'Ubuntu';
-}
+
 /*dl{
   padding:0.3em;
 }*/
-
-.main{
-  padding: 80px 0px;
-  background-color: white;
+.main {
+	padding: 40px 0px;
+	background-color: white;
 }
-
-
 
 /* *************************************************************
 OFF-CANVAS
 ************************************************************* */
-
-.off-canvas-wrapper{
-  background-color: #222;
+.off-canvas-wrapper {
+	background-color: #484848;
 }
 
-#mobile-menu{
-  background-color: #222;
+#mobile-menu {
+	background-color: #484848;
 }
 
-#mobile-menu{
-  padding:12px;
+#mobile-menu {
+	padding: 12px;
 }
 
-#mobile-menu li{
-  list-style: none;
+#mobile-menu li {
+	list-style: none;
 }
 
-#mobile-menu a{
-color: rgba(255,255,255,0.6);
-font-weight: bold;
-line-height: 2
+#mobile-menu a {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: bold;
+	line-height: 2
 }
 
-#mobile-menu a:hover{
-color: rgba(255,255,255,0.8);
+#mobile-menu a:hover {
+	color: rgba(255, 255, 255, 0.8);
 }
 
-.js-off-canvas-exit{
-  background: rgba(0,0,0,0.5);
+.js-off-canvas-exit {
+	background: rgba(0, 0, 0, 0.5);
 }
 
 /* *************************************************************
 NAV - MOBILE
 ************************************************************* */
-
-.title-bar{
-  background-color: #222;
-  height: 60px;
+.title-bar {
+	background-color: #484848;
+	height: 60px;
 }
 
-.title-bar-left{
-  padding: 11px;
+.title-bar-left {
+	padding: 11px;
 }
 
-.mobile-site-logo{
-  float: right;
-  line-height: 44px;
-  padding-right: 14px;
+.mobile-site-logo {
+	float: right;
+	line-height: 44px;
+	padding-right: 14px;
 }
-
-
 
 /* *************************************************************
 NAV
 ************************************************************* */
-
-.nav-desktop{
-  background-color: #222;
-  height: 80px;
-  padding: 0;
+.nav-desktop {
+	background-color: #484848;
+	height: 80px;
+	padding: 0;
 }
 
-.site-logo > a{
-  color:white;
-  line-height:80px;
+.site-logo>a {
+	color: white;
+	line-height: 80px;
 }
 
-.site-logo:hover{
-  background-color: rgba(255,255,255, 0.1)
+.site-logo:hover {
+	background-color: rgba(255, 255, 255, 0.1)
 }
 
 .nav-desktop .menu-desktop {
-  line-height: 80px;
-  background-color: transparent;
+	line-height: 80px;
+	background-color: transparent;
 }
+
 /*- definging two deep overrides fondation 2 deep styles  */
 /*- transprent makes background clear, taking in the color behind it.*/
-
-.menu > li > a {
-  display: inline-block;
-  line-height: 80px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  color: white;
+.menu>li>a {
+	display: inline-block;
+	line-height: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
 }
+
 /*make the line height fot the <a> the same as container makes the container clickable like the link*/
-
 /*:hover is a state function used to change state when :hover*/
-.menu > li > a:hover {
-  background-color: rgba(255,255,255, 0.1)
+.menu>li>a:hover {
+	background-color: rgba(255, 255, 255, 0.1)
 }
+
 /*Use rgba to work with flexible color(red, green, blue, alpha(opacity)- 255 is the max, so this setting is the max, in this case it's white.
 Opcaity 1 is solid color*/
 /* *************************************************************
 HERO
 ************************************************************* */
-.hero.black {
-    background-color:#222;
-}
-.main.black {
-    background-color: #222;
-}
-.hero{
-  background-color: #efefef;
-  padding: 80px 0px;
-  }
-.hero-content {
-  max-width: 100%;
+.hero {
+	background-color: #efefef;
+	padding: 80px 0px;
 }
 
-.hero-content > a  {
-  max-width: 100%;
-  max-height:100%;
+.hero-content {
+	max-width: 100%;
+}
+
+.hero-content>a {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .hero h1,
@@ -156,271 +140,238 @@ HERO
 .hero h4,
 .hero h5,
 .hero h6,
-.hero p{
-  color: black;
-  /*rgba(255, 255, 255, 0.8);*/
-    max-width: 100%;
+.hero p {
+	color: black;
+	/*rgba(255, 255, 255, 0.8);*/
+	max-width: 100%;
 }
 
 /* *************INDEX PAGE*****************************************/
-
-.hero-index{
-  background-color: #222;
-  text-align: center;
-  max-width: 100%;
-}
-.hero-index h1{
-  font-family: 'Orbitron', sans-serif;
-  color:white;
-}
-.hero-index h3{
-  font-family: 'Open Sans', sans-serif;
-  color:white;
+.hero-index {
+	/* background-color: #222; */
+	text-align: center;
+	max-width: 100%;
 }
 
-.hero-index .button{
-  position: relative;
-  left: 40%;
-  margin-top: 5%;
-  display:block;
-  width:17%;
+.hero-index h1 {
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+
+.hero-index h3 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.hero-index .button {
+	position: relative;
+	left: 40%;
+	margin-top: 5%;
+	display: block;
+	width: 17%;
 }
 
 /* *************WORK PAGE*****************************************/
-.hero-work{
-    text-align: center;
+.hero-work {
+	text-align: center;
 }
 
-/* *************BLOG PAGE*****************************************/
-
-.hero-blog .column:first-child{
-  padding: 5em;
-}
-#blog-hero-title{
-  color: #438d8d;
-  font-family: "Libre Baskerville";
+.hero-work h1 {
+	color: #484848;
 }
 
-/*}
-/*#mozart-box{
-  padding:0.1em;
-  width: 20em;
-  margin:0 2.5em;
-    border-style: dotted;
-  border: solid;
-  border-color:#438d8d;
-  /*rgba(180, 180, 180, 0.6);*/
-/*}*/
-
-
-/*#mozart-box img{
-  border: solid;
-  border-width: thin;
-  margin:0 25%;
-  width: 50%;
+.hero-work h2 {
+	font-family: Helvetica sans-serif;
 }
 
-#mozart-box h6{
-  text-align: center;
-}
-#mozart-box h3{
-  text-align: center;
+.main-work h1 {
+	text-align: center;
 }
 
-.other-blog-text .button{
-  margin-right: 30%;
-  margin-left: 30%;
-
-}*/
-/* *************RESUME PAGE*****************************************/
-
-.hero-resume{
-  text-align: center;
- }
-
-/* *************ABOUT PAGE*****************************************/
-.hero-about .button{
-  margin-top: 5%;
-  margin-left: 40%;
-  margin-right: 40%;
-  width: 17%;
-}
-#are-you-hiring{
-  text-align: center;
-}
-/*.hero-resume{
-    background-color: yellow;
-}*/
-
-/* *************************************************************
-MAIN SECTION
-************************************************************* */
-
-
-/* *************WORK TEMPLATE*****************************************/
-/*propety transitioning/time*/
-.project-image-container img{
-    /*makes all images align*/
-    min-height: 240px;
-}
-#work-details  img{
-  transition: opacity 0.5s, transform 0.3s
-}
-#work-details img:hover{
-  opacity: 0.5;
-  transform: scale(1.3);
-}
-.project-title{
-  font-size: 28px;
-  font-weight: 700;
-  height: 100px;
-  padding-top: 10px;
-  text-align: center;
+.main-work h2 {
+	text-align: center;
+	font-family: Helvetica;
+	margin-bottom: 30px;
+	color: #484848;
 }
 
-.project-type{
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #999;
-  margin-bottom: 10px;
+.project-image-container img {
+	/*makes all images align*/
+	min-height: 240px;
 }
-.project-description{
-  margin-bottom: 20px;
+
+#work-details img {
+	transition: opacity 0.5s, transform 0.3s
 }
-.project-features{
-  color: #999;
-  margin-bottom:10px;
+
+#work-details img:hover {
+	opacity: 0.5;
+	transform: scale(1.3);
 }
-.work-card{
-  /*height: 39.5em;*/
-  border-radius: 5px;
-  padding: 10px 15px;
+
+.project-title {
+	font-size: 28px;
+	font-weight: 700;
+	height: 100px;
+	padding-top: 10px;
+	text-align: center;
 }
-.work-card:nth-child(odd){
-  background-color: #efefef;
+
+.project-type {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #999;
+	margin-bottom: 10px;
 }
-.work-button{
-  width: 6em;
+
+.project-description {
+	margin-bottom: 20px;
 }
+
+.project-features {
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.work-card {
+	/*height: 39.5em;*/
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+
+.work-card:nth-child(odd) {
+	background-color: #efefef;
+}
+
+.work-button {
+	width: 6em;
+}
+
 .project-info {
-    height: 22em;
+	height: 22em;
 }
-/* *************BLOG PAGE*****************************************/
 
+/* *************BLOG PAGE*****************************************/
 .main-blog h2,
 h3,
 h4,
 p {
-  font-family: "Libre Baskerville";
+	font-family: "Libre Baskerville";
 }
 
 .main-blog img {
-  width: 100%;
-  max-height: 400px;
+	width: 100%;
+	max-height: 400px;
 }
-.blog-pic{
-  transition: opacity 0.5s, transform 0.3s
+
+.blog-pic {
+	transition: opacity 0.5s, transform 0.3s
 }
-.blog-pic:hover{
-  opacity: 0.5;
-  transform: scale(1.3);
+
+.blog-pic:hover {
+	opacity: 0.5;
+	transform: scale(1.3);
 }
-.blog-post-title{
-  color: #999
+
+.blog-post-title {
+	color: #999
 }
-.blog-post-description{
-  color:black;
+
+.blog-post-description {
+	color: black;
 }
 
 /* *************BLOG 2 PAGE*****************************************/
-.nothing-blog-header{
-  color: #CC6626;
-  font-family: Helvetica;
-}
-#film-blog-header{
-  color: #CC6626;
-  font-family: Helvetica;
+.nothing-blog-header {
+	color: #CC6626;
+	font-family: Helvetica;
 }
 
+#film-blog-header {
+	color: #CC6626;
+	font-family: Helvetica;
+}
 
 /*separator textarea*/
-#film-blog-header h2{
-  font-family: "Henny Penny";
-  color: #438d8d;
-  /*text-align: center;*/
+#film-blog-header h2 {
+	font-family: "Henny Penny";
+	color: #438d8d;
+	/*text-align: center;*/
 }
+
 .film-image-wrap img,
-.film-image-wrap a{
-  display: none;
+.film-image-wrap a {
+	display: none;
 }
 
 .film-image-wrap.film-show-image img,
-.film-image-wrap.film-show-image a{
-  display: block;
+.film-image-wrap.film-show-image a {
+	display: block;
 }
 
 /*link text color*/
-.film-image-wrap p{
-  color: blue;
+.film-image-wrap p {
+	color: blue;
 }
-#mozart-box{
-  width:100%
+
+#mozart-box {
+	width: 100%
 }
+
 #mozart-photo {
-  width:25%;
+	width: 25%;
 }
-
-
 
 /* *************ABOUT PAGE*****************************************/
-#about-photo img{
-  width: 100%;
-  border-radius: 10px;
+#about-photo img {
+	width: 100%;
+	border-radius: 10px;
 }
-
 
 /* *************CONTACT*****************************************/
+.main-contact p {
+	margin: 10px;
+}
 
-.main-contact p{
-  margin:10px;
+.main-contact h2 {
+	font-family: 'Open Sans';
 }
-.main-contact h2{
-  font-family: 'Open Sans';
+
+.main-contact img {
+	margin: 3em;
 }
-.main-contact img{
-  margin:3em;
-}
+
 /* *************RESUME*****************************************/
-
-#resume-head{
-  text-align: center;
-}
-.inpage-resume h3, h2, p{
-  color:black;
-}
-#skills{
-  margin-left: 10px;
-}
-.job, .school{
-    padding:10px 0 ;
+#resume-head {
+	text-align: center;
 }
 
+.inpage-resume h3, h2, p {
+	color: black;
+}
+
+#skills {
+	margin-left: 10px;
+}
+
+.job, .school {
+	padding: 10px 0;
+}
 
 /* *************************************************************
 FOOTER
 **********************************************
 /**/
-
-footer{
-  background-color: #222;
-  height: 200px;
-  padding:0;
+footer {
+	background-color: #484848;
+	height: 200px;
+	padding: 0;
 }
 
 .top-footer-row {
-  background-color: #222;
-  padding: 0px;
-  height:100px;
+	background-color: #484848;
+	padding: 0px;
+	height: 100px;
 }
 
 /*.top-footer-row h4{
@@ -430,114 +381,113 @@ footer{
   color: rgba(255, 255, 255, 0.6);
 }*/
 .icon {
-  max-height: 100%;
-  margin-top: 30px;
-  line-height: 10px;
+	max-height: 100%;
+	margin-top: 30px;
+	line-height: 10px;
 }
 
 .icon img {
-  height: 35px;
-  display: block;
-  margin: auto;
+	height: 35px;
+	display: block;
+	margin: auto;
 }
-.icon > a {
-  height: 100%;
+
+.icon>a {
+	height: 100%;
 }
+
 .icon:hover {
-  background-color: rgba(255,255,255,  0.1)
+	background-color: rgba(255, 255, 255, 0.1)
 }
 
 .bottom-footer-row a:hover {
-  display: block;
-  color: rgba(255, 255, 255, 0.8);
+	display: block;
+	color: rgba(255, 255, 255, 0.8);
 }
+
 /*-hover will turn darker shade of white on hover*/
-
-.bottom-footer-row{
-  background-color: #222;
-  height: 50px;
-  display: block;
-
+.bottom-footer-row {
+	background-color: #222;
+	height: 50px;
+	display: block;
 }
+
 /* *************************************************************
 MEDIA QUERY
 ************************************************************* */
 @media (max-width: 639px) {
-  .nav-desktop{
-    display: none;
-  }
+	.nav-desktop {
+		display: none;
+	}
 }
+
 /*This makes the navbar dissapear if the window is smaller the set above*/
-
-
 /***********BUTTON WIDTHS MOBILE*******/
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-      .off-canvas-wrapper {
-          height: 100%;
-      }
-}
-@media (max-width: 400px){
-  .hero-index .button{
-    width:25%;
-  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	.off-canvas-wrapper {
+		height: 100%;
+	}
 }
 
-@media (max-width: 400px){
-  .hero-blog .button{
-    position: relative;
-    left: 0%;
-  }
+@media (max-width: 400px) {
+	.hero-index .button {
+		width: 25%;
+	}
 }
-@media (max-width: 400px){
-  .hero-about .button{
-    width: initial;
-  }
+
+@media (max-width: 400px) {
+	.hero-blog .button {
+		position: relative;
+		left: 0%;
+	}
+}
+
+@media (max-width: 400px) {
+	.hero-about .button {
+		width: initial;
+	}
 }
 
 /***********BLOG HERO *******/
-@media (max-width: 640px){
-  .hero-blog .column:first-child{
-  padding: 0;
-  }
+@media (max-width: 640px) {
+	.hero-blog .column:first-child {
+		padding: 0;
+	}
 }
+
 /***********MOZART PIC*******/
-  /*@media (max-width: 450px){
+/*@media (max-width: 450px){
     #mozart-box{
       width: 50%;
       margin: 0 auto;
     }
   }*/
 /**************MAP PIC**********/
-@media (max-width: 870px) and (min-width:551px){
-  .main-contact img{
-    margin-top:6em;
-  }
+@media (max-width: 870px) and (min-width:551px) {
+	.main-contact img {
+		margin-top: 6em;
+	}
 }
-@media (max-width:550px){
-  .main-contact img{
-    margin:auto;
-  }
+
+@media (max-width:550px) {
+	.main-contact img {
+		margin: auto;
+	}
 }
 
 /**************RESUME**********/
-@media (max-width: 400px){
-  #resume-pdf{
-    font-size: 2em;
-  }
+@media (max-width: 400px) {
+	#resume-pdf {
+		font-size: 2em;
+	}
 }
 
-
-
-  /*@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
     .hero-resume h1{
       width: 100%;
     }
   }*/
-
-  /*@media (max-width: 875px) {
+/*@media (max-width: 875px) {
     .hero h1
     .hero h3
     .hero p {
