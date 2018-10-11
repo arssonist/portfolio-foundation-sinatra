@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'newrelic_rpm'
-require 'dotenv/load'
+# require 'dotenv/load'
 require 'sinatra/contrib'
 require 'Pony'
 require 'resolv-replace'
