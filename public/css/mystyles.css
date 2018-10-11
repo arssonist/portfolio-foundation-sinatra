@@ -25,6 +25,12 @@ GENERAL
 	background-color: white;
 }
 
+h1,
+h2,
+h3 {
+	color: #484848;
+}
+
 /* *************************************************************
 OFF-CANVAS
 ************************************************************* */
@@ -134,21 +140,8 @@ HERO
 	max-height: 100%;
 }
 
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero h5,
-.hero h6,
-.hero p {
-	color: black;
-	/*rgba(255, 255, 255, 0.8);*/
-	max-width: 100%;
-}
-
 /* *************INDEX PAGE*****************************************/
 .hero-index {
-	/* background-color: #222; */
 	text-align: center;
 	max-width: 100%;
 }
@@ -251,83 +244,6 @@ HERO
 	height: 22em;
 }
 
-/* *************BLOG PAGE*****************************************/
-.main-blog h2,
-h3,
-h4,
-p {
-	font-family: "Libre Baskerville";
-}
-
-.main-blog img {
-	width: 100%;
-	max-height: 400px;
-}
-
-.blog-pic {
-	transition: opacity 0.5s, transform 0.3s
-}
-
-.blog-pic:hover {
-	opacity: 0.5;
-	transform: scale(1.3);
-}
-
-.blog-post-title {
-	color: #999
-}
-
-.blog-post-description {
-	color: black;
-}
-
-/* *************BLOG 2 PAGE*****************************************/
-.nothing-blog-header {
-	color: #CC6626;
-	font-family: Helvetica;
-}
-
-#film-blog-header {
-	color: #CC6626;
-	font-family: Helvetica;
-}
-
-/*separator textarea*/
-#film-blog-header h2 {
-	font-family: "Henny Penny";
-	color: #438d8d;
-	/*text-align: center;*/
-}
-
-.film-image-wrap img,
-.film-image-wrap a {
-	display: none;
-}
-
-.film-image-wrap.film-show-image img,
-.film-image-wrap.film-show-image a {
-	display: block;
-}
-
-/*link text color*/
-.film-image-wrap p {
-	color: blue;
-}
-
-#mozart-box {
-	width: 100%
-}
-
-#mozart-photo {
-	width: 25%;
-}
-
-/* *************ABOUT PAGE*****************************************/
-#about-photo img {
-	width: 100%;
-	border-radius: 10px;
-}
-
 /* *************CONTACT*****************************************/
 .main-contact p {
 	margin: 10px;
@@ -339,6 +255,14 @@ p {
 
 .main-contact img {
 	margin: 3em;
+}
+
+.hero-contact {
+	text-align: center;
+}
+
+.hero-contact h3 {
+	font-family: Helvetica;
 }
 
 /* *************RESUME*****************************************/
