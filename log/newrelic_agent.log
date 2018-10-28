@@ -4490,3 +4490,18 @@
 [2018-10-11 16:01:57 -0400 MacBook-Pro-10.local (28936)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-10-11 16:01:57 -0400 MacBook-Pro-10.local (28936)] INFO : Installing deferred Puma::Rack::Builder instrumentation
 [2018-10-11 16:01:57 -0400 MacBook-Pro-10.local (28936)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2018-10-28 15:12:09 -0400 MacBook-Pro-10.local (2843)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2018-10-28 15:12:09 -0400 MacBook-Pro-10.local (2843)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-10-28 15:12:09 -0400 MacBook-Pro-10.local (2843)] INFO : Reading configuration from newrelic.yml (/Users/chrisdielschnieder/desktop/code_work/sinatra_foundation)
+[2018-10-28 15:12:09 -0400 MacBook-Pro-10.local (2843)] INFO : Environment: development
+[2018-10-28 15:12:09 -0400 MacBook-Pro-10.local (2843)] INFO : No known dispatcher detected.
+[2018-10-28 15:12:09 -0400 MacBook-Pro-10.local (2843)] INFO : Application: My Application (Development)
+[2018-10-28 15:12:10 -0400 MacBook-Pro-10.local (2843)] INFO : Installing Sinatra instrumentation
+[2018-10-28 15:12:10 -0400 MacBook-Pro-10.local (2843)] INFO : Installing Net instrumentation
+[2018-10-28 15:12:10 -0400 MacBook-Pro-10.local (2843)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-10-28 15:12:10 -0400 MacBook-Pro-10.local (2843)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-10-28 15:12:10 -0400 MacBook-Pro-10.local (2843)] INFO : Finished instrumentation
+[2018-10-28 15:12:12 -0400 MacBook-Pro-10.local (2843)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1583388/applications/57470984
+[2018-10-28 15:16:12 -0400 MacBook-Pro-10.local (2843)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-10-28 15:16:12 -0400 MacBook-Pro-10.local (2843)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2018-10-28 15:16:12 -0400 MacBook-Pro-10.local (2843)] INFO : Installing Puma::Rack::Builder middleware instrumentation

@@ -9,6 +9,15 @@
 			"url": "http://place-puppy.com/"
 		},
 		{
+			"image": "vue-clock",
+			"name": "Vue Clock",
+			"type": "Vue project",
+			"description": "A static clock with multiple faces make using Vue",
+			"features": "VueJS",
+			"github": "",
+			"url": "https://codepen.io/chri_del/full/qJQKLY/"
+		},
+		{
 			"image": "twitch",
 			"name": "Twitch Users",
 			"type": "Vanilla JS Challenge",
