@@ -17,6 +17,15 @@
 			"github": "",
 			"url": "https://codepen.io/chri_del/full/qJQKLY/"
 		},
+        {
+            "image": "react-photo-app",
+            "name": "React Photo Uploader 2.0",
+            "type": "React application",
+            "description": "Allows users to upload a photo and alter it.",
+            "features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpack",
+            "github": "https://github.com/chrisdel101/react-photo-uploader",
+            "url": "https://chrisdel101.github.io/react-photo-uploader/"
+        },
 		{
 			"image": "twitch",
 			"name": "Twitch Users",
@@ -52,15 +61,6 @@
 			"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
 			"github": "https://goo.gl/Bz4oTP",
 			"url": "https://goo.gl/eOOouF"
-		},
-		{
-			"image": "react-photo-app",
-			"name": "React Photo Uploader 1.0",
-			"type": "React application",
-			"description": "Allows users to upload a photo and alter it.",
-			"features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpack, yarn",
-			"github": "https://github.com/chrisdel101/react-photo-uploader",
-			"url": "https://chrisdel101.github.io/react-photo-uploader/"
 		},
 		{
 			"image": "angular_artists",
