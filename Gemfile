@@ -1,7 +1,7 @@
 # gem 'dotenv-rails', groups: [:development, :test]
 
 source 'https://rubygems.org'
-ruby "2.3.1"
+ruby "2.5.3"
 
 gem 'sinatra'
 gem 'rake', '~> 10.4', '>= 10.4.2'
