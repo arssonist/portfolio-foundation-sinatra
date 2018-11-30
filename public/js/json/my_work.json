@@ -12,17 +12,17 @@
 			"image": "vue-clock",
 			"name": "Vue Clock",
 			"type": "Vue project",
-			"description": "A static clock with multiple faces make using Vue",
+			"description": "Download images of clocks set to custom times",
 			"features": "VueJS",
 			"github": "",
-			"url": "https://codepen.io/chri_del/full/qJQKLY/"
+			"url": "https://chrisdel101.github.io/vueClock/"
 		},
         {
             "image": "react-photo-app",
             "name": "React Photo Uploader 2.0",
             "type": "React application",
             "description": "Allows users to upload a photo and alter it.",
-            "features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpack",
+            "features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpackpu",
             "github": "https://github.com/chrisdel101/react-photo-uploader",
             "url": "https://chrisdel101.github.io/react-photo-uploader/"
         },
