@@ -3,7 +3,7 @@
 			"image": "placepuppy",
 			"name": "Placepuppy",
 			"type": "Image Placeholder API",
-			"description": "Delivers imaes of puppies.",
+			"description": "Delivers images of puppies.",
 			"features": "Node, Express, Mocha, Cloudinary API, MongoDB",
 			"github": "https://github.com/chrisdel101/place-puppy",
 			"url": "http://place-puppy.com/"
