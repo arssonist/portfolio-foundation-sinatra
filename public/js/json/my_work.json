@@ -1,7 +1,7 @@
 {
 	"works": [{
 			"image": "placepuppy",
-			"name": "Placepuppy",
+			"name": "place",
 			"type": "Image Placeholder API",
 			"description": "Delivers images of puppies.",
 			"features": "Node, Express, Mocha, Cloudinary API, MongoDB",
