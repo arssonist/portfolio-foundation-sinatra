@@ -1,7 +1,17 @@
 {
-	"works": [{
+	"works": [
+        {
+			"image": "hackernews",
+			"name": "HackerNews Clone",
+			"type": "React App",
+			"description": "A clone of the Hackernews website.",
+			"features": "React, Hackernews API",
+			"github": "https://github.com/chrisdel101/hackernews",
+			"url": "https://chrisdel101.github.io/hackernews/"
+		},
+        {
 			"image": "placepuppy",
-			"name": "place",
+			"name": "Place Puppy",
 			"type": "Image Placeholder API",
 			"description": "Delivers images of puppies.",
 			"features": "Node, Express, Mocha, Cloudinary API, MongoDB",
@@ -19,7 +29,7 @@
 		},
         {
             "image": "react-photo-app",
-            "name": "React Photo Uploader 2.0",
+            "name": "Photo Uploader",
             "type": "React application",
             "description": "Allows users to upload a photo and alter it.",
             "features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpackpu",
@@ -46,7 +56,7 @@
 		},
 		{
 			"image": "quote_generator",
-			"name": "Random Quote Generator",
+			"name": "Quote Generator",
 			"type": "JSON API",
 			"description": "A simple JavaScript page connected to a json quote generator.",
 			"features": "JSON API, Twitter functionality, Front-End, Ajax, Jquery",
@@ -57,7 +67,7 @@
 			"image": "gilligan",
 			"name": "Gilligan",
 			"type": "Ruby on Rails App",
-			"description": "A place for boat lovers to book and offer boat rides. This was the final prjoect at Bitmaker.",
+			"description": "A place for boat lovers to book and offer boat rides.",
 			"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
 			"github": "https://goo.gl/Bz4oTP",
 			"url": "https://goo.gl/eOOouF"
@@ -66,7 +76,7 @@
 			"image": "angular_artists",
 			"name": "Directory of Fake Artists",
 			"type": "Angular 1 App",
-			"features": "Templating JSON, Partials, MVC, JS Modules, Controllers, Data Binding, Routing, Using Services",
+			"features": "Templating JSON, Binding, Routing, Using Services",
 			"description": "Project created to display JSON data in a single-page app with a nice UI.",
 			"github": "https://chrisdel101.github.io/angular_artist_demo_app/#/list",
 			"url": "https://goo.gl/OBgr2p"
@@ -75,7 +85,7 @@
 			"image": "crowdfunder",
 			"name": "Crowdfunder",
 			"type": "Ruby on Rails App",
-			"description": "Very basic clone of Kickstarter. This project was created and built in only three days. It lacks features since its purpose is mostly to showoff what can be accomplished in a short time.",
+			"description": "Very basic clone of Kickstarter.",
 			"features": "User authentication, Bootstrap, MVC,",
 			"github": "https://goo.gl/JaubPf",
 			"url": "https://goo.gl/CpVhhR"
@@ -84,7 +94,7 @@
 			"image": "bulletin_board",
 			"name": "Bulletin Board",
 			"type": "React App",
-			"description": "Clone of application 'Stickies'. This is the project I built as I began to learn React.",
+			"description": "Clone of application 'Stickies'.",
 			"features": "Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
 			"github": "https://goo.gl/dCvsw4",
 			"url": "https://chrisdel101.github.io/lynda_react_app/"
@@ -94,7 +104,7 @@
 			"name": "Business Card Maker",
 			"type": "JavaScript App",
 			"description": "User creates a business card through a form. App imitates a one-way data bind.",
-			"features": "Bootstrap, Hexademical Coloring, Accessing the DOM, Integrating JS functionality into Basic Markdown.",
+			"features": "Bootstrap, Hexademical Coloring.",
 			"github": "https://goo.gl/AqDxUb",
 			"url": "https://chrisdel101.github.io/business-card-maker/"
 		}
