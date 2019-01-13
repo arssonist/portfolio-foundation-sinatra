@@ -115,14 +115,10 @@ NAV
 	color: white;
 }
 
-/*make the line height fot the <a> the same as container makes the container clickable like the link*/
-/*:hover is a state function used to change state when :hover*/
 .menu>li>a:hover {
 	background-color: rgba(255, 255, 255, 0.1)
 }
 
-/*Use rgba to work with flexible color(red, green, blue, alpha(opacity)- 255 is the max, so this setting is the max, in this case it's white.
-Opcaity 1 is solid color*/
 /* *************************************************************
 HERO
 ************************************************************* */
@@ -180,8 +176,24 @@ HERO
 	height: auto;
 }
 
-.main-text-header {
+.top-skills-text-header, .secondary-skills-text-header {
 	text-align: center;
+}
+
+.icon {
+	margin-top: 30px;
+}
+
+icon img {
+	display: flex;
+	margin: auto;
+}
+
+@media (min-width: 700px) {
+	.icons {
+		max-width: 600px;
+		margin: auto;
+	}
 }
 
 /* *************WORK PAGE*****************************************/
@@ -318,23 +330,24 @@ footer {
 	height: 100px;
 }
 
+.icon img {
+	height: 35px;
+	display: block;
+	margin: auto;
+}
+
 /*.top-footer-row h4{
   color: rgba(255, 255, 255, 0.8);
 }
 .bottom-footer-row a {
   color: rgba(255, 255, 255, 0.6);
 }*/
-.icon {
+/* .icon {
 	max-height: 100%;
 	margin-top: 30px;
 	line-height: 10px;
 }
 
-.icon img {
-	height: 35px;
-	display: block;
-	margin: auto;
-}
 
 .icon>a {
 	height: 100%;
@@ -342,8 +355,7 @@ footer {
 
 .icon:hover {
 	background-color: rgba(255, 255, 255, 0.1)
-}
-
+} */
 .bottom-footer-row a:hover {
 	display: block;
 	color: rgba(255, 255, 255, 0.8);
