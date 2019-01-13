@@ -16,7 +16,7 @@ $my_city = 'Toronto, ON'
 $my_linkedin = 'https://ca.linkedin.com/in/chrisdel1'
 
 get '/' do
- erb :work
+ erb :index
 end
 
 get '/work' do

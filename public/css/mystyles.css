@@ -148,12 +148,10 @@ HERO
 
 .hero-index h1 {
 	font-family: Helvetica, sans-serif;
-	color: white;
 }
 
 .hero-index h3 {
 	font-family: 'Open Sans', sans-serif;
-	color: white;
 }
 
 .hero-index .button {
@@ -162,6 +160,13 @@ HERO
 	margin-top: 5%;
 	display: block;
 	width: 17%;
+}
+
+.hero.hero-index {
+	background-image: url("/img/index/rawpixel-577482-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 /* *************WORK PAGE*****************************************/

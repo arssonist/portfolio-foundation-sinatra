@@ -65,37 +65,11 @@
 
 
         <!-- each page will take it's own yeild -->
-            <section class="hero">
-
-                <div class="hero-content">
-
-                    <div class="wrap hero-work">
-
-                        <h1>Chris Del</h1>
-                        <h2>
-                            <span style='color: #4285f4'>W</span>
-                            <span style='color: #ea4335'>E</span>
-                            <span style='color: #fbbc05'>B</span>
-                             &nbsp
-                            <span style='color: #4285f4'>D</span>
-                            <span style='color: #34a853'>E</span>
-                            <span style='color: #ea4335'>V</span>
-                            <span style='color: #4285f4'>E</span>
-                            <span style='color: #ea4335'>L</span>
-                            <span style='color: #fbbc05'>O</span>
-                            <span style='color: #4285f4'>P</span>
-                            <span style='color: #ea4335'>E</span>
-                            <span style='color: #34a853'>R</span>
-                        </h2>
-                        <p>
-
-                        </p>
-                        <hr />
-
-                    </div>
+            <section class="hero-wrapper">
 
 
-              </div>
+                        <%= yield_content :hero_key %>
+
             </section>
 
     <!--MAIN SECTION----------------------------------------------------->
