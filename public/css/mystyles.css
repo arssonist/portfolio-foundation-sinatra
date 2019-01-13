@@ -170,6 +170,20 @@ HERO
 	background-position: center center;
 }
 
+.main-index>.icons>.icon {
+	width: 100px;
+	height: 100px;
+}
+
+.main-index .icons .icon>img {
+	width: 100px;
+	height: auto;
+}
+
+.main-text-header {
+	text-align: center;
+}
+
 /* *************WORK PAGE*****************************************/
 .hero-work {
 	text-align: center;
