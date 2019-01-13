@@ -16,6 +16,7 @@ $my_city = 'Toronto, ON'
 $my_linkedin = 'https://ca.linkedin.com/in/chrisdel1'
 
 get '/' do
+session.clear
  erb :index
 end
 

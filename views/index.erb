@@ -22,13 +22,32 @@
 
   <chunk of="html">
       <div class="hero hero-index">
-              <p class="show-for-medium-up">
+              <div class="show-for-medium-up">
                   <h1>Web Developer</h1>
                   <h3>JavaScript: React, Vue and Node</h3>
-              <div class="main-index">
+             </div>
 
+      </div>
+  </chunk>
+<% end %>
+<% content_for :main_key do %>
+
+  <chunk of="html">
+      <div class="main main-index">
+          <<div class="icons">
+              <div class="icon">
+                  <img src="/img/icons/node-black.png" alt="nodejs icon">
               </div>
-
+              <div class="icon">
+                  <img src="/img/icons/react.png" alt="reactjs icon">
+              </div>
+              <div class="icon">
+                  <img src="/img/icons/vue-black.png" alt="vuejs icon">
+              </div>
+              <div class="icon">
+                  <img src="/img/icons/js-black.png" alt="js icon  ">
+              </div>
+          </div>
       </div>
   </chunk>
 <% end %>

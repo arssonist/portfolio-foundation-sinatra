@@ -144,6 +144,7 @@ HERO
 .hero-index {
 	text-align: center;
 	max-width: 100%;
+	height: 700px;
 }
 
 .hero-index h1 {
