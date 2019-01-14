@@ -240,7 +240,10 @@ icon img {
 }
 
 .project-info-container {
-	display: none;
+	display: flex;
+	visibility: hidden;
+	transition: visibility 0s linear 0s, opacity 400ms;
+	opacity: 0;
 	position: absolute;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.5);
@@ -257,8 +260,9 @@ icon img {
 
 /* display child on parent hover */
 .project-image-container:hover .project-info-container {
-	/* display: none; */
-	display: flex;
+	opacity: 1;
+	transition: visibility 0s linear 0s, opacity 400ms;
+	visibility: visible;
 }
 
 .main-work {
