@@ -231,17 +231,23 @@ icon img {
 	margin-top: 25px;
 }
 
-.hero-work:hover, .button:hover {
+.project-info-container {
+	display: none;
+}
+
+.work-card {
+	/* padding: 0; */
+}
+
+/* .hero-work:hover, .button:hover {
 	background-color: #F5F5F5;
 	color: #000;
-}
-
-.project-image-container img {
-	/*makes all images align*/
+} */
+/* .project-image-container img {
+	makes all images align
 	min-height: 240px;
-}
-
-#work-details img {
+}  */
+/* #work-details img {
 	transition: opacity 0.5s, transform 0.3s
 }
 
@@ -275,7 +281,7 @@ icon img {
 }
 
 .work-card {
-	/*height: 39.5em;*/
+	height: 39.5em;
 	border-radius: 5px;
 	padding: 10px 15px;
 }
@@ -290,8 +296,7 @@ icon img {
 
 .project-info {
 	height: 22em;
-}
-
+} */
 /* *************CONTACT*****************************************/
 .main-contact p {
 	margin: 10px;

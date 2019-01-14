@@ -18,7 +18,7 @@
 			"github": "https://github.com/chrisdel101/place-puppy",
 			"url": "http://place-puppy.com/"
 		},
-        {
+		{
 			"image": "vue-clock",
 			"name": "Vue Clock",
 			"type": "Vue project",
@@ -36,7 +36,7 @@
             "github": "https://github.com/chrisdel101/react-photo-uploader",
             "url": "https://chrisdel101.github.io/react-photo-uploader/"
         },
-        {
+		{
 			"image": "twitch",
 			"name": "Twitch Users",
 			"type": "Vanilla JS Challenge",
@@ -45,7 +45,7 @@
 			"github": "",
 			"url": "https://codepen.io/chri_del/full/JMVqJJ/"
 		},
-        {
+		{
 			"image": "wiki",
 			"name": "Wikipedia Search",
 			"type": "Vanilla JS Challenge",
@@ -54,16 +54,16 @@
 			"github": "",
 			"url": "https://codepen.io/chri_del/pen/EoQzXo"
 		},
-        {
+		{
 			"image": "quote_generator",
 			"name": "Quote Generator",
 			"type": "JSON API",
 			"description": "A simple JavaScript page connected to a json quote generator.",
 			"features": "JSON API, Twitter functionality, Front-End, Ajax, Jquery",
 			"github": "https://github.com/chrisdel101/random_quote_generator",
-			"url": "https://codepen.io/chri_del/full/vmExme"
+			"url": "https://chrisdel101.github.io/random_quote_generator/"
 		},
-        {
+		{
 			"image": "gilligan",
 			"name": "Gilligan",
 			"type": "Ruby on Rails App",
@@ -72,7 +72,7 @@
 			"github": "https://goo.gl/Bz4oTP",
 			"url": "https://goo.gl/eOOouF"
 		},
-        {
+		{
 			"image": "angular_artists",
 			"name": "Directory of Fake Artists",
 			"type": "Angular 1 App",
@@ -81,7 +81,16 @@
 			"github": "https://chrisdel101.github.io/angular_artist_demo_app/#/list",
 			"url": "https://goo.gl/OBgr2p"
 		},
-        {
+		{
+			"image": "crowdfunder",
+			"name": "Crowdfunder",
+			"type": "Ruby on Rails App",
+			"description": "Very basic clone of Kickstarter.",
+			"features": "User authentication, Bootstrap, MVC,",
+			"github": "https://goo.gl/JaubPf",
+			"url": "https://goo.gl/CpVhhR"
+		},
+		{
 			"image": "bulletin_board",
 			"name": "Bulletin Board",
 			"type": "React App",
@@ -90,7 +99,7 @@
 			"github": "https://goo.gl/dCvsw4",
 			"url": "https://chrisdel101.github.io/lynda_react_app/"
 		},
-        {
+		{
 			"image": "business-v2",
 			"name": "Business Card Maker",
 			"type": "JavaScript App",
