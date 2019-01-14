@@ -37,6 +37,24 @@
             "url": "https://chrisdel101.github.io/react-photo-uploader/"
         },
         {
+            "image": "bulletin_board",
+            "name": "Bulletin Board - React app",
+            "type": "React App",
+            "description": "Clone of application 'Stickies'.",
+            "features": "Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
+            "github": "https://goo.gl/dCvsw4",
+            "url": "https://chrisdel101.github.io/lynda_react_app/"
+        },
+        {
+            "image": "gilligan",
+            "name": "Gilligan - Ruby on Rails app",
+            "type": "Ruby on Rails App",
+            "description": "A place for boat lovers to book and offer boat rides.",
+            "features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
+            "github": "https://goo.gl/Bz4oTP",
+            "url": "https://goo.gl/eOOouF"
+        },
+        {
 			"image": "twitch",
 			"name": "Twitch Users - Javascript project",
 			"type": "Vanilla JS Challenge",
@@ -45,6 +63,15 @@
 			"github": "",
 			"url": "https://codepen.io/chri_del/full/JMVqJJ/"
 		},
+        {
+            "image": "business-v2",
+            "name": "Business Card Maker - Javascript app",
+            "type": "JavaScript App",
+            "description": "User creates a business card through a form. App imitates a one-way data bind.",
+            "features": "Bootstrap, Hexademical Coloring.",
+            "github": "https://goo.gl/AqDxUb",
+            "url": "https://chrisdel101.github.io/business-card-maker/"
+        },
         {
 			"image": "wiki",
 			"name": "Wikipedia Search - Javascript project",
@@ -64,15 +91,6 @@
 			"url": "https://codepen.io/chri_del/full/vmExme"
 		},
         {
-			"image": "gilligan",
-			"name": "Gilligan - Ruby on Rails app",
-			"type": "Ruby on Rails App",
-			"description": "A place for boat lovers to book and offer boat rides.",
-			"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
-			"github": "https://goo.gl/Bz4oTP",
-			"url": "https://goo.gl/eOOouF"
-		},
-        {
 			"image": "angular_artists",
 			"name": "Directory of Fake Artists - Angular 1 app",
 			"type": "Angular 1 App",
@@ -80,24 +98,6 @@
 			"description": "Project created to display JSON data in a single-page app with a nice UI.",
 			"github": "https://chrisdel101.github.io/angular_artist_demo_app/#/list",
 			"url": "https://goo.gl/OBgr2p"
-		},
-        {
-			"image": "bulletin_board",
-			"name": "Bulletin Board - React app",
-			"type": "React App",
-			"description": "Clone of application 'Stickies'.",
-			"features": "Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
-			"github": "https://goo.gl/dCvsw4",
-			"url": "https://chrisdel101.github.io/lynda_react_app/"
-		},
-        {
-			"image": "business-v2",
-			"name": "Business Card Maker - Javascript app",
-			"type": "JavaScript App",
-			"description": "User creates a business card through a form. App imitates a one-way data bind.",
-			"features": "Bootstrap, Hexademical Coloring.",
-			"github": "https://goo.gl/AqDxUb",
-			"url": "https://chrisdel101.github.io/business-card-maker/"
 		}
 	]
 }
