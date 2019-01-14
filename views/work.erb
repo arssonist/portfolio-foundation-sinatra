@@ -31,36 +31,22 @@
           {{#each works}}
           <div class="column work-card">
 
-            <div class=project-image-container>
+            <div class="project-image-container">
 
               <a href="{{url}}"><img src="img/projects/{{image}}.png" alt={{name}} />
               </a>
 
+              <div class="project-info-container">
+
+                  <div class="project-info">
+                      <h5 class="project-title">{{name}}</h5>
+
+
+                  </div> <!-- project info -->
             </div> <!-- image-container -->
 
-                <div class="project-info-container">
-
-                    <div class="project-info">
-                      <dd class="project-title">{{name}}</dd>
 
 
-                      <dd class="project-type">{{type}}</dd>
-
-
-                      <dd class="project-description">{{description}}</dd>
-
-
-                      <dd class="project-features">{{features}}</dd>
-                </div> <!-- project info -->
-
-                {{#if github}}
-                  <a href="{{github}}">
-                    <dt class="button work-button">GitHub</dt>
-                  </a>
-                 {{/if}}
-                  <a href="{{url}}">
-                    <dt class="button work-button">Url</dt>
-                  </a>
                 </div> <!-- wrap-->
 
 

@@ -2,7 +2,7 @@
 	"works": [
         {
 			"image": "hackernews",
-			"name": "HackerNews Clone",
+			"name": "HackerNews Clone - React app",
 			"type": "React App",
 			"description": "A clone of the Hackernews website.",
 			"features": "React, Hackernews API",
@@ -11,7 +11,7 @@
 		},
         {
 			"image": "placepuppy",
-			"name": "Place Puppy",
+			"name": "Place Puppy - Node API",
 			"type": "Image Placeholder API",
 			"description": "Delivers images of puppies.",
 			"features": "Node, Express, Mocha, Cloudinary API, MongoDB",
@@ -20,7 +20,7 @@
 		},
         {
 			"image": "vue-clock",
-			"name": "Vue Clock",
+			"name": "Custom Clocks - Vue app ",
 			"type": "Vue project",
 			"description": "Download images of clocks set to custom times",
 			"features": "VueJS",
@@ -29,7 +29,7 @@
 		},
         {
             "image": "react-photo-app",
-            "name": "Photo Uploader",
+            "name": "Photo Uploader - React app",
             "type": "React application",
             "description": "Allows users to upload a photo and alter it.",
             "features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpackpu",
@@ -38,7 +38,7 @@
         },
         {
 			"image": "twitch",
-			"name": "Twitch Users",
+			"name": "Twitch Users - Javascript project",
 			"type": "Vanilla JS Challenge",
 			"description": "Using the Twitch API to retrieve and display results.",
 			"features": "Fetch API, Twitch API, Codepen, multiple ajax calls",
@@ -47,7 +47,7 @@
 		},
         {
 			"image": "wiki",
-			"name": "Wikipedia Search",
+			"name": "Wikipedia Search - Javascript project",
 			"type": "Vanilla JS Challenge",
 			"description": "Using the Wikipedia API to retrieve and display results.",
 			"features": "Fetch API, Wikipedia API, Codepen",
@@ -56,7 +56,7 @@
 		},
         {
 			"image": "quote_generator",
-			"name": "Quote Generator",
+			"name": "Quote Generator - Javascript project",
 			"type": "JSON API",
 			"description": "A simple JavaScript page connected to a json quote generator.",
 			"features": "JSON API, Twitter functionality, Front-End, Ajax, Jquery",
@@ -65,7 +65,7 @@
 		},
         {
 			"image": "gilligan",
-			"name": "Gilligan",
+			"name": "Gilligan - Ruby on Rails app",
 			"type": "Ruby on Rails App",
 			"description": "A place for boat lovers to book and offer boat rides.",
 			"features": "MVC, Authentication, Action-Mailer, BootStrap, Google Maps API, Ajax",
@@ -74,7 +74,7 @@
 		},
         {
 			"image": "angular_artists",
-			"name": "Directory of Fake Artists",
+			"name": "Directory of Fake Artists - Angular 1 app",
 			"type": "Angular 1 App",
 			"features": "Templating JSON, Binding, Routing, Using Services",
 			"description": "Project created to display JSON data in a single-page app with a nice UI.",
@@ -83,7 +83,7 @@
 		},
         {
 			"image": "bulletin_board",
-			"name": "Bulletin Board",
+			"name": "Bulletin Board - React app",
 			"type": "React App",
 			"description": "Clone of application 'Stickies'.",
 			"features": "Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
@@ -92,7 +92,7 @@
 		},
         {
 			"image": "business-v2",
-			"name": "Business Card Maker",
+			"name": "Business Card Maker - Javascript app",
 			"type": "JavaScript App",
 			"description": "User creates a business card through a form. App imitates a one-way data bind.",
 			"features": "Bootstrap, Hexademical Coloring.",
