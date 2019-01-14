@@ -4,8 +4,10 @@ function scrollIndex(){
     window.scrollTo({ top: 800, behavior: 'smooth' })
 }
 
-let indexButton = document.querySelector(".hero-index>.button")
-let workButton = document.querySelector(".hero-work .button")
-console.log(workButton)
-// indexButton.addEventListener('click', scrollIndex)
-workButton.addEventListener('click', scrollIndex)
+if(window.location.pathname === "/"){
+    let button = document.querySelector(".hero-index .button")
+    button.addEventListener('click', scrollIndex)
+} else if(window.location.pathname === "/work"){
+    let button = document.querySelector(".hero-work .button")
+    button.addEventListener('click', scrollIndex)
+}
