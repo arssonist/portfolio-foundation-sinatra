@@ -80,6 +80,11 @@ NAV - MOBILE
 	float: right;
 	line-height: 44px;
 	padding-right: 14px;
+	padding-top: 10px;
+}
+
+.mobile-site-logo h6 {
+	color: #fefefe
 }
 
 /* *************************************************************
@@ -322,9 +327,8 @@ HERO
 	align-items: center;
 }
 
-.contact-icons {
-	/* display: flex;
-	justify-content: center; */
+.contact-icons a {
+	color: black;
 }
 
 .me-image-container img {
