@@ -221,6 +221,7 @@ icon img {
 }
 
 .hero-work {
+	/* use a gradient on over the image syntax */
 	background:
 		linear-gradient(rgba(0, 0, 0, 0.45),
 		rgba(0, 0, 0, 0.45)),
@@ -274,41 +275,78 @@ icon img {
 }
 
 /* *************CONTACT*****************************************/
+.hero-contact {
+	max-width: 100%;
+	height: 500px;
+	text-align: center;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.45),
+		rgba(0, 0, 0, 0.45)),
+		url("/img/backgrounds/toronto.jpg") center center / cover no-repeat;
+}
+
+.hero-contact h3, .hero-contact h1 {
+	color: #F5F5F5;
+}
+
+.hero-contact .wrap {
+	position: relative;
+	top: 100px;
+}
+
+.main-contact {
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
 .main-contact p {
 	margin: 10px;
 }
 
-.main-contact h2 {
-	font-family: 'Open Sans';
+.contact-text {
+	font-family: monospace;
+	font-size: 16px;
 }
 
-.main-contact img {
-	margin: 3em;
+.me-image-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.hero-contact {
-	text-align: center;
+.contact-icons-parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.hero-contact h3 {
-	font-family: Helvetica;
+.contact-icons {
+	/* display: flex;
+	justify-content: center; */
 }
 
-/* *************RESUME*****************************************/
-#resume-head {
-	text-align: center;
+.me-image-container img {
+	border: black solid 5px;
+	width: 200px;
 }
 
-.inpage-resume h3, h2, p {
-	color: black;
+.contact-icon {
+	padding: 0 20px;
 }
 
-#skills {
-	margin-left: 10px;
+.row.wrap .column {
+	padding-bottom: 10px;
 }
 
-.job, .school {
-	padding: 10px 0;
+@media (max-width: 640px) {
+	.contact-icons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact-icon {
+		padding: 5px 0;
+	}
 }
 
 /* *************************************************************
@@ -333,26 +371,6 @@ footer {
 	margin: auto;
 }
 
-/*.top-footer-row h4{
-  color: rgba(255, 255, 255, 0.8);
-}
-.bottom-footer-row a {
-  color: rgba(255, 255, 255, 0.6);
-}*/
-/* .icon {
-	max-height: 100%;
-	margin-top: 30px;
-	line-height: 10px;
-}
-
-
-.icon>a {
-	height: 100%;
-}
-
-.icon:hover {
-	background-color: rgba(255, 255, 255, 0.1)
-} */
 .bottom-footer-row a:hover {
 	display: block;
 	color: rgba(255, 255, 255, 0.8);
@@ -401,50 +419,8 @@ MEDIA QUERY
 	}
 }
 
-/***********BLOG HERO *******/
-@media (max-width: 640px) {
-	.hero-blog .column:first-child {
-		padding: 0;
-	}
-}
-
-/***********MOZART PIC*******/
-/*@media (max-width: 450px){
-    #mozart-box{
-      width: 50%;
-      margin: 0 auto;
-    }
-  }*/
-/**************MAP PIC**********/
-@media (max-width: 870px) and (min-width:551px) {
-	.main-contact img {
-		margin-top: 6em;
-	}
-}
-
 @media (max-width:550px) {
 	.main-contact img {
 		margin: auto;
 	}
 }
-
-/**************RESUME**********/
-@media (max-width: 400px) {
-	#resume-pdf {
-		font-size: 2em;
-	}
-}
-
-/*@media (max-width: 1200px) {
-    .hero-resume h1{
-      width: 100%;
-    }
-  }*/
-/*@media (max-width: 875px) {
-    .hero h1
-    .hero h3
-    .hero p {
-      width: 100%;
-    }
-  }*/
-/*makes these sections have a max width, at which they stop*/

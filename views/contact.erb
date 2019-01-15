@@ -1,8 +1,16 @@
 
   <% content_for :hero_key do %>
-
     <chunk of="html">
+        <div class="hero-contact">
+            <div class="wrap">
+                <div class="show-for-medium-up">
+                    <h1>Get In Touch</h1>
+                    <h3>JavaScript: React, Vue and Node</h3>
+                </div>
+            </div>
 
+
+        </div>
     </chunk>
   <% end %>
 
@@ -12,48 +20,75 @@
       <section class="main-contact">
         <div class="wrap row small-up-1 medium-up-2">
 
-          <div class="column">
-            <h3>Hit me up!</h3>
-            <dl>
-                <p><strong>Email:</strong>
+          <div class="column contact-text">
+            <p>
+                I'm Chris Del, a developer and lover of all things Javascript. Using tools like React and Node I enjoy building user-friendly interfaces as well as full-stack applications.
+            </p>
+            <p>
+                I am currently seeking new opprotunities so don't hestitate to get in touch!
+            </p>
 
-                <a href="mailto:<%= $my_email %>"><%= $my_email %></p></a>
+          </div>
 
-                <p><strong>Phone:</strong>
+        <div class="column contact-media">
+            <div class=" row small-up-2 medium-up-1">
+            <div class="column me-image-container">
+                <img src="img/places/me-2.jpg" />
+            </div>
+              <div class="column contact-icons-parent">
+                  <div class="contact-icons">
+                      <i class="fa fa-twitter fa-3x contact-icon" aria-hidden="true"></i>
+                      <i class="fa fa-github fa-3x contact-icon" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin-square fa-3x contact-icon" aria-hidden="true"></i>
 
-                <a href="tel:<%= $my_phone %>"><%= $my_phone %></p></a>
-
-                <p><strong>GitHub:</strong>
-                    <a href="https://github.com/chrisdel101">github.com/chrisdel101</a>
-
-                    <p><strong>Write me on Twitter: </strong><a href="<%= $my_twitter %>"><%= $my_twitter %></p></a>
-                </p>
-            </dl>
-            <!-- <dl class="contact-form">
-                <h3>Send me a Message</h3>
-                <form id="contact-form" action="/contact" method="POST">
-                    <label for="name"></label>
-                    Your Name:
-                    <input id="name" type="text" name="name" placeholder="name">
-                    <label for="email"></label>
-                    Your Email:
-                    <input id="email" type="email" name="email" placeholder="email" required>
-                    <label for="message"></label>
-                    Your Message:
-                    <textarea type="textarea" form="contact-form" name="message" placeholder="Hey, what's up"></textarea>
-                    <input id="message" class="button" type="submit" name="submit" value="Send">
-                </form>
-
-            </dl> -->
-
-        </div>
-
-        <div class="column">
-          <img src="img/places/me.png" />
-
+                  </div>
+                </div>
+          </div>
         </div>
 
         </div>
       </section>
     </chunk>
   <% end %>
+
+  The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.
+
+  Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.
+
+  My clients have found that launching with a well considered and well developed front-end has saved them time and money and makes for a product that is consistently of high quality.
+
+  <!-- <dl>
+      <p><strong>Email:</strong>
+
+          <a href="mailto:<%= $my_email %>"><%= $my_email %></p></a>
+
+          <p><strong>Phone:</strong>
+
+              <a href="tel:<%= $my_phone %>"><%= $my_phone %></p></a>
+
+              <p><strong>GitHub:</strong>
+                  <a href="https://github.com/chrisdel101">github.com/chrisdel101</a>
+
+                  <p><strong>Write me on Twitter: </strong><a href="<%= $my_twitter %>"><%= $my_twitter %></p></a>
+              </p>
+          </dl> -->
+
+
+
+
+          <!-- <dl class="contact-form">
+              <h3>Send me a Message</h3>
+              <form id="contact-form" action="/contact" method="POST">
+                  <label for="name"></label>
+                  Your Name:
+                  <input id="name" type="text" name="name" placeholder="name">
+                  <label for="email"></label>
+                  Your Email:
+                  <input id="email" type="email" name="email" placeholder="email" required>
+                  <label for="message"></label>
+                  Your Message:
+                  <textarea type="textarea" form="contact-form" name="message" placeholder="Hey, what's up"></textarea>
+                  <input id="message" class="button" type="submit" name="submit" value="Send">
+              </form>
+
+          </dl> -->
