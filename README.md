@@ -2,7 +2,7 @@
 
 <h4> For a demo visit: </h4>
 
-http://chrisdelwebdev.herokuapp.com
+chrisdel.ca
 
 This it the code for my personal website/portfolio! I created this as a place to showcase the projects I've build as well as a place to direct people who might want to learn more about me. It was created using Sinatra, Foundation and Handlebars JS.
 
