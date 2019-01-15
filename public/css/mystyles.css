@@ -337,7 +337,13 @@ HERO
 }
 
 .contact-icon {
+	display: inline-block;
 	padding: 0 20px;
+}
+
+.contact-icon:hover {
+	color: blue;
+	transform: scale(1.2) !important;
 }
 
 .row.wrap .column {
