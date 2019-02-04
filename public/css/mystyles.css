@@ -307,6 +307,14 @@ HERO
 	top: 100px;
 }
 
+.hero-contact .button {
+	background-color: rgba(0, 0, 0, .2);
+	color: #F5F5F5;
+	border: #F5F5F5 solid 1px;
+	width: 200px;
+	margin-top: 25px;
+}
+
 .main-contact {
 	padding-bottom: 20px;
 	padding-top: 50px;
@@ -377,6 +385,7 @@ FOOTER
 	padding: 0;
 	display: flex;
 	justify-content: center;
+	max-width: 100% !important;
 }
 
 .footer-link {
