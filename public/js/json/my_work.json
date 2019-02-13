@@ -1,15 +1,6 @@
 {
 	"works": [
         {
-			"image": "plot-n-graph",
-			"name": "Plot-n-Graph - pure CSS graph",
-			"type": "React App with Material UI",
-			"description": "A graph in CSS.",
-			"features": "React, Material UI",
-			"github": "https://github.com/chrisdel101/plot-n-graph",
-			"url": "https://chrisdel101.github.io/plot-n-graph/"
-		},
-        {
 			"image": "hackernews",
 			"name": "HackerNews Clone - React app",
 			"type": "React App",
@@ -27,6 +18,15 @@
 			"github": "https://github.com/chrisdel101/place-puppy",
 			"url": "http://place-puppy.com/"
 		},
+        {
+            "image": "plot-n-graph",
+            "name": "Plot-n-Graph - pure CSS graph",
+            "type": "React App with Material UI",
+            "description": "A graph in CSS.",
+            "features": "React, Material UI",
+            "github": "https://github.com/chrisdel101/plot-n-graph",
+            "url": "https://chrisdel101.github.io/plot-n-graph/"
+        },
         {
 			"image": "vue-clock",
 			"name": "Custom Clocks - Vue app ",

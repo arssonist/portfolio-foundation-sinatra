@@ -30,3 +30,34 @@ if(window.mobileAndTabletcheck()){
         }
     },0)
 }
+function isElementInViewport (el) {
+    //special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
+    }
+    var rect = el.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
+}
+
+let icons = document.querySelectorAll('.index-icon')
+
+function animateOnView(el, type){
+    if(isElementInViewport && type === 'up'){
+        console.log('e', el)
+        el.classList.add('animated', 'fadeInUp', 'delay-0.5s')
+    }
+}
+
+icons.forEach((icon,index) => {
+    window.addEventListener('scroll', () => {
+        if(isElementInViewport(icon)){
+            animateOnView(icon, "up")
+        }
+    })
+})
