@@ -20,7 +20,7 @@
 		},
         {
             "image": "plot-n-graph",
-            "name": "Plot-n-Graph - pure CSS graph",
+            "name": "React Plot-n-Graph - pure CSS graph",
             "type": "React App with Material UI",
             "description": "A graph in CSS.",
             "features": "React, Material UI",
