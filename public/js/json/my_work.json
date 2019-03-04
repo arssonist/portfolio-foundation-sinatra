@@ -19,15 +19,6 @@
 			"url": "http://place-puppy.com/"
 		},
         {
-            "image": "plot-n-graph",
-            "name": "React Plot-n-Graph - pure CSS graph",
-            "type": "React App with Material UI",
-            "description": "A graph in CSS.",
-            "features": "React, Material UI",
-            "github": "https://github.com/chrisdel101/plot-n-graph",
-            "url": "https://chrisdel101.github.io/plot-n-graph/"
-        },
-        {
 			"image": "vue-clock",
 			"name": "Custom Clocks - Vue app ",
 			"type": "Vue project",
@@ -36,15 +27,6 @@
 			"github": "",
 			"url": "https://chrisdel101.github.io/vueClock/"
 		},
-        {
-            "image": "react-photo-app",
-            "name": "Photo Uploader - React app",
-            "type": "React application",
-            "description": "Allows users to upload a photo and alter it.",
-            "features": "React, DropZone, react-avatar-editor, photo editing, uploading, webpackpu",
-            "github": "https://github.com/chrisdel101/react-photo-uploader",
-            "url": "https://chrisdel101.github.io/react-photo-uploader/"
-        },
         {
             "image": "bulletin_board",
             "name": "Bulletin Board - React app",
