@@ -1,6 +1,15 @@
 {
 	"works": [
         {
+			"image": "plot-n-graph",
+			"name": "Plot n Graph - React app",
+			"type": "React App",
+			"description": "Plot and graph points.",
+			"features": "React, CSS Grid",
+			"github": "https://github.com/chrisdel101/plot-n-graph",
+			"url": "https://serene-journey-54481.herokuapp.com/"
+		},
+        {
 			"image": "hackernews",
 			"name": "HackerNews Clone - React app",
 			"type": "React App",
