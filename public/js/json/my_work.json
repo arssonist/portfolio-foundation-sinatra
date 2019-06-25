@@ -1,49 +1,49 @@
 {
-	"works": [
-        {
-			"image": "plot-n-graph",
-			"name": "Plot n Graph - React app",
-			"type": "React App",
-			"description": "Plot and graph points.",
-			"features": "React, CSS Grid",
-			"github": "https://github.com/chrisdel101/plot-n-graph",
-			"url": "https://serene-journey-54481.herokuapp.com/"
-		},
-        {
-			"image": "hackernews",
-			"name": "HackerNews Clone - React app",
-			"type": "React App",
-			"description": "A clone of the Hackernews website.",
-			"features": "React, Hackernews API",
-			"github": "https://github.com/chrisdel101/hackernews",
-			"url": "https://chrisdel101.github.io/hackernews/"
-		},
-        {
-			"image": "placepuppy",
-			"name": "Place Puppy - Node API",
-			"type": "Image Placeholder API",
-			"description": "Delivers images of puppies.",
-			"features": "Node, Express, Mocha, Cloudinary API, MongoDB",
-			"github": "https://github.com/chrisdel101/place-puppy",
-			"url": "http://place-puppy.com/"
-		},
-        {
-			"image": "vue-clock",
-			"name": "Custom Clocks - Vue app ",
-			"type": "Vue project",
-			"description": "Download images of clocks set to custom times",
-			"features": "VueJS",
-			"github": "",
-			"url": "https://chrisdel101.github.io/vueClock/"
-		},
-        {
-            "image": "bulletin_board",
-            "name": "Bulletin Board - React app",
-            "type": "React App",
-            "description": "Clone of application 'Stickies'.",
-            "features": "Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
-            "github": "https://goo.gl/dCvsw4",
-            "url": "https://chrisdel101.github.io/lynda_react_app/"
-        }
-	]
+  "works": [
+    {
+      "image": "placepuppy",
+      "name": "Place Puppy - Node API",
+      "type": "Image Placeholder API",
+      "description": "Delivers images of puppies.",
+      "features": "Node, Express, Mocha, Cloudinary API, MongoDB",
+      "github": "https://github.com/chrisdel101/place-puppy",
+      "url": "http://place-puppy.com/"
+    },
+    {
+      "image": "graph-n-plot",
+      "name": "React-graph-n-plot NPM package",
+      "type": "React App",
+      "description": "Import a graph into your React App.",
+      "features": "React, NPM",
+      "github": "https://github.com/chrisdel101/react-graph-n-plot",
+      "url": "https://www.npmjs.com/package/react-graph-n-plot"
+    },
+    {
+      "image": "hackernews",
+      "name": "HackerNews Clone - React app",
+      "type": "React App",
+      "description": "A clone of the Hackernews website.",
+      "features": "React, Hackernews API",
+      "github": "https://github.com/chrisdel101/hackernews",
+      "url": "https://chrisdel101.github.io/hackernews/"
+    },
+    {
+      "image": "vue-clock",
+      "name": "Custom Clocks - Vue app ",
+      "type": "Vue project",
+      "description": "Download images of clocks set to custom times",
+      "features": "VueJS",
+      "github": "",
+      "url": "https://chrisdel101.github.io/vueClock/"
+    },
+    {
+      "image": "bulletin_board",
+      "name": "Bulletin Board - React app",
+      "type": "React App",
+      "description": "Clone of application 'Stickies'.",
+      "features": "Rendering Component Props, React-Specific Methods, ES6, Virtual DOM",
+      "github": "https://goo.gl/dCvsw4",
+      "url": "https://chrisdel101.github.io/lynda_react_app/"
+    }
+  ]
 }
