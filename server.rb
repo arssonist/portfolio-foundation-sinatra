@@ -1,9 +1,6 @@
 require 'sinatra'
-require 'newrelic_rpm'
-# require 'dotenv/load'
 require 'sinatra/contrib'
-# require 'Pony'
-# require 'resolv-replace'
+
 configure { set :server, :puma }
 
 # SITE GLOBAL CONSTANTS/////////////
